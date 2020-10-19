@@ -1,0 +1,28 @@
+{
+    "name": "Gaurav Ghati",
+    "phone": "+91 9067365762",
+    "mail": "gauravghati225@gmail.com",
+
+    "bio": "MY BIO",
+    "fun": "FUN STATEMENT",
+
+    "github": "https://github.com/gauravghati/",
+    "twitter": "https://twitter.com/GauravGhati/",
+    "linkedin": "http://linkedin.com/in/gauravghati/",
+
+    "aboutme": {
+        "para1": "This is Paragraph 1",
+        "para2": "This is Paragraph 2"
+    },
+
+    "volunteer": {
+        "tfi": {
+            "heading": "Teach For India",
+            "description": "description of TFI"
+        },
+        "pisb": {
+            "heading": "PICT IEEE Student Branch",
+            "description": "description of PISB"
+        }
+    }
+}
