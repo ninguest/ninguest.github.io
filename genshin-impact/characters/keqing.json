@@ -11,17 +11,21 @@
     "description":"The Yuheng of the Liyue Qixing. Has much to say about Rex Lapis' unilateral approach to policymaking in Liyue - but in truth, gods admire skeptics such as her quite a lot.",
     "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Keqing.png",
     "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200828/2020082817192486254.png",
+    "introgif":"https://gph.is/g/ZnDOBD1",
     "normalattack":{
         "name":"Yunlai Sword",
-        "description":"Performs up to five rapid strikes. When charged, unleashes two rapid strikes."
+        "description":"Performs up to five rapid strikes. When charged, unleashes two rapid strikes.",
+        "gif":"https://gph.is/g/4bdOVzv"
     },
     "elementalskill":{
         "name":"Stellar Restoration",
-        "description":"Throws a Lightning Stiletto at opponents and deals Electro DMG in small AoE. When held, she can adjust where the stilettos are thrown. She can also suspend them in the air and jump to them using Stellar Restoration."
+        "description":"Throws a Lightning Stiletto at opponents and deals Electro DMG in small AoE. When held, she can adjust where the stilettos are thrown. She can also suspend them in the air and jump to them using Stellar Restoration.",
+        "gif":"https://gph.is/g/EB6VN0B"
     },
     "elementalburst":{
         "name":"Starward Sword",
-        "description":"Keqing unleashes the power of lightning, dealing Electro DMG in an AoE. The final attack deals massive AoE Electro DMG."
+        "description":"Keqing unleashes the power of lightning, dealing Electro DMG in an AoE. The final attack deals massive AoE Electro DMG.",
+        "gif":"https://gph.is/g/Eq5blzK"
     },
     "passivetalent1":{
         "name":"Land's Overseer",
