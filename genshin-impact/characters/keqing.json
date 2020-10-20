@@ -2,7 +2,7 @@
     "name":"KeQing",
     "title":"Driving Thunder",
     "sex":"Female", 
-    "birthday":"20th November", 
+    "birthday":"20 November", 
     "region":"Liyue",
     "rarity":"⭐⭐⭐⭐⭐", 
     "element":"Electro",
@@ -52,5 +52,15 @@
         "d5":"Increase the Level of Stellar Restoration by 3.\nMaximum upgrade level is 15.",
         "c6":"Tenacious Star",
         "d6":"When initiating a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst, Keqing gains a 6% Electro DMG Bonus for 8s. Effects triggered by Normal Attacks, Charged Attacks, Elemental Skills and Elemental Bursts are considered independent entities."
-    }
+    },
+    "voiceactor":{
+        "chinese":"Ying Xie (谢莹)",
+        "japanese":"Eri Kitamura (喜多村 英梨)",
+        "korean":"Bohee Lee (이보희)"
+    },
+    "profile":{
+        "description":"One of the Liyue Qixing, Keqing has an uncompromising belief in actions over words. If she sees something that needs doing, she'll do it herself. For example, she traveled around Liyue and carefully memorized each detail of the land so that she may one day be able to maximize the utility of every last inch of Liyue.Keqing deals with the day-to-day affairs of Liyue, whether great or small, while Rex Lapis only descends once a year.To many, the millennia of prosperity that Liyue has enjoyed serve to legitimize Rex Lapis' guidance of the city. But Keqing has her reservations about all this, viewing Liyue's present prosperity as akin to a magnificent sandcastle on the beach — humanity does not have the luxury of deciding when the tide will come in.Rex Lapis has watched over Liyue for a millennium. But what about the next millennium? What about the next ten, or the next hundred millennia? How long are we expecting this status quo to last?It is this unanswered question that drives Keqing to work relentlessly and remain diligent.From most people's perspective, there is no point in working oneself up like this. But Keqing cannot sit by idly and ignore this hidden danger.The people of Liyue have never considered navigating the future on their own terms. But someone must walk on the front line of the epoch and forge a new path with their own hands.From most people's perspective, there is no point in working oneself up like this. But Keqing cannot sit by idly and ignore this hidden danger.",
+        "link":"https://forums.mihoyo.com/genshin/article/16356"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/keqing.png"
 }

@@ -1,0 +1,66 @@
+{
+    "name":"QiQi",
+    "title":"Icy Resurrection",
+    "sex":"Female", 
+    "birthday":"3 March", 
+    "region":"Liyue",
+    "rarity":"⭐⭐⭐⭐⭐", 
+    "element":"Cryo",
+    "weapon":"Sword", 
+    "howtoobtain":"Wishes", 
+    "description":"An apprentice and herb-picker Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Qiqi.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200828/2020082817145380161.png",
+    "introgif":"https://media.giphy.com/media/xP1cs0WUYNhnZ501ox/giphy.gif",
+    "normalattack":{
+        "name":"Ancient Sword Art",
+        "description":"Performs up to five rapid strikes. When charged, unleashes two rapid strikes.",
+        "gif":"https://media.giphy.com/media/9x73ylgkyWGTlONkzn/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Adeptus Art: Herald of Frost",
+        "description":"Invokes the Herald of Frost and deals Cryo DMG to nearby enemies. When Herald of Frost is on the field, Qiqi's Normal and Charged Attacks help regenerate all party member's HP and the enchantment following Qiqi around deals Cryo DMG.",
+        "gif":"https://media.giphy.com/media/2BxgJyFXMIqVNuTMn3/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Adeptus Art: Preserver of Fortune",
+        "description":"Creates Fortune-Preserving Talisman that deals Cryo DMG and helps Qiqi regain health from injured opponents.",
+        "gif":"https://media.giphy.com/media/bE9duuQvXA982cXoo3/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Former Life Memories",
+        "description":"Resources only found in Liyue are marked on the mini-map."
+    },
+    "passivetalent2":{
+        "name":"Life-Prolonging Methods",
+        "description":"When a character triggers an Elemental Reaction while the Herald of Frost is in play, the Incoming Healing Bonus increases by 20% for 8s."
+    },
+    "passivetalent3":{
+        "name":"A Glimpse into Arcanum",
+        "description":"When Qiqi hits enemies with Normal and Charged Attacks, she has a 50% chance to apply Fortune-Preserving Talisman to them for 6s. This can only occur once every 30s."
+    },
+    "constellations":{
+        "c1":"Ascetics of Frost",
+        "d1":"When the Herald of Frost hits an enemy marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
+        "c2":"Frozen to the Bone",
+        "d2":"Qiqi's Normal and Charge Attack DMG against enemies affected by Cryo is increased by 15%.",
+        "c3":"Ascendant Praise",
+        "d3":"Increases the Level of Adeptus Art: Preserver of Fortune by 3.\nMaximum upgrade level is 15.",
+        "c4":"Divine Suppression",
+        "d4":"Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
+        "c5":"Crimson Lotus Bloom",
+        "d5":"Increase the Level of Adeptus Art: Herald of Frost by 3.\nMaximum upgrade level is 15.",
+        "c6":"Rite of Resurrection",
+        "d6":"Using Adeptus Art: Preserve of Fortune revives all nearby fallen characters and regenerates 50% of their HP. \n This effect can only occur once every 15 mins."
+    },
+    "voiceactor":{
+        "chinese":"Ning Yan (宴宁)",
+        "japanese":"Yukari Tamura (田村 ゆかり)",
+        "korean":"Seul Lee (이슬)"
+    },
+    "profile":{
+        "description":"\"Blessed\" by the adepti with a body that cannot die, this petite zombie retains her original appearance as a child. Who knows how old she really is...Zombies must have orders before they can do anything. Somehow Qiqi ended up responsible for giving orders to herself.Qiqi's memory is like a sieve. Out of necessity, she always carries around a notebook.Despite how problematic her memory may be, she is actually quite well-equipped to get through the day: she can use orders to force herself to complete tasks; if she forgets anything, she can look at her notebook for a reminder; and if any task proves difficult, her incredible strength can help solve many problems.Recently, she has also added a section on \"brain training\" and \"mnemonic methods.\" Her notebook is a becoming a true \"dummy's guide\" on just about anything.But on her worst days, she even forgets to look at her notebook...If while in the mountains of Liyue you see someone bumping into things, walking in circles, or chasing squirrels that don't exist, it is almost certainly to be the adorable undead herb gatherer. If she seems to be struggling, please lend a helping hand! \"I am Qiqi. I am a zombie. And I forgot what comes next.\" ",
+        "link":"https://forums.mihoyo.com/genshin/article/15728"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/qiqi.png"
+}
