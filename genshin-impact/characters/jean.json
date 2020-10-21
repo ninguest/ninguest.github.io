@@ -1,0 +1,66 @@
+{
+    "name":"Jean Gunnhildr",
+    "title":"Dandelion Knight",
+    "sex":"Female", 
+    "birthday":"14 March", 
+    "region":"Mondstadt",
+    "rarity":"⭐⭐⭐⭐⭐", 
+    "element":"Anemo",
+    "weapon":"Sword", 
+    "howtoobtain":"Wishes", 
+    "description":"The righteous and rigorous Dandelion Knight, and Acting Grand Master of the Knights of Favonius in Mondstadt.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Jean.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200616/2020061611214389168.png",
+    "introgif":"https://uploadstatic-sea.mihoyo.com/contentweb/20200616/2020061611214389168.png",
+    "normalattack":{
+        "name":"Favonius Bladework",
+        "description":"Performs up to five consecutive strikes. When charged, launches enemies using wind then slowly makes them fall.",
+        "gif":"null"
+    },
+    "elementalskill":{
+        "name":"Gale Blade",
+        "description":"Releases a miniature storm that launches enemies and deals Anemo DMG. When held, Jean commands the whirlwind to pull enemies towards her while she remains immobile.",
+        "gif":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/1d/Talent_Gale_Blade.gif/revision/latest/scale-to-width-down/450?cb=20201015211347"
+    },
+    "elementalburst":{
+        "name":"Dandelion Breeze",
+        "description":"Causes Anemo DMG to enemies while instantly healing nearby party members and allies.",
+        "gif":"https://vignette.wikia.nocookie.net/gensin-impact/images/2/22/Talent_Dandelion_Breeze.gif/revision/latest?cb=20201015182221"
+    },
+    "passivetalent1":{
+        "name":"Guiding Breeze",
+        "description":"There's a 12% chance of getting two food items when achieving Perfect Cooking."
+    },
+    "passivetalent2":{
+        "name":"Wind Companion",
+        "description":"Normal Attacks that land have 50% chance of regenerating HP for all party members equal to 15% of Jean's ATK."
+    },
+    "passivetalent3":{
+        "name":"Let the Wind Lead",
+        "description":"Using Dandelion Breeze regenerates 20% of its Energy."
+    },
+    "constellations":{
+        "c1":"Spiraling Tempest",
+        "d1":"Increases the pulling speed of Gale Blade after holding for more than 1s, and increases the DMG dealt by 40%.",
+        "c2":"People's Aegis",
+        "d2":"When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.",
+        "c3":"When the West Wind Arises",
+        "d3":"Increases the Level of Dandelion Breeze by 3.\nMaximum upgrade level is 15.",
+        "c4":"Lands of Dandelion",
+        "d4":"Within the Field created by Dandelion Breeze, all enemies have their Anemo RES decreased by 40%.",
+        "c5":"Outbursting Gust",
+        "d5":"Increase the Level of Gale Blade by 3.\n Maximum upgrade level is 15.",
+        "c6":"Lion's Fang, Fair Protector of Mondstadt",
+        "d6":"Incoming DMG is decreased by 35% within the Field created by Dandelion Breeze. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s."
+    },
+    "voiceactor":{
+        "chinese":"Su Lin (林簌)",
+        "japanese":"Chiwa Saitō (斎藤 千和)",
+        "korean":"Yeong-mi Ahn (안영미)"
+    },
+    "profile":{
+        "description":"In her role as the Acting Grand Master of the Knights, Jean is shown to be formal and loyal at all times, taking every task she was given seriously. She is known to end all her missions with elegance and success, even in times of worries, she is not on to be easily fazed. ",
+        "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=0"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/jean.PNG"
+}
