@@ -1,0 +1,66 @@
+{
+    "name":"Barbara",
+    "title":"Shining Idol",
+    "sex":"Female", 
+    "birthday":"5 July", 
+    "region":"Mondstadt",
+    "rarity":"⭐⭐⭐⭐⭐", 
+    "element":"Hydro",
+    "weapon":"Catalyst", 
+    "howtoobtain":"Wishes", 
+    "description":"Every denizen of Mondstadt adores Barbara. However, she learned the word \"idol\" from a magazine.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Barbara.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200609/2020060915101631868.png",
+    "introgif":"https://upload-os-bbs.mihoyo.com/upload/2020/01/16/1009763/b65a7e89f7b8631c04a6c23dfc31012c_1219174172878178918.gif",
+    "normalattack":{
+        "name":"Whisper of Water",
+        "description":"Shoot up to four splash attacks that deal Hydro DMG.",
+        "gif":"https://media1.tenor.com/images/d76ba832ab8fd287d342b521c2f7f10e/tenor.gif"
+    },
+    "elementalskill":{
+        "name":"Let the Show Begin",
+        "description":"Creates a temporary Melody Loop around Barbara. When Barbara does her Normal Attacks, other party members gain health. Her Charged Attacks regenerate party health by four times the amount of healing.",
+        "gif":"https://64.media.tumblr.com/409ac2f99f42676c0001b1380232129c/b9a491c90c30f914-75/s250x400/0b19a3da906e0fa020ebcf0ca5f31b9e5418c5a7.gifv"
+    },
+    "elementalburst":{
+        "name":"Shining Miracle",
+        "description":"Heals party members and allies with 17.6% her HP + 1,694.",
+        "gif":"https://www.genshin-impact.fr/wp-content/uploads/2020/08/Barbara-Q.gif"
+    },
+    "passivetalent1":{
+        "name":"With My Whole Heart",
+        "description":"There's a 12% chance of getting two food items when achieving Perfect Cooking."
+    },
+    "passivetalent2":{
+        "name":"Glorious Season",
+        "description":"When Barbara uses Melody Loop, party members' stamina consumption reduces by 12%."
+    },
+    "passivetalent3":{
+        "name":"Encore",
+        "description":"Whenever Barbara gains an Elemental Orb/Particle during Let the Show Begin, the Memory Loop is extended by 1s with a max extension limit of 5s."
+    },
+    "constellations":{
+        "c1":"Gleeful Songs",
+        "d1":"Barbara regenerates 1 Energy every 10s.",
+        "c2":"Vitality Burst",
+        "d2":"Decreases the CD of Let the Show Begin by 15%. \n During the ability's duration, the current character gains 15% Hydro DMG Bonus.",
+        "c3":"Star of Tomorrow",
+        "d3":"Increases the Level of Shining Miracle by 3.\n Maximum upgrade level is 15.",
+        "c4":"Attentiveness be My Power",
+        "d4":"Every enemy hit by Barbara's Charged Attack regenerates 1 Energy for her. A maximum of 5 energy can be regenerated in this manner with any one Charged Attack.",
+        "c5":"The Purest Companionship",
+        "d5":"Increase the Level of Let the Show Begin by 3.\n Maximum upgrade level is 15.",
+        "c6":"Dedicating Everything to You",
+        "d6":"When Barbara is not on the field, and the character in play falls, \nAutomatically revives this character and Fully regenerates this characters HP by 100%. \n This effect can only occur once every 15 mins."
+    },
+    "voiceactor":{
+        "chinese":"Tingting Hu (胡婷婷)",
+        "japanese":"Akari Kitō (鬼頭 明里)",
+        "korean":"Kim Yeon-woo (김연우)"
+    },
+    "profile":{
+        "description":"Barbara is the Deaconess of the Favonius Church, as well as the shining idol of Mondstadt.\n\"The sight of Barbara makes all my problems disappear\". This is quite a common saying among the denizens of Mondstadt.\nIn fact, Barbara can do much more than just put people in a better mood: Her healing powers extend to flesh wounds and other physical ailments. Barbara is known to have access to miraculous healing powers through her Hydro Vision.\nHowever, Barbara herself knows that the most miraculous magic of all is hard work.",
+        "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=4"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/?.PNG"
+}

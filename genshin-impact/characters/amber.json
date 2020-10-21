@@ -1,0 +1,66 @@
+{
+    "name":"Amber",
+    "title":"Champion Glider",
+    "sex":"Female", 
+    "birthday":"10 August", 
+    "region":"Mondstadt",
+    "rarity":"⭐⭐⭐⭐⭐", 
+    "element":"Pyro",
+    "weapon":"Bow", 
+    "howtoobtain":"Wishes", 
+    "description":"Amber is an Outrider of the Knights of Favonius. In an age where Outriders are becoming obsolete, she continues on with her responsibilities. It takes a newcomer only a few days to feel right at home with this passionate girl. ",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Amber.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20191009/2019100914372396510.png",
+    "introgif":"https://uploadstatic-sea.mihoyo.com/contentweb/20191009/2019100914372396510.png",
+    "normalattack":{
+        "name":"Sharpshooter",
+        "description":"Shoot up to five consecutive shots with a bow and arrow. When charged, it can perform a precise Aimed Shot that inflicts Pyro DMG.",
+        "gif":"https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/wvmgfbca7w0eqrre_1602218245.jpeg?tr=w-812,h-464"
+    },
+    "elementalskill":{
+        "name":"Explosive Puppet",
+        "description":"Taunts enemies drawing them towards itself before exploding and inflicting Pyro DMG.",
+        "gif":"https://upload-bbs.mihoyo.com/upload/2020/08/10/76373921/c9fbbc1878d6d4234c448808335d90b3_32161879132293698.gif?x-oss-process=image/auto-orient,0/interlace,1/format,gif"
+    },
+    "elementalburst":{
+        "name":"Fiery Rain",
+        "description":"A shower of arrows rains down on your enemies and inflicts Pyro DMG.",
+        "gif":"https://img.gamewith.jp/img/a6f53fe76452a93f2547371540d0dd90.jpg"
+    },
+    "passivetalent1":{
+        "name":"Gliding Champion",
+        "description":"The party's gliding stamina consumption is reduced by 20%."
+    },
+    "passivetalent2":{
+        "name":"Precise Shot",
+        "description":"When Aimed Shot hit on weak spots her Base ATK increases by 15% for 10s."
+    },
+    "passivetalent3":{
+        "name":"Every Arrow Finds Its Target",
+        "description":"Increases the CRIT Rate of Fiery Rain by 10%, and AoE by 30%."
+    },
+    "constellations":{
+        "c1":"One Arrow to Rule Them All",
+        "d1":"Fires 2 arrows per Aimed Shot. The second arrow deals 20% of the first arrow's DMG.",
+        "c2":"Bunny Triggered",
+        "d2":"Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it. \n Explosion via manual detonation deals 200% additional DMG.",
+        "c3":"It Burns!",
+        "d3":"Increases the Level of Fiery Rain by 3.\n Maximum upgrade level is 15.",
+        "c4":"It's Not Just Any Doll...",
+        "d4":"Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge.",
+        "c5":"It's Baron Bunny!",
+        "d5":"Increase the Level of Explosive Puppet by 3.\n Maximum upgrade level is 15.",
+        "c6":"Wildfire",
+        "d6":"Fiery Rain increases Amber's Movement SPD by 15% and Base ATK by 15% for 10s."
+    },
+    "voiceactor":{
+        "chinese":"Niunai Jun (牛奶君)",
+        "japanese":"Manaka Iwami (石見 舞菜香)",
+        "korean":"Kim Yeon-woo (김연우)"
+    },
+    "profile":{
+        "description":"A perky, straightforward girl, who is also the only Outrider of the Knights of Fayonius.\nHer amazing mastery of the glider has made her a three-time winner of the Gliding Champion in Mondstadt.\nAs a rising star within the Knights of Favonius, Amber is always ready for any challenging tasks.",
+        "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=1"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/?.PNG"
+}
