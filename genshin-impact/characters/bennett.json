@@ -1,0 +1,66 @@
+{
+    "name":"Bennett",
+    "title":"https://rerollcdn.com/GENSHIN/Characters/Bennett.png",
+    "sex":"Male", 
+    "birthday":"29 February", 
+    "region":"Mondstadt",
+    "rarity":"⭐⭐⭐⭐", 
+    "element":"Pyro",
+    "weapon":"Sword", 
+    "howtoobtain":"Wishes", 
+    "description":"A righteous and good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Bennett.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200312/2020031220001589124.png",
+    "introgif":"https://media.giphy.com/media/yH1eyYGUjtGcXx52eU/giphy.gif",
+    "normalattack":{
+        "name":"Strike of Fortune",
+        "description":"Perform up to five rapid strikes. When charged, releases two rapid strikes.",
+        "gif":"https://media.giphy.com/media/IK6GN5yS5sh68gOWaw/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Passion Overload",
+        "description":"Sword deals Pyro DMG. When held, does even more Pyro DMG.",
+        "gif":"https://media.giphy.com/media/XobTWgiJ109oTguyaO/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Fantastic Voyage",
+        "description":"Deals Pyro DMG to enemy and creates an Inspiration Field that slowly heals any party members at 70% or less.",
+        "gif":"https://media.giphy.com/media/fjp0AVUKOsfqxdMXvK/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"It Should Be Safe",
+        "description":"When dispatched to Mondstadt, time taken on the task reduces by 25%"
+    },
+    "passivetalent2":{
+        "name":"Rekindle",
+        "description":"Decreases Passion Overload's CD by 20%."
+    },
+    "passivetalent3":{
+        "name":"Fearnaught",
+        "description":"When inside an area created by Fantastic Voyage, Passion Overload CD is reduced by 50% and Bennet cannot take launch DMG."
+    },
+    "constellations":{
+        "c1":"Grand Expectation",
+        "d1":"Fantastic Voyage's ATK increases no longer has an HP restriction, and gains an additional 20% Base ATK.",
+        "c2":"Impasse Conqueror",
+        "d2":"When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.",
+        "c3":"Unstoppable Fervor",
+        "d3":"Increases the Level of Passion Overload by 3.\n Maximum upgrade level is 15.",
+        "c4":"Unexpected Odyssey",
+        "d4":"Using a Normal Attack when executing the second attack of Passion Overload's Charge Level 1 allows an additional attack to be performed. This additional attack does 135% of the second attack's DMG.",
+        "c5":"True Explorer",
+        "d5":"Increase the Level of Fantastic Voyage by 3.\n Maximum upgrade level is 15.",
+        "c6":"Fire Ventures with Me",
+        "d6":"Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage's radius gain a 15% Pyro DMG Bonus. Normal and Charged Attacks now do Pyro DMG."
+    },
+    "voiceactor":{
+        "chinese":"Xueting Mu (穆雪婷)",
+        "japanese":"Ryōta Ōsaka (逢坂 良太)",
+        "korean":"Song HaRim(송하림)"
+    },
+    "profile":{
+        "description":"The few young adventurers that the Mondstadt Adventurers' Guild has always found themselves tangled up in baffling bouts of bad luck. He is the only active member of his own adventure group, known as \"Benny's Adventure Team,\" after all the other members decided to \"take leave\" following a series of unfortunate incidents. As a result, the team is currently on the verge of being dissolved. Being unable to break the poor boy's heart, Katheryne of the Adventurers' Guild has kept \"Benny's Adventure Team\" on the books, whilst also hiding from him the fact that all the other members have long since officially left the team.\n\"Benny's Adventure Team\" is a special case in the Adventurers' Guild, Mondstadt Branch. Initially, the team mechanism, requiring at least 3 to 4 regulars in the team, was set up to prompt mutual support and prevent accidents from happening. As for Bennett's \"Benny's Adventure Team,\" its only regular member has always been Bennett himself. The lack of team members essentially has everything to do with Bennett's infamous \bad luck\". However, being the passionate adventurer that he is, Bennett never feels lonely...Well, maybe once or twice, sometimes...",
+        "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=9"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/bennett.PNG"
+}

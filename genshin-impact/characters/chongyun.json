@@ -1,0 +1,66 @@
+{
+    "name":"Chongyun",
+    "title":"Banisher of Evil and Rumors Thereof",
+    "sex":"Male", 
+    "birthday":"7 September", 
+    "region":"Liyue",
+    "rarity":"⭐⭐⭐⭐", 
+    "element":"Cryo",
+    "weapon":"Claymore", 
+    "howtoobtain":"Wishes", 
+    "description":"A young exortcist from a family of exorcists. He does everything he can to suppress his pure positive energy.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Chongyun.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200602/2020060220172055224.png",
+    "introgif":"https://media.giphy.com/media/N14Yrw51pnzesDWmPz/giphy.gif",
+    "normalattack":{
+        "name":"Demonbane",
+        "description":"Performs up to four consecutive strikes. When charged, performs continuous swirling attacks.",
+        "gif":"https://media.giphy.com/media/mH8PUzpZMfknCcGDor/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Spirit Blade - Chonghua's Layered Frost",
+        "description":"He strikes the ground causing an ice explosion that deals Cryo DMG. After that, it creates a Chonghua Frost Field that turns all Normal and Charged Attacks into Cryo DMG.",
+        "gif":"https://media.giphy.com/media/IbWXhXZcSacWsx2wtx/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Spirit Blade - Cloud-Parting Star",
+        "description":"Summons three giant blades that fall to earth and explode to deal Cryo DMG.",
+        "gif":"https://media.giphy.com/media/lz7zfkqb247QYsY3Wh/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Gallant Journey",
+        "description":"When dispatched to Liyue, the time taken to complete the task is reduced by 25%."
+    },
+    "passivetalent2":{
+        "name":"Steady Breathing",
+        "description":"Attack SPD increases 8% for all characters with Swords, Claymores, and Polearms within the Chongua's Layered Frost field."
+    },
+    "passivetalent3":{
+        "name":"Rimechaser Blade",
+        "description":"When the Chonghua's Layered Frost field disappears, another spirit shows up to deal 100% of Chonhua's Layered Frost's Skill DMG as AoE Cryo DMG. Enemies hit feel Cryo RES decreases by 10% for 8s."
+    },
+    "constellations":{
+        "c1":"Ice Unleashed",
+        "d1":"The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as Cryo DMG to all enemies in its path.",
+        "c2":"Atmospheric Revolution",
+        "d2":"Elemental Skills and Elemental Bursts cast within the Frost Field created by Spirit Blade - Chongyun's Layered Frost have their CD time decreased by 15%.",
+        "c3":"Cloudburst",
+        "d3":"Increases the Level of Spirit Blade - Cloud-parting Star by 3.\n Maximum upgrade level is 15.",
+        "c4":"Frozen Skies",
+        "d4":"Chongyun regenerates 1 Energy every time he hits an enemy affected by Cold or Frozen status effects. \n This effect can only occur once every 2s.",
+        "c5":"The True Path",
+        "d5":"Increases the level of Spirit Blade - Chongyun's Layered Frost by 3.\n Maximum upgrade level is 15.",
+        "c6":"Rally of Four Blades",
+        "d6":"Spirit Blade - Cloud-parting Star deals 15% more DMG to enemies with a lower percentage of their Max HP remaining than Chongyun. \n This skill will also summon 1 additional spirt blade."
+    },
+    "voiceactor":{
+        "chinese":"Jinchuan (金船)",
+        "japanese":"Sōma Saitō (斉藤 壮馬)",
+        "korean":"Yang JeongHwa (양정화)"
+    },
+    "profile":{
+        "description":"With Liyue as his base of operations, the exorcist Chongyun roams the land, ridding it of evil. As the heir to a clan of exorcists, he has always possessed abilities superior to most. However, this ability is not the result of training, but of an inborn trait he has come to term, \"congenital positivity.\"\nCongenital positivity is an exceedingly rare physiology that makes the body susceptible to heating up due to an overabundance of positive energy. If unchecked, those who possess such a form can easily become hot blooded. Chongyun is a particularly serious case, his shifts in mood are explosive, and he remembers nothing from such episodes. However, Chongyun's condition is also his greatest asset, for all he needs to do to expel evil spirits is to sit awhile in whatever dark corner they may haunt.\nAs such, Chongyun's path as an exorcist has been smooth as smooth can be. However, he himself does not approve of this manner of doing things. In his honest and upright heart, leaning on his unique physiology to exorcise evil is but a cheap trick. An exorcist must, in his estimation, perform their duties with an exorcist's arts.\nTo counteract this congenital positivity, Chongyun has several disciplines that he practices. He does not go out in the sun or wear thick clothes, and he abstains from hot beverages and hot and spicy food. He takes up no quarrels, and he indulges no tempers. Yet despite searching high and low, and far and wide, he has been unable to find a lasting solution to his condition.\nThis troubled the young exorcist. The evil spirits were expelled, yes, but if things kept going like this, how would he ever prove himself to be a qualified exorcist?\nAs he sits atop an ice-capped mountain chewing on a snow bun, Chongyun cannot help but sigh. The road ahead is still long indeed.",
+        "link":"https://forums.mihoyo.com/genshin/article/13049"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/chongyun.PNG"
+}

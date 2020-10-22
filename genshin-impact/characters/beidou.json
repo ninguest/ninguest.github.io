@@ -10,7 +10,7 @@
     "howtoobtain":"Wishes", 
     "description":"Beidou is the leader of the Crux — an armed fleet based in Liyue Harbor. An armed fleet means exactly what it sounds like a fleet of ships armed to the teeth.",
     "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Beidou.png",
-    "mihoyoimageurl":"https://genshin.mihoyo.com/en/character/liyue?char=1",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200227/2020022720085973518.png",
     "introgif":"https://media.giphy.com/media/zr8ay9F7HeTYA0V6u6/giphy.gif",
     "normalattack":{
         "name":"Oceanborne",
@@ -60,7 +60,7 @@
     },
     "profile":{
         "description":"Captain of the Crux, with quite the reputation in Liyue. There are those who say she can split mountains and part the sea. Others say she draws lightning through her sword. Some say that even the mightiest of sea beasts are no match for her. For those not from Liyue, it may sound like a hearty joke, but those that have sailed with her will say- \"No matter what sea beasts there may be, Beidou will be sure to split them all in two.\"\nBeidou is the leader of the Crux—an armed fleet based in Liyue Harbor. An armed fleet means exactly what it sounds like: a fleet of ships armed to the teeth. Without getting into too many details, everything the Crux does is approved by the Qixing... more or less. \nBeidou is a trusted leader; so much so that her crew believes her capable of taming the storms and billows on the sea. \"It's Beidou! Even the mightiest of storms must bow its head to her might!\"",
-        "link":"https://genshin-impact.fandom.com/wiki/Beidou"
+        "link":"https://genshin.mihoyo.com/en/character/liyue?char=1"
     },
     "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/beidou.PNG"
 }
