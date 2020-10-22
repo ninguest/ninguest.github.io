@@ -1,0 +1,66 @@
+{
+    "name":"Beidou",
+    "title":"Uncrowned Lord of Ocean",
+    "sex":"Female", 
+    "birthday":"14 February", 
+    "region":"Liyue",
+    "rarity":"⭐⭐⭐⭐", 
+    "element":"Electro",
+    "weapon":"Claymore", 
+    "howtoobtain":"Wishes", 
+    "description":"Beidou is the leader of the Crux — an armed fleet based in Liyue Harbor. An armed fleet means exactly what it sounds like a fleet of ships armed to the teeth.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Beidou.png",
+    "mihoyoimageurl":"https://genshin.mihoyo.com/en/character/liyue?char=1",
+    "introgif":"https://media.giphy.com/media/zr8ay9F7HeTYA0V6u6/giphy.gif",
+    "normalattack":{
+        "name":"Oceanborne",
+        "description":"Perform up to five consecutive strikes. When charged, performs continuous slashes before unleashing one big strike.",
+        "gif":"https://media.giphy.com/media/FWuqOcpyV1MuvmrINR/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Tidecaller",
+        "description":"Swings blade and deals Electro DMG. When held down, she uses her weapon as a shield. This increases her resistance to interruption and has 250% Electro DMG Absorption Efficiency.",
+        "gif":"https://media.giphy.com/media/zPbU33Tqh63gSKpb3G/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Stormbreaker",
+        "description":"increases interruption resistance and decreases DMG taken.",
+        "gif":"https://media.giphy.com/media/dY2uHTfJmW1ThOuE6D/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Conqueror of Tides",
+        "description":"The party's swimming stamina consumption decreases by 20%."
+    },
+    "passivetalent2":{
+        "name":"Retribution",
+        "description":"Counterattacking with Tidecaller at the right moment grants the maximum DMG Bonus."
+    },
+    "passivetalent3":{
+        "name":"Lightning Storm",
+        "description":"After using Tidecaller, both SPD and DMG of Normal and Charged Attacks increases by 15% for 10s."
+    },
+    "constellations":{
+        "c1":"Sea Beast's Scourge",
+        "d1":"When Stormbreaker is used: \n Creates a shield that absorbs up to 16% of Beidou's Max HP for 15s. \n This shield absorbs Electro DMG 250% more effectively.",
+        "c2":"Upon the Turbulent Sea, the Thunder Arises",
+        "d2":"Stormbreaker's arc lightning can jump 2 additional targets.",
+        "c3":"Summoner of Storm",
+        "d3":"Increases the Level of Tidecaller by 3.\n Maximum upgrade level is 15.",
+        "c4":"Stunning Revenge",
+        "d4":"Within 10s of taking DMG, Beidou's Normal Attacks gain 20% additional Electro DMG.",
+        "c5":"Crimson Tidewalker",
+        "d5":"Increase the Level of Stormbreaker by 3.\n Maximum upgrade level is 15.",
+        "c6":"Bane of Evil",
+        "d6":"During the duration of Stormbreaker, the Electro RES of surrounding enemies is decreased by 15%."
+    },
+    "voiceactor":{
+        "chinese":"Yajing Tang (唐雅菁)",
+        "japanese":"Ami Koshimizu (小清水 亜美)",
+        "korean":"Jeong Yoo-Mi (정유미)"
+    },
+    "profile":{
+        "description":"Captain of the Crux, with quite the reputation in Liyue. There are those who say she can split mountains and part the sea. Others say she draws lightning through her sword. Some say that even the mightiest of sea beasts are no match for her. For those not from Liyue, it may sound like a hearty joke, but those that have sailed with her will say- \"No matter what sea beasts there may be, Beidou will be sure to split them all in two.\"\nBeidou is the leader of the Crux—an armed fleet based in Liyue Harbor. An armed fleet means exactly what it sounds like: a fleet of ships armed to the teeth. Without getting into too many details, everything the Crux does is approved by the Qixing... more or less. \nBeidou is a trusted leader; so much so that her crew believes her capable of taming the storms and billows on the sea. \"It's Beidou! Even the mightiest of storms must bow its head to her might!\"",
+        "link":"https://genshin-impact.fandom.com/wiki/Beidou"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/beidou.PNG"
+}
