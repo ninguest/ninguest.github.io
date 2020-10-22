@@ -20,12 +20,12 @@
     "elementalskill":{
         "name":"Gale Blade",
         "description":"Releases a miniature storm that launches enemies and deals Anemo DMG. When held, Jean commands the whirlwind to pull enemies towards her while she remains immobile.",
-        "gif":"https://media.giphy.com/media/M0BD7OYYPOVRVeVLLy/giphy.gif"
+        "gif":"https://media.giphy.com/media/XR0mDEAl1ey1Uaqfuw/giphy.gif"
     },
     "elementalburst":{
         "name":"Dandelion Breeze",
         "description":"Causes Anemo DMG to enemies while instantly healing nearby party members and allies.",
-        "gif":"https://media.giphy.com/media/tVIA1cgvTuKmYPonxj/giphy.gif"
+        "gif":"https://media.giphy.com/media/bkC5hd6ERquvtDmQSA/giphy.gif"
     },
     "passivetalent1":{
         "name":"Guiding Breeze",
