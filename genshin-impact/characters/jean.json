@@ -15,7 +15,7 @@
     "normalattack":{
         "name":"Favonius Bladework",
         "description":"Performs up to five consecutive strikes. When charged, launches enemies using wind then slowly makes them fall.",
-        "gif":"null"
+        "gif":"https://media.giphy.com/media/FCJU60bl7KpP5Y0lBM/giphy.gif"
     },
     "elementalskill":{
         "name":"Gale Blade",
