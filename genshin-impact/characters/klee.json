@@ -1,0 +1,66 @@
+{
+    "name":"Klee",
+    "title":"Fleeing Sunlight",
+    "sex":"Female", 
+    "birthday":"27 July", 
+    "region":"Mondstadt",
+    "rarity":"⭐⭐⭐⭐⭐", 
+    "element":"Pyro",
+    "weapon":"Catalyst", 
+    "howtoobtain":"Wishes", 
+    "description":"An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Klee.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200103/2020010310582722822.png",
+    "introgif":"https://media.giphy.com/media/DQTApQOYMkvL28b6Qi/giphy.gif",
+    "normalattack":{
+        "name":"Kaboom!",
+        "description":"Throws explosive obstacles up to three times dealing Aoe Pyro DMG. When charged, deals Pyro DMG to enemies for short time.",
+        "gif":"https://media.giphy.com/media/E5oV3ItHrl95R9Ky8P/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Jumpy Dumpty",
+        "description":"Jump Dumpty gets thrown, bounces three times dealing AoE Pyro DMG each time it lands. On the third bounce, it splits into several small mines and deals AoE Pyro DMG.",
+        "gif":"https://media.giphy.com/media/055nvA5l716RJnC933/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Sparks 'N' Splash",
+        "description":"Deals AoE Pyro DMG repeatedly for a short amount of time.",
+        "gif":"https://media.giphy.com/media/uU5nAG8F3WDNhRORPV/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"All of My Treasures!",
+        "description":"Displays nearby resources on the mini-map"
+    },
+    "passivetalent2":{
+        "name":"Pounding Surprise",
+        "description":"When Jumpy Dumpty and Normal Attacks deal DMG, Klee has 50% chance to obtain an Explosive Spark. This gets consumed by the next Charged Attack costing no Stamina and dealing 50% increased DMG."
+    },
+    "passivetalent3":{
+        "name":"Sparkling Burst",
+        "description":"When Klee's Charged Attack results in a CRIT hit, all party members gain two Elemental Energy."
+    },
+    "constellations":{
+        "c1":"Chained Reaction",
+        "d1":"Attacks and Skills have a certain chance to summon a spark that bombards enemies, dealing DMG equal to 120% of Sparks 'n' Splash's DMG.",
+        "c2":"Explosive Frags",
+        "d2":"Being hit by Jumpy Dumpty's mines decreases enemy DEF by 23% for 10s.",
+        "c3":"Exquisite Compound",
+        "d3":"Increases the Level of Jumpy Dumpty by 3.\n Maximum upgrade level is 15.",
+        "c4":"Sparkly Explosion",
+        "d4":"If Klee leaves the field during the duration of Sparks 'n' Splash, her departure triggers an explosion that deals 555% of her ATK as AoE Pyro DMG.",
+        "c5":"Nova Burst",
+        "d5":"Increase the Level of Sparks 'n' Splash by 3.\n Maximum upgrade level is 15.",
+        "c6":"Blazing Delight",
+        "d6":"While under the effects of Sparks 'n' Splash, other members of the party will continuously regenerate Energy.\nWhen Sparks 'n' Splash is used, all party members will gain 10% Pyro DMG Bonus for 25s."
+    },
+    "voiceactor":{
+        "chinese":"Ling Hua (花玲)",
+        "japanese":"Misaki Kuno (久野 美咲)",
+        "korean":"Bang Yeonji (방연지)"
+    },
+    "profile":{
+        "description":"Knights of Favonius Spark Knight! Forever with a bang and a flash! —And then disappearing from the stern gaze of Acting Grand Master Jean. Sure, time in solitary confinement gives lots of time to think about new gunpowder formulas...But it'd still be better to not be in solitary in the first place.\nWhen asked about the strongest knight of the Knights of Favonius, three names are likely to come up from the patrons in the taverns of Mondstadt: the highly-reputable Acting Grand Master Jean, Cavalry Captain Kaeya, and the mysterious tycoon Diluc. However, some claim to have witnessed, through drunken eyes or pale moonlight, a knight in red, leveling the entire Stormbearer Mountains. \nIf one wants to find this mysterious knight, then they need look no further than the solitary confinement cell inside the Knights of Favonius Headquarters. If the cell is found vacant... then something explosively unfortunate is likely about to take place... \nKlee is well known for the danger she presents. As an official member of the Knights of Favonius, her strength in combat cannot be underestimated. \nBut as the hyperactive child that she also is, her destructive capabilities should not be overlooked either. While other Mondstadt children her age are still playing with regular toys, Klee's favorite toys are... live explosives.",
+        "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=8"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/klee.PNG"
+}

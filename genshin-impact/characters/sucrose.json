@@ -1,0 +1,66 @@
+{
+    "name":"Sucrose",
+    "title":"Knights of Favonius Alchemist",
+    "sex":"Female", 
+    "birthday":"26 November", 
+    "region":"Mondstadt",
+    "rarity":"⭐⭐⭐⭐", 
+    "element":"Anemo",
+    "weapon":"Catalyst", 
+    "howtoobtain":"Wishes", 
+    "description":"An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Sucrose.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200723/2020072319115159476.png",
+    "introgif":"https://media.giphy.com/media/zBoR4TpzhNgZ0lFfvQ/giphy.gif",
+    "normalattack":{
+        "name":"Wind Spirit Creation",
+        "description":"Performs up to four Anemo DMG attacks. When charged, deals AoE Anemo DMG after a short casting time.",
+        "gif":"https://media.giphy.com/media/XwKsxOTjsATdUzkdPW/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Astable Anemohypostasis Creation - 6308",
+        "description":"A small Wind Spirit pulls in enemies, deals Anemo DMG in an AoE, and launches enemies. If it comes into contact with Hyrdo, Pyro, Cryo, or Electro elements it will deal additional DMG of that type.",
+        "gif":"https://media.giphy.com/media/7c1WdrtXTxBSjwAHG3/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Forbidden Creation - Isomer 75 Type II",
+        "description":"Hurls Large Wind Spirit onto the field to deal AoE Anemo DMG.",
+        "gif":"https://media.giphy.com/media/KDKhW2NouHxHcROkUK/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Astable Invention",
+        "description":"There's a 10% chance Sucrose will receive twice the product when crafting Character and Weapon Enhancement Materials."
+    },
+    "passivetalent2":{
+        "name":"Catalyst Conversion",
+        "description":"When Sucrose triggers a Swirl effect, any party members with a matching element increase in Elemental Mastery by 50 for 8s."
+    },
+    "passivetalent3":{
+        "name":"Mollis Favonius",
+        "description":"When Astable Anemohypostasis Creation - 6308 or Forbidden Creation - Isomer 75 Type II hit an enemy it increases other party members' Elemental Mastery based on 20% of Sucrose's Elemental Mastery for 8s."
+    },
+    "constellations":{
+        "c1":"Clustered Vacuum Field",
+        "d1":"Astable Anemohypostasis Creation - 6308 gains 1 additional charge.",
+        "c2":"Beth - Unbound Form",
+        "d2":"The duration of Forbidden Creation - Isomer 75 / Type II is increased by 2s.",
+        "c3":"Flawless Alchemistress",
+        "d3":"Increases the Level of Astable Anemohypostasis Creation - 6308 by 3.\nMaximum upgrade level is 15.",
+        "c4":"Alchemania",
+        "d4":"Every 7 Normal and Charged Attacks, Sucrose will reduce the CD of Astable Anemohypostasis Creation - 6308 by 1-7s.",
+        "c5":"Caution: Standard Flask",
+        "d5":"Increase the Level of Forbidden Creation - Isomer 75 / Type II by 3.\n Maximum upgrade level is 15.",
+        "c6":"Chaotic Entropy",
+        "d6":"If Forbidden Creation - Isomer 75 / Type II triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration."
+    },
+    "voiceactor":{
+        "chinese":"Xiaogan (小敢)",
+        "japanese":"Akane Fujita (藤田 茜)",
+        "korean":"Kim Hayeong (김하영)"
+    },
+    "profile":{
+        "description":"An alchemist with an insatiable curiosity towards the world and everything in it. Attached to the Knights of Favonius as an assistant to Albedo, her area of focus is \"bio-alchemy.\"She strives to enrich the world by transforming living things with the power of alchemy.Granted, the products of her research sometimes prove to be more weird than wonderful — but on the whole, she has made monumental contributions to the field of bio-alchemy.",
+        "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=12"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/sucrose.PNG"
+}

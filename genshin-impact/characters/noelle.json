@@ -1,0 +1,66 @@
+{
+    "name":"Noelle",
+    "title":"Maid of Favonius",
+    "sex":"Female", 
+    "birthday":"21 March", 
+    "region":"Mondstadt",
+    "rarity":"⭐⭐⭐⭐", 
+    "element":"Geo",
+    "weapon":"Claymore", 
+    "howtoobtain":"Wishes", 
+    "description":"A maid in the service of the Knights of Favonius that dreams of joining their ranks someday.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Noelle.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200315/2020031517331523512.png",
+    "introgif":"https://media.giphy.com/media/FFClG723WspXRGMS4q/giphy.gif",
+    "normalattack":{
+        "name":"Favonius Bladework - Maid",
+        "description":"Perform up to four consecutive strikes. When charged, perfoms continuous spin attacks that deplete Stamina.",
+        "gif":"https://media.giphy.com/media/A0vLd5qzgYYoCIlDX1/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Breastplate",
+        "description":"Summons protective stone armor that deals Geo DMG. When Charged attacks hit enemies, there's a chance to regenerate all party member's HP.",
+        "gif":"https://media.giphy.com/media/mayyViaJhpq4TSsXWd/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Sweeping Time",
+        "description":"Stone gathers around her Claymore and she inflicts Geo DMG in large AoE.",
+        "gif":"https://media.giphy.com/media/bsZUjZwNlwWJOhglmz/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Maid's Knighthood",
+        "description":"There's a 12% chance of getting two food items when achieving Perfect Cooking on DEF-boosting recipes."
+    },
+    "passivetalent2":{
+        "name":"Devotion",
+        "description":"Occurs when Noelle is in the party but not on the field. If a party member's HP falls below 30%, it creates a shield equal to 400% Noelle's DEF. It can only occur once every 60s."
+    },
+    "passivetalent3":{
+        "name":"Nice and Clean",
+        "description":"Every four Normal or Charged Attack hits decreases Breastplat CD by 1s."
+    },
+    "constellations":{
+        "c1":"I Got Your Back",
+        "d1":"While Sweeping Time and Breastplate are both in effect, the chance of Breastplate's healing effects activating is increased to 100%.",
+        "c2":"Combat Maid",
+        "d2":"Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%.",
+        "c3":"Invulnerable Maid",
+        "d3":"Increases the Level of Breastplate by 3.\n Maximum upgrade level is 15.",
+        "c4":"To Be Cleaned",
+        "d4":"When Breastplate's duration expires or it is destroyed by DMG, it will deal 400% ATK of Geo DMG to surrounding enemies.",
+        "c5":"Favonius Sweeper Master",
+        "d5":"Increase the Level of Sweeping Time by 3.\n Maximum upgrade level is 15.",
+        "c6":"Must Be Spotless",
+        "d6":"Sweeping Time increases Noelle's ATK by an additional 50% of her DEF.\n Additionally, every enemy defeated during the skill's duration adds 1s to the duration, up to 10s."
+    },
+    "voiceactor":{
+        "chinese":"Ning Yan (宴宁)",
+        "japanese":"Kanon Takao (高尾 奏音)",
+        "korean":"Bohee Lee (이보희)"
+    },
+    "profile":{
+        "description":"Like most of Mondstadt's young people, Noelle always dreamed of being a knight of Favonius when she grew up. She may not have what it takes to be a knight just yet, but she is learning. Working as a maid at the Knights' headquarters, she is constantly taking notes on what constitutes knightly speech, knightly conduct, and knightly customs. She holds firm to her belief that one day she will join their ranks - she just needs to keep trying her hardest at everything she does. ",
+        "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=10"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/noelle.PNG"
+}

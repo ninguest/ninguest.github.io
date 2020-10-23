@@ -1,0 +1,66 @@
+{
+    "name":"Venti",
+    "title":"The God of Freedom",
+    "sex":"Male", 
+    "birthday":"16 June", 
+    "region":"Mondstadt",
+    "rarity":"⭐⭐⭐⭐⭐", 
+    "element":"Anemo",
+    "weapon":"Bow", 
+    "howtoobtain":"Wishes", 
+    "description":"One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Venti.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20191122/2019112210305833310.png",
+    "introgif":"https://media.giphy.com/media/rS9TQ7AZYDzOC5KZ0r/giphy.gif",
+    "normalattack":{
+        "name":"Divine Marksmanship",
+        "description":"Performs up to six consecutive shots with a bow. When charged, you can perform a precise Aimed Shot of Anemo DMG.",
+        "gif":"https://media.giphy.com/media/eh2fPZhSE3P6GVlPqx/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Skyward Sonnet",
+        "description":"Summons a Wind Domain at your enemies and deals AoE Anemo DMG before launching enemies. When held, summons an even larger Wind Domain with Venti at the epicenter that deals AoE Anemo DMG and launches enemies.",
+        "gif":"https://media.giphy.com/media/mnY6Bxf4xt9RKSF1OA/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Wind's Grand Ode",
+        "description":"Fires a wind arrow to make a massive Stormeye that pulls enemies in and does Anemo DMG.",
+        "gif":"https://media.giphy.com/media/U0j4CbgZ1iuf7MlJGN/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Windrider",
+        "description":"The party's gliding stamina consumption reduces by 20%."
+    },
+    "passivetalent2":{
+        "name":"Embrace of Winds",
+        "description":"Holding Skyward Sonnet creates an upcurrent that lasts for 20s."
+    },
+    "passivetalent3":{
+        "name":"Stormeye",
+        "description":"Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode ends. If an Elemental Absorption occurs, then 15 Energy is restored to all characters of the same element type."
+    },
+    "constellations":{
+        "c1":"Splitting Gale",
+        "d1":"Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow's DMG.",
+        "d2":"Skyward Sonnet decreases enemy Anemo RES by 12% for 10s.\nEnemies launched by Skyward Sonnet suffer an additional 12% Anemo RES and Physical RES decrease while airborne.",
+        "c2":"Breeze of Reminiscence",
+        "c3":"Ode to Thousand Winds",
+        "d3":"Increases the Level of Wind's Grand Ode by 3.\nMaximum upgrade level is 15.",
+        "c4":"Hurricane of Freedom",
+        "d4":"When Venti picks up an Elemental Orb or Particle, he receives a 25% Anemo DMG Bonus for 10s.",
+        "c5":"Concierto dal Cielo",
+        "d5":"Increase the Level of Skyward Sonnet by 3.\nMaximum upgrade level is 15.",
+        "c6":"Storm of Defiance",
+        "d6":"Targets who take DMG from Wind's Grand Ode have their Anemo RES decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
+    },
+    "voiceactor":{
+        "chinese":"Miaojiang (喵酱)",
+        "japanese":"Ayumu Murase (村瀬 歩)",
+        "korean":"Jung Yoo-jung (정유정)"
+    },
+    "profile":{
+        "description":"Venti has a rather mischievous attitude and has a liking to rhyming in his speech, but if told to stop he will stop immediately. He sees a certain worth in music to the point where he names his lyre, saying \"every being deserves a name to be called upon, and woven into a song\". He is also quite bold, shown many times in both the manga and the game, not fearing to insult or ignore those who are supposedly powerful.Despite his naive personality as Venti, the Wind Archon himself might as well be a different side to him, in which Venti attests to saying \"That's that for the Anemo Archon's admonishments! Back to Venti time!\". When Venti assumes his personality as the Wind Archon, he speaks wisely and rather philosophically, guiding the Traveler, like he guided Mondstadt in its beginnings. ",
+        "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=7"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/venti.PNG"
+}

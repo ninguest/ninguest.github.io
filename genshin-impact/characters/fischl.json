@@ -1,0 +1,66 @@
+{
+    "name":"Fischl",
+    "title":"Prinzessin der Verurteilung",
+    "sex":"Female", 
+    "birthday":"27 May", 
+    "region":"Mondstadt",
+    "rarity":"⭐⭐⭐⭐", 
+    "element":"Electro",
+    "weapon":"Bow", 
+    "howtoobtain":"Wishes", 
+    "description":"A mysterious girl who calls herself \"Prinzessia der Verurteilung\" and travels with a night raven named Oz.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Fischl.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200402/2020040211240853891.png",
+    "introgif":"https://media.giphy.com/media/4vOKd5kQBbi9aWZ7PV/giphy.gif",
+    "normalattack":{
+        "name":"Bolts of Downfall",
+        "description":"Shoot up to five consecutive shots with a bow and arrow. When charged can perform a precise Aimed Shot with Electro DMG.",
+        "gif":"https://media.giphy.com/media/GOjAZKnrB1fJoJjZbH/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Nightrider",
+        "description":"Summons a night raven named Oz who deals Electro DMG in small AoE.",
+        "gif":"https://media.giphy.com/media/WZQlghCL5AvrEQwESe/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Midnight Phantasmagoria",
+        "description":"Summons Oz to protect Fischl and fight enemies with Electro DMG.",
+        "gif":"https://media.giphy.com/media/pvDx5shaScNo3uMDrS/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Mein Hausgarten",
+        "description":"When dispatched to Mondstadt, the time taken to complete the task reduces by 25%."
+    },
+    "passivetalent2":{
+        "name":"Stellar Predator",
+        "description":"When Fischl hits Oz with a fully charged Electro shot, Oz reacts with Thundering Retribution dealing AoE Electro DMG equal to 152.7% of arrow's DMG."
+    },
+    "passivetalent3":{
+        "name":"Lightning Smite",
+        "description":"If Fischl creates an Electro-related Elemental Reaction when Oz is on the field, all enemies are struck with Electro DMG."
+    },
+    "constellations":{
+        "c1":"Gaze of the Deep",
+        "d1":"Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl attacks an enemy, Oz fires a joint attack, dealing 22% of ATK DMG.",
+        "c2":"Devourer of All-Sins",
+        "d2":"When Nightrider is used, it deals an additional 200% ATK as DMG, and its AoE is increased by 50%.",
+        "c3":"Wings of Nightmare",
+        "d3":"Increases the Level of Nightrider by 3.\nMaximum upgrade level is 15.",
+        "c4":"Her Pilgrimage of Bleak",
+        "d4":"When Midnight Phatasmagoria is used, it deals 222% of ATK as Electro DMG to surrounding enemies.\nWhen the skill duration ends, Fischl regenerates 20% of her HP.",
+        "c5":"Against the Fleeing Light",
+        "d5":"Increase the Level of Midnight Phantasmagoria by 3.\nMaximum upgrade level is 15.",
+        "c6":"Evernight Raven",
+        "d6":"Increases the duration of Oz's summoning by 2s. Additionally, Oz attacks with the current character when present, dealing 30% of Fischl's ATK as Electro DMG."
+    },
+    "voiceactor":{
+        "chinese":"Minyue Lu (陆敏悦)",
+        "japanese":"Maaya Uchida (内田 真礼)",
+        "korean":"Park GoWoon (박고운)"
+    },
+    "profile":{
+        "description":"A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz. Currently serves as an investigator in the Adventurers' Guild. Through her unique abilities, eccentric character, and (while she would never admit it herself) hard work, Fischl has become a rising star among the Adventurers' Guild's investigators, earning the recognition of all.",
+        "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=11"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/fischl.PNG"
+}

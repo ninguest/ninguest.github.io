@@ -1,0 +1,66 @@
+{
+    "name":"Razor",
+    "title":"The Wolf Boy",
+    "sex":"Male", 
+    "birthday":"9 September", 
+    "region":"Mondstadt",
+    "rarity":"⭐⭐⭐⭐", 
+    "element":"Electro",
+    "weapon":"Claymore", 
+    "howtoobtain":"Wishes", 
+    "description":"A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Razor.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20191028/2019102814495922891.png",
+    "introgif":"https://media.giphy.com/media/xn0hSoNGZqBnv8HN8R/giphy.gif",
+    "normalattack":{
+        "name":"Steel Fang",
+        "description":"Performs up to four consecutive strikes. When charged, performs continuous swirling attacks and finally deals a massive strike.",
+        "gif":"https://media.giphy.com/media/JRvQt1ZwC4filwAsRV/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Claw and Thunder",
+        "description":"Deals Electro DMG and gains an Electro Sigil, which increases his Energy Recharge rate. He can have up to three Electro Sigils at a time.",
+        "gif":"https://media.giphy.com/media/eNaymOqjdAJF4hpGc5/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Lightning Fang",
+        "description":"Releases a Wolf that does Electro DMG to enemies while on the battlefield and raises Razor's ATK SPD and Electro RES. Also disables Razor's Charged Attacks.",
+        "gif":"https://media.giphy.com/media/Z5MMkJZaNzYFBheBWs/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Wolvensprint",
+        "description":"The party's Sprinting Stamina Consumption reduces by 20%."
+    },
+    "passivetalent2":{
+        "name":"Awakening",
+        "description":"Decreases Claw and Thunder's CD by 18%. Additionally, Using Lightning Fang resets the CD of Claw and Thunder."
+    },
+    "passivetalent3":{
+        "name":"Hunger",
+        "description":"When Razor's Energy is below 50% his Energy Recharge increases 30%."
+    },
+    "constellations":{
+        "c1":"Wolf's Instinct",
+        "d1":"Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
+        "c2":"Suppression",
+        "d2":"Increases CRIT Rate against enemies with less than 30% HP by 10%.",
+        "c3":"Soul Companion",
+        "d3":"Increases the Level of Lightning Fang by 3.\n Maximum upgrade level is 15.",
+        "c4":"Bite",
+        "d4":"When casting Claw and Thunder (Press), enemies hit will have their DEF decreased by 15% for 7s.",
+        "c5":"Sharpened Claws",
+        "d5":"Increase the Level of Claw and Thunder by 3.\n Maximum upgrade level is 15.",
+        "c6":"Lupus Fulguris",
+        "d6":"Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as Electro DMG. \n When Razor is not using Lightning Fang, a lightning strike on an enemy will grant Razor an Electro Sigil for Claw and Thunder."
+    },
+    "voiceactor":{
+        "chinese":"Shuai Zhou (周帅)",
+        "japanese":"Kōki Uchiyama (内山 昂輝)",
+        "korean":"Seo-yeong Kim (김서영)"
+    },
+    "profile":{
+        "description":"Razor is a young man with long, spiky grey hair; bright red eyes; and pale skin with a scar in his left cheek. Razor has many scars, as a result of his time living in the wild with his wolf family.Razor wears green camouflage pants, an orange poncho-like shirt, dark boots, and a dark hooded coat decorated with belts. His accessories are a tooth necklace, thumbless orange gloves, and one gold earring on his left ear. ",
+        "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=6"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/razor.PNG"
+}

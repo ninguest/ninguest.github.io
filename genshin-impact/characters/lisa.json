@@ -1,0 +1,66 @@
+{
+    "name":"Lisa",
+    "title":"Rose Witch",
+    "sex":"Femal", 
+    "birthday":"9 June", 
+    "region":"Mondstadt",
+    "rarity":"⭐⭐⭐⭐", 
+    "element":"Electro",
+    "weapon":"Catalyst", 
+    "howtoobtain":"Wishes", 
+    "description":"The languid but knowledgeable Librarian of the Knights of Favonius who was deemed by Sumeru Academia to be their most distinguised graduate in the past two centuries.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Lisa.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20191009/2019100915122465321.png",
+    "introgif":"https://media.giphy.com/media/8ND5bCyOFyyr0kt9m1/giphy.gif",
+    "normalattack":{
+        "name":"Lightning Touch",
+        "description":"Perform up to four Electro DMG attacks. When charged, deals AoE Electro DMG after a short casting time.",
+        "gif":"https://media.giphy.com/media/V7VhMHklXJfOrSPoHn/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Violet Arc",
+        "description":"Releases a homing Lightning Orb that deals Electro DMG. If held, calls down lightning from heavens to inflict Electro DMG and Shocks enemies.",
+        "gif":"https://media.giphy.com/media/Dg33tCtMWocvaqUh04/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Lightning Rose",
+        "description":"Continuously strikes enemies with Electro DMG for short amount of time.",
+        "gif":"https://media.giphy.com/media/uYdO0AoEsGc614oPHu/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"General Pharmaceutics",
+        "description":"When Lisa crafts a potion, there's a 20% chance portion of the crafting materials used will be refunded."
+    },
+    "passivetalent2":{
+        "name":"Induced Aftershock",
+        "description":"When Lisa hits enemies with charged Attacks, they become Shocked."
+    },
+    "passivetalent3":{
+        "name":"Static Electricity Field",
+        "description":"Enemies hit by Lightning Rose have DEF decreased by 15% for 10s."
+    },
+    "constellations":{
+        "c1":"Infinite Circuit",
+        "d1":"Lisa recovers 2 Energy for every opponent hit while holding Violet Arc. \n A maximum of 10 Energy can be regenerated in this manner at any one time.",
+        "c2":"Electromagnetic Field",
+        "d2":"Holding Violet Arc has the following effects: \n1) Increases DEF by 25%.\n2) Increases Lisa's resistance to interruption.",
+        "c3":"Resonant Thunder",
+        "d3":"Increases the Level of Lightning Rose by 3.\n Maximum upgrade level is 15.",
+        "c4":"Plasma Eruption",
+        "d4":"Increases the number of lightning bolts released by Lightning Rose by 1-3.",
+        "c5":"Electrocute",
+        "d5":"Increase the Level of Violet Arc by 3.\n Maximum upgrade level is 15.",
+        "c6":"Pulsating Witch",
+        "d6":"When Lisa takes the field, she applies 3 stacks of Violet Arc's Conductive status onto nearby enemies. \n This effect can only occur once every 5s."
+    },
+    "voiceactor":{
+        "chinese":"Ke Zhong (钟可)",
+        "japanese":"Rie Tanaka (田中 理恵)",
+        "korean":"Park GoWoon (박고운)"
+    },
+    "profile":{
+        "description":"The librarian of the Knights of Favonius. In addition to her elegance and charm, Lisa is also highly educated.\nShe is said to have been the most talented sorceress to study at the Sumeru Academia in the last two centuries. \nIt is known that Lisa chose to return to Mondstadt after two years of advanced study in Sumeru, but the reason for the decision is not. \nLisa currently serves as a librarian in the Knights of Favonius.\nLisa seems to be very flirtatious and charming, often referring to those around her as “cuties” as well as on rare occasions \"honey\". ",
+        "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=2"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/lisa.PNG"
+}

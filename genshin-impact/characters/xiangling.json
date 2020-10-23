@@ -1,0 +1,66 @@
+{
+    "name":"Xiangling",
+    "title":"Chef de Cuisine",
+    "sex":"Female", 
+    "birthday":"2 November", 
+    "region":"Liyue",
+    "rarity":"⭐⭐⭐⭐", 
+    "element":"Pyro",
+    "weapon":"Polearm", 
+    "howtoobtain":"Wishes", 
+    "description":"A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Xiangling.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200316/2020031618224235129.png",
+    "introgif":"https://media.giphy.com/media/wqrclTIUvOEVvon8vw/giphy.gif",
+    "normalattack":{
+        "name":"Dough-Fu",
+        "description":"Perform up to five consecutive spear strikes. When charged, she lunges forward and deals damage to enemies.",
+        "gif":"https://media.giphy.com/media/8OkTPGLT0oP8Z5Dx9t/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Guoba Attack",
+        "description":"Summons Guoba the Panda to breathe fire and deal AoE Pyro DMG.",
+        "gif":"https://media.giphy.com/media/TdVzeAfM38vJYCPnoy/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Pyronado",
+        "description":"Creates a flaming tornado that causes Pyro DMG.",
+        "gif":"https://media.giphy.com/media/uJGdZHHtcnLDFItut0/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Chef de Cuisine",
+        "description":"There's a 12% chance of getting two food items when achieving Perfect Cooking on ATK-boosting recipes."
+    },
+    "passivetalent2":{
+        "name":"Crossfire",
+        "description":"Increases Guoba's flame range by 20%."
+    },
+    "passivetalent3":{
+        "name":"Beware, ITs Super Hot!",
+        "description":"When Guoba finishes attacking, it leaves a chili pepper behind. Picking this up increases ATK by 10% for 10s."
+    },
+    "constellations":{
+        "c1":"Crispy Outside, Tender Inside",
+        "d1":"Enemies hit by Guoba's attacks have their Pyro RES reduced by 15% for 6s.",
+        "c2":"Oil Meets Fire",
+        "d2":"The last attack in a Normal Attack sequence applies the Implode status onto the enemy for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as AoE Pyro DMG.",
+        "c3":"Deepfry",
+        "d3":"Increases the Level of Pyronado by 3.\nMaximum upgrade level is 15.",
+        "c4":"Slowbake",
+        "d4":"Pyronado's duration is increased by 40%.",
+        "c5":"Guoba Mad",
+        "d5":"Increase the Level of Guoba Attack by 3.\n Maximum upgrade level is 15.",
+        "c6":"Condensed Pyronado",
+        "d6":"For the duration of Pyronado, all party members receive a 15% Pyro DMG Bonus."
+    },
+    "voiceactor":{
+        "chinese":"Li Jiang (蒋丽)",
+        "japanese":"Ari Ozawa (小澤亜李)",
+        "korean":"Yoon Ah-yeong (윤아영)"
+    },
+    "profile":{
+        "description":"The Head Chef at the Wanmin Restaurant and also a waitress there, Xiangling is extremely passionate about cooking and excels at her signature hot and spicy dishes. Though still young, Xiangling is a true master of the culinary arts with all the skills of a kitchen veteran. She enjoys a good reputation among the hearty eaters at Chihu Rock. There's absolutely no need to be nervous if she wants you to sample her latest creation. It will not disappoint. Promise.",
+        "link":"https://genshin.mihoyo.com/en/character/liyue?char=3"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/xiangling.PNG"
+}

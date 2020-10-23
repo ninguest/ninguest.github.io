@@ -1,0 +1,66 @@
+{
+    "name":"Xingqiu",
+    "title":"Guhua Guru of Feiyun Fame",
+    "sex":"Male", 
+    "birthday":"9 October", 
+    "region":"Liyue",
+    "rarity":"⭐⭐⭐⭐", 
+    "element":"Hydro",
+    "weapon":"Sword", 
+    "howtoobtain":"Wishes", 
+    "description":"A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Xingqiu.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200324/2020032418063418099.png",
+    "introgif":"https://media.giphy.com/media/4fF32eLF1clVsbEkrF/giphy.gif",
+    "normalattack":{
+        "name":"Guhua Style",
+        "description":"Performs up to five rapid strikes. When charged, unleases two rapid sword strikes.",
+        "gif":"https://media.giphy.com/media/jCjWYwnk5XBaiOP2su/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Guhua Sword - Fatal Rainscreen",
+        "description":"Deals Hydro DMG using twin strikes and creates Rain Swords that circle Xingqiu. This increases his interruption resistance. If he takes DMG, the Rain Swords shatter.",
+        "gif":"https://media.giphy.com/media/kfol2NG3L0mYqgsZ1D/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Gugua Sword - Raincutter",
+        "description":"Creates Rainbow Bladework, which summons sword illusions and makes Normal Attacks do Hyro DMG.",
+        "gif":"https://media.giphy.com/media/kdN4w2I28OragNiCPr/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Flash of Genius",
+        "description":"When Xinhqiu crafts Character Talent Materials, there's a 20% chance that a portion of crafting materials used will be refunded."
+    },
+    "passivetalent2":{
+        "name":"Hydropathic",
+        "description":"If a Rain Sword gets shattered or the time limit runs out, the current character's HP regenerates 6% of Xingqiu's Max HP."
+    },
+    "passivetalent3":{
+        "name":"Blades Amidst Raindrops",
+        "description":"He gains a 20% Hydro DMG Bonus."
+    },
+    "constellations":{
+        "c1":"The Scent Remained",
+        "d1":"Increases the maximum number of Rain Swords by 1.",
+        "c2":"Rainbow Upon the Azure Sky",
+        "d2":"Extends the duration of Guhua Sword - Raincutter by 3s.\n Decreases the Hydro RES of enemies hit by sword rain attacks by 15% for 4s. ",
+        "c3":"Weaver of Verses",
+        "d3":"Increases the Level of Guhua Sword - Raincutter by 3.\n Maximum upgrade level is 15.",
+        "c4":"Evilsoother",
+        "d4":"Throughout the duration of Guhua Sword: Raincutter, the DMG dealt by Guhua Sword: Fatal Rainscreen is increased by 50%.",
+        "c5":"Embrace of Rain",
+        "d5":"Increase the Level of Guhua Sword - Fatal Rainscreen by 3.\n Maximum upgrade level is 15.",
+        "c6":"Hence, Call Them My Own Verses",
+        "d6":"Activating 2 of Guhua Sword - Raincutter's sword rain attacks greatly increases the DMG of the third. Xingqiu regenerates 3 Energy when sword rain attacks hit enemies."
+    },
+    "voiceactor":{
+        "chinese":"Yajing Tang (唐雅菁)",
+        "japanese":"Junko Minagawa (皆川 純子)",
+        "korean":"Kwak Kyumi (곽규미)"
+    },
+    "profile":{
+        "description":"The second son of the Feiyun Commerce Guild, Xingqiu has had a reputation for being studious and polite ever since he was a young child. But there is another side to the mild-mannered Xingqiu everyone knows. A daring, adventurous and much more mischievous side...",
+        "link":"https://genshin.mihoyo.com/en/character/liyue?char=4"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/xingqiu.PNG"
+}

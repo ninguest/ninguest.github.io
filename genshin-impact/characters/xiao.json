@@ -1,0 +1,66 @@
+{
+    "name":"Xiao",
+    "title":"Nuo Dance of Evil Conquering",
+    "sex":"Male", 
+    "birthday":"17 April", 
+    "region":"Liyue",
+    "rarity":"⭐⭐⭐⭐⭐", 
+    "element":"Anemo",
+    "weapon":"Polearm", 
+    "howtoobtain":"Wishes", 
+    "description":"A yaksha adeptus that defends Liyue. Also heralded as the \"Conqueror of Demons\" or \"Vigilant Yaksha.\"",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Xiao.pnghttps://rerollcdn.com/GENSHIN/Characters/Xiao.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200220/2020022013243158838.png",
+    "introgif":"https://media.giphy.com/media/e63Rq08dr5CZrbjDvY/giphy.gif",
+    "normalattack":{
+        "name":"Whirlwind Thrust",
+        "description":"Performs up to six rapid strikes. When charged, dives to the ground and causes damage relative to falling height.",
+        "gif":"https://media.giphy.com/media/ToI97Ep7uo6hxHh44i/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Lemniscatic Wind Cycling",
+        "description":"Lunges forward dealing Anemo DMG to enemies.",
+        "gif":"https://media.giphy.com/media/KC8sajnyjEBuO1Y0xL/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Band of All Evil",
+        "description":"Increases Xiao's DMG and attack range while also letting him jump higher. This form drains his health.",
+        "gif":"https://media.giphy.com/media/TkG0qvP4BehmG8FbXz/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Transcension - Gravity Defier",
+        "description":"The party's falling DMG decreases by 30%."
+    },
+    "passivetalent2":{
+        "name":"Evil Conqueror - Tamer of Demons",
+        "description":"Xiao's DMG increases by 5% after starting Bane of All Evil and continues to increase by 5% every 3s with a max increase of 25%."
+    },
+    "passivetalent3":{
+        "name":"Dissolution Eon - Heaven Fall",
+        "description":"Increases Lemniscatic Wind Cycling's DMG by 10% for 6s when used sequentially up to three times."
+    },
+    "constellations":{
+        "c1":"Dissolution Eon - Destroyer of Worlds",
+        "d1":"Increases Lemniscatic Wind Cycling's charges by 1.",
+        "c2":"Annihilation Eon - Blossom of Kaleidos",
+        "d2":"When in party but not the currently active character, Xiao's Energy Recharge is increased by 25%.",
+        "c3":"Evil Conqueror - Wrath Deity",
+        "d3":"Increases the Level of Lemniscatic Wind Cycling by 3.\n Maximum upgrade level is 15.",
+        "c4":"Transcension - Extinction of Suffering",
+        "d4":"When Xiao's HP falls below 50%, gains a 100% DEF Bonus.",
+        "c5":"Evolution Eon - Origin of Ignorance",
+        "d5":"Increase the Level of Bane of All Evil by 3.\n Maximum upgrade level is 15.",
+        "c6":"Evil Conqueror - Vigilant Yaksha",
+        "d6":"During Bane of All Evil, hitting 2 or more enemies with a Charged Attack grants Lemniscatic Wind Cycling 1 additional charge and reduces Lemniscatic Wind Cycling's CD by 1s."
+    },
+    "voiceactor":{
+        "chinese":"Jinchuan (金船)",
+        "japanese":"Yoshitsugu Matsuoka (松岡 禎丞)",
+        "korean":"Jeong Yoo-Mi (정유미)"
+    },
+    "profile":{
+        "description":"One of the \"Mighty and Illuminated Adepti\" guarding Liyue, also heralded as the \"Guardian yaksha.\" Despite his appearance as a young man, occasional legends about him have been documented in ancient books for thousands of years. He is especially fond of Wangshu Inn's Almond Tofu. The reason is that the dish tastes just like the \"dreams\" he used to devour.",
+        "link":"https://genshin.mihoyo.com/en/character/liyue?char=0"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/xiao.PNG"
+}

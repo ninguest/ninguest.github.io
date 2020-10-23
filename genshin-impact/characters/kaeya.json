@@ -1,0 +1,66 @@
+{
+    "name":"Kaeya",
+    "title":"Cavalry Captain",
+    "sex":"Male", 
+    "birthday":"30 November", 
+    "region":"Mondstadt",
+    "rarity":"⭐⭐⭐⭐", 
+    "element":"Cryo",
+    "weapon":"Sword", 
+    "howtoobtain":"Wishes", 
+    "description":"A thinker in the Knights of Favonius with a somewhat exotic appearance.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Kaeya.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20191009/2019100910335338023.png",
+    "introgif":"https://media.giphy.com/media/ZzimecenklEkW9rewh/giphy.gif",
+    "normalattack":{
+        "name":"Ceremonial Bladework",
+        "description":"Perform up to five rapid strikes. When charged, unleashes two rapid sword strikes.",
+        "gif":"https://media.giphy.com/media/7ke9MxqLY16EXtG72o/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Frostgnaw",
+        "description":"Shoots ice directly in front of him inflicting Cryo DMG.",
+        "gif":"https://media.giphy.com/media/nm4pWPnua1708xeIa6/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Glacial Waltz",
+        "description":"Three icicles whirl around Kaeya and inflict Cryo DMG.",
+        "gif":"https://media.giphy.com/media/epnTLr12pktKecZDH7/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Hidden Strength",
+        "description":"The party's Sprinting Stamina Consumption decreases by 20%."
+    },
+    "passivetalent2":{
+        "name":"Cold-Blooded Strike",
+        "description":"Every hit with Frostgnaw regenerates Kaeya's HP equal to 15% of his ATK."
+    },
+    "passivetalent3":{
+        "name":"Heart of the Abyss",
+        "description":"Any enemies frozen by Frostgnaw will drop additional Elemental Particles. Frostgnaw can only produce two additional Elemental Particles per use."
+    },
+    "constellations":{
+        "c2":"Never-Ending Performance",
+        "d2":"Every time Glacial Waltz defeats an enemy, its duration is increased by 2.5s, up to a maximum of 15s.",
+        "c3":"Dance of Frost",
+        "d3":"Increases the Level of Frostgnaw by 3.\n Maximum upgrade level is 15.",
+        "c4":"Frozen Kiss",
+        "d4":"Triggers automatically when Kaeya's HP falls below 20%: \n Creates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s. \n This shield absorbs Cryo DMG with 250% efficiency. \n Can only occur once every 60s.",
+        "c1":"Excellent Blood",
+        "d1":"The CRIT Rate of Normal Attack and Charged Attack DMG against enemies affected by the Cold or Frozen status effects is increased by 15%.",
+        "c5":"Frostbiting Embrace",
+        "d5":"Increase the Level of Glacial Waltz by 3.\n Maximum upgrade level is 15.",
+        "c6":"Glacial Whirlwind",
+        "d6":"Glacial Waltz will generate 1 additional icicle, and will regenerate 15 Energy when cast."
+    },
+    "voiceactor":{
+        "chinese":"Ye Sun (孙晔)",
+        "japanese":"Kōsuke Toriumi (鳥海 浩輔)",
+        "korean":"Jeong JuWon (정주원)"
+    },
+    "profile":{
+        "description":"Kaeya is an adopted son to the Ragnvindr Family, the renowned tycoon in the winery business. It has been a long time since he last called Diluc Ragnvindr \"brother\". Kaeya currently serves as the Cavalry Captain of the Knights of Favonius, trusted by Jean. Kaeya is often the one cleaning or wrapping things up in every incident that occurred in the vicinity of Mondstadt.\nKaeya is a confident and charming individual with a flair for the dramatic and is sometimes seen as overly laid-back. He seems to get a kick out of telling bold-faced lies, but this tendency becomes a talent when it comes to his role as the brains of the Knights of Favonius. ",
+        "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=3"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/kaeya.PNG"
+}

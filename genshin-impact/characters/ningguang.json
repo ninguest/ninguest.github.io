@@ -1,0 +1,66 @@
+{
+    "name":"Ningguang",
+    "title":"Lady of the Jade Chamber",
+    "sex":"Female", 
+    "birthday":"26 August", 
+    "region":"Liyue",
+    "rarity":"⭐⭐⭐⭐", 
+    "element":"Geo",
+    "weapon":"Catalyst", 
+    "howtoobtain":"Wishes", 
+    "description":"The Tianquan of Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Ningguang.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200305/2020030519413867244.png",
+    "introgif":"https://media.giphy.com/media/hA7TvJSzsyEv9DYzlH/giphy.gif",
+    "normalattack":{
+        "name":"Sparkling Scatter",
+        "description":"Shoot gems to deal Geo DMG. Whenever they land 1 Star Jade floats around Ningguang. If she does a charged attack while multiple Star Jade are floating around her they deal a large amount of Geo DMG.",
+        "gif":"https://media.giphy.com/media/xZ0u6zcJyYNKz1th7D/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Jade Screen",
+        "description":"Creates a Jade Screen that deals AoE Geo DMG and blocks enemy projectiles.",
+        "gif":"https://media.giphy.com/media/7s0qFyQwVYtCpaE1WQ/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Starshatter",
+        "description":"Launches rock projectiles at enemies and deals massive Geo DMG.",
+        "gif":"https://media.giphy.com/media/x1PcVauBIIB0LfYkFG/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Trove of Marvelous Treasure",
+        "description":"Displays Ore on the mini-map"
+    },
+    "passivetalent2":{
+        "name":"Backup Plan",
+        "description":"When she has Star Jades, her Charged Attack does not consume Stamina."
+    },
+    "passivetalent3":{
+        "name":"Strategic Reserve",
+        "description":"Characters that pass through the Jade Screen gain 12% Geo DMG Bonus for 10s."
+    },
+    "constellations":{
+        "c1":"Piercing Fragments",
+        "d1":"When a Normal Attack hits, it deals AoE DMG.",
+        "c2":"Shock Effect",
+        "d2":"When Jade Screen is shattered, its CD will reset. \n Can occur once every 6s.",
+        "c3":"Majesty be the Array of Stars",
+        "d3":"Increases the Level of Starshatter by 3.\n Maximum upgrade level is 15.",
+        "c4":"Exquisite be the Jade, Outshining All the Beneath",
+        "d4":"Jade Screen increases nearby characters' Elemental RES by 10%.",
+        "c5":"Invincible be the Jade Screen",
+        "d5":"Increase the Level of Jade Screen by 3.\n Maximum upgrade level is 15.",
+        "c6":"Grandeur be the Seven Stars",
+        "d6":"When Starshatter is used, Ningguang gains 7 Star Jades."
+    },
+    "voiceactor":{
+        "chinese":"Mingya Du (杜冥鸦)",
+        "japanese":"Sayaka Ohara (大原 さやか)",
+        "korean":"Kwak Kyumi (곽규미)"
+    },
+    "profile":{
+        "description":"Owner of the Jade Chamber in the skies above Liyue, there are stories abound about Ningguang, with her elegance and mysterious smile. As a Tianquan of the Liyue Qixing, not only does she embody law and order, she also represents fortune and wit.",
+        "link":"https://genshin.mihoyo.com/en/character/liyue?char=2"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/ningguang.PNG"
+}

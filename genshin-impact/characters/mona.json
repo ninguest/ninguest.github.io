@@ -1,0 +1,66 @@
+{
+    "name":"Mona",
+    "title":"Enigmatic Astrologer",
+    "sex":"Female", 
+    "birthday":"31 August", 
+    "region":"Mondstadt",
+    "rarity":"⭐⭐⭐⭐⭐", 
+    "element":"Hydro",
+    "weapon":"Catalyst", 
+    "howtoobtain":"Wishes", 
+    "description":"A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title.",
+    "thumbnailurl":"https://rerollcdn.com/GENSHIN/Characters/Mona.png",
+    "mihoyoimageurl":"https://uploadstatic-sea.mihoyo.com/contentweb/20200828/2020082817270842074.png",
+    "introgif":"https://media.giphy.com/media/z7Gu0HcoF2E6OuY8zD/giphy.gif",
+    "normalattack":{
+        "name":"Ripple of Fate",
+        "description":"Performs up to five water splashes that deal Hydro DMG. When charged, deals AoE Hydro DMG after a short casting time.",
+        "gif":"https://media.giphy.com/media/EgblqZiFJ7izwFeOOE/giphy.gif"
+    },
+    "elementalskill":{
+        "name":"Reflection of Doom",
+        "description":"Creates a watery Phantom that distracts enemies, deals Hydro DMG, and then explodes dealing AoE Hyrdo DMG.",
+        "gif":"https://media.giphy.com/media/MpEnoNliT0hQoJarKA/giphy.gif"
+    },
+    "elementalburst":{
+        "name":"Stellaris Phantasm",
+        "description":"Creates Illusory Bubble, which traps enemies and deals Hydro DMG.",
+        "gif":"https://media.giphy.com/media/2CllAXU2Yla1k8NPrJ/giphy.gif"
+    },
+    "passivetalent1":{
+        "name":"Principium of Astrology",
+        "description":"When Mona crafts Weapon Ascension Materials there's a 20% chance a portion of the crafting materials will be refunded."
+    },
+    "passivetalent2":{
+        "name":"Come 'n' Gem Me, Hag!",
+        "description":"After using Illusory Torrent for 2s, Mona will automatically create a Phantom that will last for 2s and create an explosion with DMG equal to 50% of Mirror Reflection of Doom."
+    },
+    "passivetalent3":{
+        "name":"Waterbourne Destiny",
+        "description":"Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of her Energy Recharge rate."
+    },
+    "constellations":{
+        "d1":"The effects of Hydro-related Elemental Reactions are enhanced for 8s after a character hits an enemy affected by an Omen: \n1) Electro-Charged DMG is increased by 15%.\n2) Vaporize DMG is increased by 15%.\n3) Hydro Swirl DMG is increased by 15%.\n 4) The duration for which enemies are Frozen is increased by 15%.",
+        "c1":"Prophecy of Submersion",
+        "c2":"Lunar Chain",
+        "d2":"When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. \n This effect can only occur once every 5s.",
+        "c3":"Restless Revolution",
+        "d3":"Increases the Level of Stellaris Phantasm by 3.\n Maximum upgrade level is 15.",
+        "c4":"Prophecy of Oblivion",
+        "d4":"When a character attacks an enemy affected by the Omen status effect, their CRIT Rate is increased by 15%.",
+        "c5":"Mockery of Fortuna",
+        "d5":"Increase the Level of Mirror Reflection of Doom by 3.\n Maximum upgrade level is 15.",
+        "c6":"Rhetorics of Calamitas",
+        "d6":"Upon entering Illusory Torrent, Mona gain a 60% increase to the DMG her next Charged Attack per second of movement. \n A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s."
+    },
+    "voiceactor":{
+        "chinese":"Tingting Chen (陈婷婷)",
+        "japanese":"Konomi Kohara (小原 好美)",
+        "korean":"Woo Jeong-shin (우정신)"
+    },
+    "profile":{
+        "description":"Mona is unique among astrologers — others may speak with great ostentation for money, but Mona has never done so. Nor does she dress up or mince her words, even if her results are unpleasant to hear: \"You won't amount to anything even if you join the Adventurers' Guild.\" \"You've got no chance with him. In fact, he will soon leave you\" — such is the nature of her rejoinders.\n Her blunt nature has resulted in plummeting numbers of people coming to have their fortunes told. But Mona isn't one to complain, for that just leaves her with more time for her personal research.\nBut when one speaks of research, one also speaks of the necessity of purchasing texts and research apparatus. Mona's only income comes from her contributions to The Steambird's \"All Things Astrological\" column. Every paycheck is spent first on her research. Books from Liyue, an astrolabe from Sumeru... all of these come with a hefty price tag, and by the time Mona regains her senses, there's only enough of her income left for her to scrape by each month.\n”It matters not. Astrologers must rid themselves of material desires. Only by ridding oneself of clutter can one see the true world around them.\" So says Mona, coughing loudly all the while to cover the sound of her growling stomach.\nToday, too, is another day Mona worries about Mora",
+        "link":"https://forums.mihoyo.com/genshin/article/16276"
+    },
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/mona.PNG"
+}

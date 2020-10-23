@@ -1,0 +1,11 @@
+{
+    "resource_links":{
+        "url1":"https://www.androidcentral.com/genshin-impact-character-guide-all-playable-characters#characters",
+        "url2":"https://genshin.gg/",
+        "url3":"https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki",
+        "url4":"https://genshin.mihoyo.com/"
+    },
+    "discord_resource":{
+        "discord-reaction-menu":"https://github.com/Juby210/discord.js-reaction-menu"
+    }
+}
