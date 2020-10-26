@@ -1,0 +1,533 @@
+{
+    "bow":{
+        "0":{
+            "name":"Slingshot",
+            "type":"Bow",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"CRIT Rate",
+            "passive":"**Slingshot**\n\nIf a Normal Attack or Aimed Shot hits a target within 0.3s of being fired, increases DMG by 36/42/48/54/60%; otherwise, it decreases DMG by 10%.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Slingshot.png"
+        },
+        "1":{
+            "name":"Sharpshooter's Oath",
+            "type":"Bow",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"CRIT DMG",
+            "passive":"**Precise**\n\nIncreases DMG against weak spots by 24/30/36/42/48%.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Sharpshooter's_Oath.png"
+        },
+        "2":{
+            "name":"Recurve Bow",
+            "type":"Bow",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"HP",
+            "passive":"**Cull the Weak**\n\nDefeating an opponent restores 8/10/12/14/16% HP.",
+            "location":"Chest",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Recurve_Bow.png"
+        },
+        "3":{
+            "name":"Raven Bow",
+            "type":"Bow",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"Elemental Mastery",
+            "passive":"**Bane of Flame and Water**\n\nIncreases DMG against enemies affected by Hydro or Pyro by 12/15/18/21/24%.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Raven_Bow.png"
+        },
+        "4":{
+            "name":"Messenger",
+            "type":"Bow",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"CRIT DMG",
+            "passive":"**Archer's Message**\n\nAimed Shot hits on weak spots deal an additional 100/125/150/175/200% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+            "location":"Chest",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Messenger.png"
+        },
+        "5":{
+            "name":"Ebony Bow",
+            "type":"Bow",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"ATK",
+            "passive":"**Decimate**\n\nIncreases DMG against mechanoid Ruin enemies by 40/50/60/70/80%.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Ebony_Bow.png"
+        }
+    },
+    "zhbow":{
+        "0":{
+            "name":"鸦羽弓",
+            "type":"弓",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"元素精通: 20",
+            "passive":"**踏火止水**\n\n对处于水元素或火元素影响下的敌人，造成的伤害提高(12%/15%/18%/21%/24%)。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/24150A3LY.jpg"
+        },
+        "1":{
+            "name":"黑檀弓",
+            "type":"弓",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"基础攻击力：6.5%",
+            "passive":"**摧坚 **\n\n对遗迹机关类敌人：造成的伤害提高(40%/50%/60%/70%)。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/24112031E45.jpg"
+        },
+        "2":{
+            "name":"信使",
+            "type":"弓",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"暴击伤害：6.8",
+            "passive":"**飞矢传书 **\n\n瞄准射击时，若命中要害，则额外造成(100%/125%/150%/175%/200%)攻击力的伤害，该伤害必定暴击。此效果每10秒只能触发一次。 ",
+            "location":"地图探索开启宝箱获得",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/24110REC1.jpg"
+        },
+        "3":{
+            "name":"弹弓",
+            "type":"弓",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"暴击率：6.8%",
+            "passive":"**弹弓 **\n\n普通攻击和瞄准射击时，箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加(36%/42%/48%/54%/60%)；否则，造成的伤害下降10%。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/101I11I0G.jpg"
+        },
+        "4":{
+            "name":"反曲弓",
+            "type":"弓",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"基础生命值：10.2%",
+            "passive":"**收割**\n\n打倒敌人时，恢复(8%/10%/12%/14%/16%)生命值。 ",
+            "location":"地图探索获得",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/101619351128.jpg"
+        }
+
+    },
+    "sword":{
+        "0":{
+            "name":"Traveler's Handy Sword",
+            "type":"Sword",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"DEF",
+            "passive":"**Journey**\n\nEach Elemental Orb or Particle collected restores 1/1.25/1.5/1.75/2% HP.",
+            "location":"Chest",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Traveler's_Handy_Sword.png"
+        },
+        "1":{
+            "name":"Skyrider Sword",
+            "type":"Sword",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"Energy Recharge",
+            "passive":"**Determination**\n\nUsing an Elemental Burst grants a 12/15/18/21/24% increase in ATK and Movement SPD for 12s.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Skyrider_Sword.png"
+        },
+        "2":{
+            "name":"Harbinger of Dawn",
+            "type":"Sword",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"CRIT DMG",
+            "passive":"**Vigorous**\n\nWhen HP is above 90%, increases CRIT Rate by 14/18/22/24/28%.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Harbinger_of_Dawn.png"
+        },
+        "3":{
+            "name":"Fillet Blade",
+            "type":"Sword",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"ATK",
+            "passive":"**Gash**\n\nOn hit, has 50% chance to deal 240/280/320/360/400% ATK DMG to a single enemy. Can only occur once every 15/14/13/12/11s.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Fillet_Blade.png"
+        },
+        "4":{
+            "name":"Dark Iron Sword",
+            "type":"Sword",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"Elemental Mastery",
+            "passive":"**Overloaded**\n\nUpon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, increases Base ATK by 20/25/30/35/40% for 12s.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Dark_Iron_Sword.png"
+        },
+        "5":{
+            "name":"Cool Steel",
+            "type":"Sword",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"ATK",
+            "passive":"**Bane of Water and Ice**\n\nIncreases DMG against enemies affected by Hydro or Cryo by 12/15/18/21/24%.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Cool_Steel.png"
+        }
+    },
+    "zhsword":{
+        "0":{
+            "name":"黎明神剑",
+            "type":"单手剑",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"暴击伤害：10.2%",
+            "passive":"**激励 **\n\n生命值高于90%时，暴击率提升(14%/17.5%/21%/24.5%/28%)。 ",
+            "location":"祈愿获得、海盗秘宝任务之孔雀羽之章凯亚赠送",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/141633461X1.jpg"
+        },
+        "1":{
+            "name":"冷刃",
+            "type":"单手剑",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"基础攻击力：7.7%",
+            "passive":"**止水融冰 **\n\n对处于水元素或冰元素影响下的敌人，造成的伤害提高(12%/15%/18%/21%/24%)。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/141600413593.jpg"
+        },
+        "2":{
+            "name":"飞天御剑",
+            "type":"单手剑",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"元素充能效率：11.3",
+            "passive":"**决心**\n\n施放元素爆发后，提高(12%/15%/18%/21%/24%)攻击力和移动速度，持续15秒。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/0919364HB0.jpg"
+        },
+        "3":{
+            "name":"旅行剑",
+            "type":"单手剑",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"基础防御力：6.4%",
+            "passive":"**旅程**\n\n获得元素晶球或元素微粒时，恢复(1%/1.25%/1.5%/1.75%/2%)生命值。 ",
+            "location":"地图探索、剑琢封印、蒙德教堂顶部、轻策庄地下遗迹获取",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/0919203R239.jpg"
+        },
+        "4":{
+            "name":"吃鱼虎刀",
+            "type":"单手剑",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"基础攻击力：7.7%",
+            "passive":"**划开**\n\n攻击命中时，有50%的概率对单个敌人造成(240%/280%/320%/360%/400%)攻击力的伤害。该效果每(15/14/13/12/11)秒只能触发一次",
+            "location":"地图探索开启宝箱获得",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/091ZFM2I.jpg"
+        }
+    },
+    "polearm":{
+        "0":{
+            "name":"White Tassel",
+            "type":"Polearm",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"CRIT Rate",
+            "passive":"**Sharp**\n\nIncreases Normal Attack DMG by 24/30/36/42/48%.",
+            "location":"Chest",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/White_Tassel.png"
+        },
+        "1":{
+            "name":"Halberd",
+            "type":"Polearm",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"ATK",
+            "passive":"**Heavy**\n\nNormal Attacks deal an additional 160/200/240/280/320% DMG. Can only occur once every 10s.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Halberd.png"
+        },
+        "2":{
+            "name":"Black Tassel",
+            "type":"Polearm",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"HP",
+            "passive":"**Bane of the Soft**\n\nIncreases DMG against slimes by 40/50/60/70/80%.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Black_Tassel.png"
+        }
+    },
+    "zhpolearm":{
+        "0":{
+            "name":"白缨枪",
+            "type":"长柄武器",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"暴击率：5.1",
+            "passive":"**锐利 **\n\n普通攻击造成的伤害提升(24%/30%/36%/42%/48%)。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/26160PN3V.jpg"
+        },
+        "1":{
+            "name":"黑缨枪",
+            "type":"长柄武器",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"基础生命值：10.2%",
+            "passive":"**克柔**\n\n对史莱姆类敌人造成的伤害增加(40%/50%/60%/70%/80%)。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/12145ZA493.jpg"
+        },
+        "2":{
+            "name":"钺矛",
+            "type":"长柄武器",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"攻击力：5.1%",
+            "passive":"**沉重**\n\n对普通攻击命中的敌人造成(160%/200%/240%/280%/320%)攻击力的额外伤害。该效果每10秒只能触发一次。 ",
+            "location":"地图探索开启宝箱获得",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/12144J3RJ.jpg"
+        }
+    },
+    "claymore":{
+        "0":{
+            "name":"Bloodtainted Greatsword",
+            "type":"Claymore",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"Elemental Mastery",
+            "passive":"**Bane of Fire and Thunder**\n\nIncreases DMG against enemies affected by Pyro or Electro by 12/15/18/21/24%.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Bloodtainted_Greatsword.png"
+        },
+        "1":{
+            "name":"Debate Club",
+            "type":"Claymore",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"ATK",
+            "passive":"**Blunt Conclusion**\n\nAfter using an Elemental Skill, Normal or Charged Attacks, on hit, deal an additional 60/75/90/105/120% ATK DMG in a small area. Effect lasts 15s. DMG can only occur once every 3s.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Debate_Club.png"
+        },
+        "2":{
+            "name":"Ferrous Shadow",
+            "type":"Claymore",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"HP",
+            "passive":"**Unbending**\n\nWhen HP falls below 70/75/80/85/90%, increases Charged Attack DMG by 30/35/40/45/50%, and Charged Attacks become much harder to interrupt.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Ferrous_Shadow.png"
+        },
+        "3":{
+            "name":"Quartz",
+            "type":"Claymore",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"Elemental Mastery",
+            "passive":"**Residual Heat**\n\nUpon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 20/25/30/35/40% for 12s.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Quartz.png"
+        },
+        "4":{
+            "name":"Skyrider Greatsword",
+            "type":"Claymore",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"Physical DMG Bonus",
+            "passive":"**Courage**\n\nOn hit, Normal or Charged Attacks increase ATK by 6/7/8/9/10% for 6s. Max 4 stacks. Can only occur once every 0.5s.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Skyrider_Greatsword.png"
+        },
+        "5":{
+            "name":"White Iron Greatsword",
+            "type":"Claymore",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"DEF",
+            "passive":"**Cull the Weak**\n\nDefeating an opponent restores 8/10/12/14/16% HP.",
+            "location":"Gacha",
+            "imgurl":"White Iron Greatsword"
+        }
+    },
+    "zhclaymore":{
+        "0":{
+            "name":"以理服人",
+            "type":"双手剑",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"基础攻击力：7.7%",
+            "passive":"**有话直说 **\n\n施放元素战技后，普通攻击和重击命中时会在小范围内额外造成(60%/75%/90%/105%/120%)攻击力的伤害。该效果持续15秒，伤害每3秒只能触发一次。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/1014395L951.jpg"
+        },
+        "1":{
+            "name":"石英大剑",
+            "type":"双手剑",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"元素精通：16",
+            "passive":"**余热**\n\n触发超载、融化、点燃、蒸发或火元素扩散反应后的12秒内，基础攻击力提高(20%/25%/30%/35%/40%。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/10141U244K.jpg"
+        },
+        "2":{
+            "name":"飞天大御剑",
+            "type":"双手剑",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"物理伤害加成：7.7%",
+            "passive":"**勇气 **\n\n普通攻击和重击命中时，攻击力提高(6%/7%/8%/9%/10%)，持续6秒，最多叠加4层。该效果每0.5秒只能触发一次。 ",
+            "location":"地图探索宝箱获得、孤云阁较多",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/10114632b28.jpg"
+        },
+        "3":{
+            "name":"铁影阔剑",
+            "type":"双手剑",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"基础生命值：7.7%",
+            "passive":"**不屈 **\n\n生命值低于(70%/75%/80%/85%/90%)时，重击不会轻易被打断，并提高(30%/35%/40%/45%/50%)重击伤害。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/101550261J5.jpg"
+        },
+        "4":{
+            "name":"沐浴龙血的剑",
+            "type":"双手剑",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"元素精通：41",
+            "passive":"**踏火息雷 **\n\n对处于火元素或雷元素影响下的敌人，造成的伤害提高(12%/15%/18%/21%/24%）。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/1014522cZ5.jpg"
+        }
+    },
+    "catalyst":{
+        "0":{
+            "name":"Amber Catalyst",
+            "type":"Catalyst",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"Elemental Mastery",
+            "passive":"**Elemental Mastery**\n\nNormal Attack hits increase all Elemental DMG by 6/7.5/9/10.5/12% for 6s. Max 2 stacks.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Amber_Catalyst.png"
+        },
+        "1":{
+            "name":"Emerald Orb",
+            "type":"Catalyst",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"Elemental Mastery",
+            "passive":"**Rapids**\n\nUpon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases Base ATK by 20/25/30/35/40% for 12s.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Emerald_Orb.png"
+        },
+        "2":{
+            "name":"Magic Guide",
+            "type":"Catalyst",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"Elemental Mastery",
+            "passive":"**Bane of Storm and Tide**\n\nIncreases DMG against enemies affected by Hydro or Electro by 12/15/18/21/24%.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Magic_Guide.png"
+        },
+        "3":{
+            "name":"Otherworldly Story",
+            "type":"Catalyst",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"Energy Recharge",
+            "passive":"**Energy Shower**\n\nEach Elemental Orb or Particle collected restores 1/1.25/1.5/1.75/2% HP.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Otherworldly_Story.png"
+        },
+        "4":{
+            "name":"Thrilling Tales of Dragon Slayers",
+            "type":"Catalyst",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"HP",
+            "passive":"**Legacy**\n\nWhen switching characters, the new character taking the field has their ATK increased by 24/30/36/42/48% for 10s. This effect can only occur once every 20s.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Thrilling_Tales_of_Dragon_Slayers.png"
+        },
+        "5":{
+            "name":"Twin Nephrite",
+            "type":"Catalyst",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"CRIT Rate",
+            "passive":"**Guerilla Tactic**\n\nDefeating an enemy increases Movement SPD and ATK by 12/14/16/18/20% for 15s.",
+            "location":"Gacha",
+            "imgurl":"https://rerollcdn.com/GENSHIN/Weapon/NEW/Twin_Nephrite.png"
+        }
+    },
+    "zhcatalyst":{
+        "0":{
+            "name":"讨龙英杰谭",
+            "type":"法器",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"基础生命值：10.2%",
+            "passive":"**传承**\n\n主动切换角色时，新登场的角色攻击力提升(24%/30%/36%/42%/48%)，持续10秒。该效果每20秒只能触发一次。",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/30143154GY.jpg"
+        },
+        "1":{
+            "name":"魔导绪论",
+            "type":"法器",
+            "rarity":"⭐⭐⭐",
+            "atk":"38",
+            "secondary":"元素精通：41",
+            "passive":"**止水息雷 **\n\n对处于水元素或雷元素影响下的敌人，造成的伤害提高(12%/15%/18%/21%/24%)。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/301425535W4.jpg"
+        },
+        "2":{
+            "name":"琥珀玥",
+            "type":"法器",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"元素精通：16",
+            "passive":"**元素熟练 **\n\n普通攻击命中后，获得(6%/7.5%/9%/10.5%/12%)元素伤害加成。该效果持续6秒，最多可以叠加2层。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/301419455448.jpg"
+        },
+        "3":{
+            "name":"异世界行记",
+            "type":"法器",
+            "rarity":"⭐⭐⭐",
+            "atk":"39",
+            "secondary":"元素充能效率：8.5%",
+            "passive":"**能量沐浴 **\n\n获得元素微粒或者元素晶球时，恢复(1%/1.25%/1.5%/1.75%/2%)生命值。 ",
+            "location":"地图固定宝箱开启获得",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/3013593314Z.jpg"
+        },
+        "4":{
+            "name":"翡玉法球",
+            "type":"法器",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"元素精通：20",
+            "passive":"**激流**\n\n触发蒸发、感电、冰冻或水元素扩散反应后的12秒内，基础攻击力提高（20%/25%/30%/35%/40%）。 ",
+            "location":"祈愿",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/1216295420W.jpg"
+        },
+        "5":{
+            "name":"甲级宝珏",
+            "type":"法器",
+            "rarity":"⭐⭐⭐",
+            "atk":"40",
+            "secondary":"暴击率：3.4%",
+            "passive":"**奔袭战术**\n\n打倒敌人后的15秒内，移动速度和攻击力提升(12%/14%/16%/18%/20%)。 ",
+            "location":"地图探索开启宝箱获得",
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/12153H41c9.jpg"
+        }
+    }
+}
