@@ -76,15 +76,15 @@
     "zhimg":"https://media.giphy.com/media/ZzimecenklEkW9rewh/giphy.gif" ,
     "zhnormalattack":{
         "name":"仪典剑术  ",
-        "description":"普通攻击\n进行至多五段的连续剑击。\n\n重击\n消耗一定体力，瞬间向前方挥出两剑。",
+        "description":"普通攻击\n进行至多五段的连续剑击。\n\n重击\n消耗一定体力，瞬间向前方挥出两剑。"
     },
     "zhelementalskill":{
         "name":"霜袭",
-        "description":"瞬间放出急冻的寒气，对前方的敌人造成冰元素伤害。",
+        "description":"瞬间放出急冻的寒气，对前方的敌人造成冰元素伤害。"
     },
     "zhelementalburst":{
         "name":"凛冽轮舞",
-        "description":"凝聚空气中的寒霜，召唤3枚围绕自身旋转的寒冰之棱。存在期间内，寒冰之棱会跟随角色运动，对路径上的敌人造成冰元素伤害。",
+        "description":"凝聚空气中的寒霜，召唤3枚围绕自身旋转的寒冰之棱。存在期间内，寒冰之棱会跟随角色运动，对路径上的敌人造成冰元素伤害。"
     },
     "zhpassivetalent1":{
         "name":"冷血之剑",
