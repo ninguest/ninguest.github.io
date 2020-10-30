@@ -62,5 +62,54 @@
         "description":"Owner of the Jade Chamber in the skies above Liyue, there are stories abound about Ningguang, with her elegance and mysterious smile. As a Tianquan of the Liyue Qixing, not only does she embody law and order, she also represents fortune and wit.",
         "link":"https://genshin.mihoyo.com/en/character/liyue?char=2"
     },
-    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/ningguang.PNG"
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/ningguang.PNG",
+    "zhname":"凝光",
+    "zhdescription": "「璃月七星」中的「天权」，其名下财富之多，全大陆鲜有人能望其项背 ",
+    "zhsex":"女", 
+    "zhbirthday":"8月26日 ",
+    "zhtitle":"掩月天权、天权星 ", 
+    "zhregion":"璃月港",
+    "zhelement":"岩",
+    "zhweapon":"法器", 
+    "zhhowtoobtain":"祈愿",
+    "zhimg":"https://media.giphy.com/media/hA7TvJSzsyEv9DYzlH/giphy.gif" ,
+    "zhnormalattack":{
+        "name":"千金掷",
+        "description":"普通攻击\n发射宝石，造成岩元素伤害。命中时，赋予凝光一枚星璇\n\n重击\n消耗体力，发射一颗巨型宝石，造成岩元素伤害。\n若凝光拥有星璇，施放重击时会将所有星璇一同发射，造成额外的伤害",
+    },
+    "zhelementalskill":{
+        "name":"璇玑屏",
+        "description":"借由黄金、黑曜岩与强者的余裕，构建出坚固的璇玑屏，并造成岩元素范围伤害。\n\n璇玑屏\n·阻挡敌人发射的投射物;\n·耐久度按比例继承凝光的生命值上限\n\n璇玑屏被视为岩元素创造物，可以阻挡部分攻击，不可攀爬。同时只能存在一个",
+    },
+    "zhelementalburst":{
+        "name":"天权崩玉",
+        "description":"凝光在身边凝聚诸多宝石，散之一瞬，自动索敌打击附近的敌人，造成大量岩元素伤害。施放天权崩玉时，如果附近有璇玑屏存在，璇玑屏将发射额外的宝石飞弹协同攻击。",
+    },
+    "zhpassivetalent1":{
+        "name":"星移势转",
+        "description":"拥有星璇时，凝光的重击不会消耗体力。"
+    },
+    "zhpassivetalent2":{
+        "name":"储之千日，用之一刻",
+        "description":"穿过璇玑屏的角色会获得12%岩元素伤害加成，持续10秒。"
+    },
+    "zhpassivetalent3":{
+        "name":"奇石珠宝录",
+        "description":"在小地图上显示周围的矿脉(铁矿、白铁矿、水晶矿、魔晶矿)的位置。"
+    },
+    "zhconstellations":{
+        "c1":"悬星尽散击云碎  ",
+        "d1":"普通攻击命中时会造成范围伤害。 ",
+        "c2":"璇玑合璧镇昆仑   ",
+        "d2":"璇玑屏碎裂时，会清除冷却时间。该效果每6秒只能触发一次。 ",
+        "c3":"星罗宿列天权临  ",
+        "d3":"天权崩玉的技能等级提高3级。（最高提升至15级） ",
+        "c4":"攻守易形著神机  ",
+        "d4":"璇玑屏会使周围角色的所有元素抗性提升10%。 ",
+        "c5":"琼屏千扇正天衡  ",
+        "d5":"璇玑屏的技能等级提高3级。（最高提升至15级） ",
+        "c6":"七星璨璨凝流光   ",
+        "d6":"施放天权崩玉时，会为凝光生成七枚星璇。 "
+    },
+    "zascensions":"https://ninguest.github.io/genshin-impact/characters/resource/zningguang.PNG"
 }

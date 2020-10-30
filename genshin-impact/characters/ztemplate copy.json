@@ -62,5 +62,55 @@
         "description":"",
         "link":""
     },
-    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/?.PNG"
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/?.PNG",
+
+    "zhname":"",
+    "zhdescription": "",
+    "zhsex":"女/男", 
+    "zhbirthday":"",
+    "zhtitle":"", 
+    "zhregion":"蒙德城/璃月港",
+    "zhelement":"",
+    "zhweapon":"", 
+    "zhhowtoobtain":"祈愿",
+    "zhimg":"" ,
+    "zhnormalattack":{
+        "name":"",
+        "description":"",
+    },
+    "zhelementalskill":{
+        "name":"",
+        "description":"",
+    },
+    "zhelementalburst":{
+        "name":"",
+        "description":"",
+    },
+    "zhpassivetalent1":{
+        "name":"",
+        "description":""
+    },
+    "zhpassivetalent2":{
+        "name":"",
+        "description":""
+    },
+    "zhpassivetalent3":{
+        "name":"",
+        "description":""
+    },
+    "zhconstellations":{
+        "c1":"",
+        "d1":"",
+        "c2":"",
+        "d2":"",
+        "c3":"",
+        "d3":"",
+        "c4":"",
+        "d4":"",
+        "c5":"",
+        "d5":"",
+        "c6":"",
+        "d6":""
+    },
+    "zascensions":"https://ninguest.github.io/genshin-impact/characters/resource/z?.PNG"
 }

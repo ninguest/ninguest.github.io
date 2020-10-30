@@ -62,5 +62,55 @@
         "description":"Barbara is the Deaconess of the Favonius Church, as well as the shining idol of Mondstadt.\n\"The sight of Barbara makes all my problems disappear\". This is quite a common saying among the denizens of Mondstadt.\nIn fact, Barbara can do much more than just put people in a better mood: Her healing powers extend to flesh wounds and other physical ailments. Barbara is known to have access to miraculous healing powers through her Hydro Vision.\nHowever, Barbara herself knows that the most miraculous magic of all is hard work.",
         "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=4"
     },
-    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/barbara.PNG"
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/barbara.PNG",
+
+    "zhname":"芭芭拉",
+    "zhdescription": "蒙德城的大家都喜欢芭芭拉。芭芭拉是西风教会的祈礼牧师，同时也是蒙德城的闪耀偶像。",
+    "zhsex":"女", 
+    "zhtitle":"闪耀偶像",
+    "zhbirthday":"7月5日", 
+    "zhregion":"蒙德城",
+    "zhelement":"水",
+    "zhweapon":"法器", 
+    "zhhowtoobtain":"祈愿",
+    "zhimg":"http://i-0123366.zyfei.top/uploads/bd_img/200924/12996_2_1600928493AteK.gif" ,
+    "zhnormalattack":{
+        "name":"水之浅唱",
+        "description":"普通攻击：进行至多四段的水花攻击，造成水元素伤害。\n重击：消耗一定体力，短暂咏唱后，对前方所有敌人造成水元素范围伤害。",
+    },
+    "zhelementalskill":{
+        "name":"演唱，开始♪",
+        "description":"唤出歌声般跃动的水珠，形成歌声之环，对周围的敌人造成水元素伤害，并施加潮湿状态。\n\n歌声之环\n芭芭拉的普通攻击命中时，为队伍中自己的角色，以及附近的友方角色恢复生命值，回复量受益于芭芭拉的生命值上限; 重击命中时，能产生4倍回复量; 每隔一段时间，为当前场上自己的角色恢复生命值;对角色与触及的敌人施加潮湿状态。芭芭拉的音乐就是治疗大家的魔法。",
+    },
+    "zhelementalburst":{
+        "name":"闪耀奇迹",
+        "description":"治愈大家的心就是芭芭拉战斗与歌唱的力量。基于芭芭拉的生命值上限，为队伍中所有角色恢复大量生命值。",
+    },
+    "zhpassivetalent3":{
+        "name":"心意注入",
+        "description":"完美烹饪恢复类食物时，有12%概率获得2倍产出。"
+    },
+    "zhpassivetalent1":{
+        "name":"光辉的季节",
+        "description":"角色在歌声之环状态下时，体力消耗降低12％。"
+    },
+    "zhpassivetalent2":{
+        "name":"安可",
+        "description":"获得元素晶球或元素微粒时，延长演唱，开始小的持续时间秒。至多延长5秒。。"
+    },
+    "zhconstellations":{
+        "c1":"彩色歌谣",
+        "d1":"芭芭拉每10秒会恢复1点元素能量。",
+        "c2":"元气迸发",
+        "d2":"「演唱，开始♪」的冷却时间降低15%；  技能持续期间，当前场上自己的角色获得15%水元素伤害加成。",
+        "c3":"明日之星",
+        "d3":"【闪耀奇迹】的技能等级提高3级。至多提升至15级。",
+        "c4":"努力即魔法",
+        "d4":"芭芭拉使用重击时，每命中一个敌人，就会为芭芭拉恢复1点元素能量。通过这种方式，一次至多回复5点元素能量。",
+        "c5":"纯真的羁绊",
+        "d5":"【演唱，开始】的技能等级提高3级。至多提升至15级。",
+        "c6":"将一切美好献给你",
+        "d6":"当芭芭拉处于队伍后台时，队伍中自己的角色倒下时，则立即：复苏该角色；将该角色生命值恢复至100%  该效果每15分钟只能触发一次。"
+    },
+    "zascensions":"https://ninguest.github.io/genshin-impact/characters/resource/zbarbara.PNG"
 }

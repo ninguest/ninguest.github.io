@@ -62,5 +62,55 @@
         "description":"Razor is a young man with long, spiky grey hair; bright red eyes; and pale skin with a scar in his left cheek. Razor has many scars, as a result of his time living in the wild with his wolf family.Razor wears green camouflage pants, an orange poncho-like shirt, dark boots, and a dark hooded coat decorated with belts. His accessories are a tooth necklace, thumbless orange gloves, and one gold earring on his left ear. ",
         "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=6"
     },
-    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/razor.PNG"
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/razor.PNG",
+
+    "zhname":"雷泽",
+    "zhdescription": "住在蒙德地区奔狼领，远离城市与人群，和狼一同生活的少年。直觉锐利，身姿 ",
+    "zhsex":"男", 
+    "zhbirthday":"9月9日",
+    "zhtitle":"奔狼领的传说 ", 
+    "zhregion":"蒙德城",
+    "zhelement":"雷",
+    "zhweapon":"双手剑", 
+    "zhhowtoobtain":"祈愿",
+    "zhimg":"https://media.giphy.com/media/xn0hSoNGZqBnv8HN8R/giphy.gif" ,
+    "zhnormalattack":{
+        "name":"钢脊",
+        "description":"普通攻击：进行至多四段的连续挥砍。\n重击：持续消耗体力旋转大剑，攻击周围的敌人。结束旋转时，会进行一次格外有力的挥斩。",
+    },
+    "zhelementalskill":{
+        "name":"利爪与苍雷",
+        "description":"用师父与他的「家人」教他的方法，来解决猎物。\n\n点按：\n若命中敌人，则会为雷泽积攒一个雷之印，提高雷泽的元素充能效率。最多同时存在3个雷之印，叠加刷新持续时间\n\n长按:\n积聚雷电力量引发小范围的雷爆，造成大量雷元素伤害，并清除已有的雷之印。每个因此被清除的雷之印，都会转为雷泽的元素能量。雷击落下的一瞬，偶尔能瞥见雷泽灵魂深处那头狼打量猎物的眼神。",
+    },
+    "zhelementalburst":{
+        "name":"雷牙",
+        "description":"唤醒无形的雷狼守护自己，对周围的敌人造成雷元素伤害，并消耗所有雷之印，为雷泽恢复元素能量。雷狼存在期间，会与雷泽共同战斗。 \n\n雷狼： 会随雷泽的普通攻击协同攻击，造成雷元素 \n伤害： \n1、提高雷泽的攻击速度、雷元素抗性; \n2、使雷泽免疫感电反应的伤害; \n3、无法施放重击; \n4、提高雷泽的抗打断能力。 效果将在雷泽退场时解除。退场时，会依据剩余的持续时间，返还至多10点元素能量。 ",
+    },
+    "zhpassivetalent1":{
+        "name":"觉醒",
+        "description":"利爪与苍雷的冷却时间降低18%.施放雷牙时，重置利爪与苍雷的冷却时间。"
+    },
+    "zhpassivetalent2":{
+        "name":"饥饿",
+        "description":"雷泽的元素能量在50%以下时，元素充能效率提高30%。"
+    },
+    "zhpassivetalent3":{
+        "name":"奔狼",
+        "description":"队伍中所有角色冲刺消耗的体力降低20%。同类天赋取最高效果。"
+    },
+    "zhconstellations":{
+        "c1":"狼性   ",
+        "d1":"雷泽获取元素晶球或元素徼粒后的8秒内，造成的伤害提高10% ",
+        "c2":"压制  ",
+        "d2":"攻击生命值低于30％的敌人时，暴击率提高10％。 ",
+        "c3":"兽魂   ",
+        "d3":"雷牙的技能等级提高3级。（最高提升至15级) ",
+        "c4":"撕咬   ",
+        "d4":"利爪与苍雷点按时，会使命中的敌人防御力降低15％，持续7秒 ",
+        "c5":"利爪   ",
+        "d5":"利爪与苍雷的技能等级提高3级。（最高提升至15级） ",
+        "c6":"天狼  ",
+        "d6":"每10秒，雷泽的大剑将自动充能，使下一次音通攻击引发落雷，造成100％攻击力的雷元素伤害。不处于雷牙状态下时，若落雷击中敌人，会为雷泽添加一层雷之印 "
+    },
+    "zascensions":"https://ninguest.github.io/genshin-impact/characters/resource/zrazor.PNG"
 }

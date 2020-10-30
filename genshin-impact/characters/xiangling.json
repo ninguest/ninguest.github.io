@@ -62,5 +62,55 @@
         "description":"The Head Chef at the Wanmin Restaurant and also a waitress there, Xiangling is extremely passionate about cooking and excels at her signature hot and spicy dishes. Though still young, Xiangling is a true master of the culinary arts with all the skills of a kitchen veteran. She enjoys a good reputation among the hearty eaters at Chihu Rock. There's absolutely no need to be nervous if she wants you to sample her latest creation. It will not disappoint. Promise.",
         "link":"https://genshin.mihoyo.com/en/character/liyue?char=3"
     },
-    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/xiangling.PNG"
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/xiangling.PNG",
+
+        "zhname":"香菱",
+    "zhdescription": "来自璃月，名声在外的少女厨师，对料理之道极具热情，拿手麻辣菜肴堪称一绝。 ",
+    "zhsex":"女", 
+    "zhbirthday":"11月2日 ",
+    "zhtitle":"万民百味", 
+    "zhregion":"璃月港",
+    "zhelement":"火",
+    "zhweapon":"长柄武器", 
+    "zhhowtoobtain":"祈愿",
+    "zhimg":"https://media.giphy.com/media/wqrclTIUvOEVvon8vw/giphy.gif" ,
+    "zhnormalattack":{
+        "name":"白案功夫",
+        "description":"普通攻击：进行至多五段的连续枪击\n重击：消耗一定体力，向前方突进，对路径上的敌人造成伤害。",
+    },
+    "zhelementalskill":{
+        "name":"锅巴出击",
+        "description":"唤出喷火的锅巴，存在期间内，不断对敌人喷火，造成火元素范围伤害。",
+    },
+    "zhelementalburst":{
+        "name":"旋火轮",
+        "description":"以控制火候与枪术的精湛技巧，甩出围绕自己快速旋转的旋火轮。存在期间内，旋火轮会跟随角色运动，对路径上的敌人造成火元素伤害。",
+    },
+    "zhpassivetalent1":{
+        "name":"交叉火力",
+        "description":"锅巴的喷火距离提高20%。"
+    },
+    "zhpassivetalent2":{
+        "name":"绝云朝天椒",
+        "description":"锅巴出击效果结束时，锅巴会在消失的位置留下辣椒。拾取辣椒会提高10%攻击力，持续10秒。"
+    },
+    "zhpassivetalent3":{
+        "name":"万民堂大厨",
+        "description":"完美烹饪攻击类食物时，有12%概率获得2倍产出。"
+    },
+    "zhconstellations":{
+        "c1":"外酥里嫩   ",
+        "d1":"受到锅巴攻击的敌人火元素抗性降低15％，持续6秒。 ",
+        "c2":"大火宽油   ",
+        "d2":"普通攻击的最后一击会对敌人施加持续2秒的内爆效果。持续时间结束时会发生爆炸，造成75%攻击力的火元素范围伤害。 ",
+        "c3":"武火急烹   ",
+        "d3":"旋火轮的技能等级提高3级。（最高提升至15级） ",
+        "c4":"文火慢煨  ",
+        "d4":"旋火轮的持续时间延长40％。 ",
+        "c5":"锅巴凶猛  ",
+        "d5":"锅巴出击的技能等级提高3级。（最高提升至15级） ",
+        "c6":"大龙卷旋火轮  ",
+        "d6":"旋火轮持续期间，队伍中所有角色获得15％火元素伤害加成。 "
+    },
+    "zascensions":"https://ninguest.github.io/genshin-impact/characters/resource/zxiangling.PNG"
 }

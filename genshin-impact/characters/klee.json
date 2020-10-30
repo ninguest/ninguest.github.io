@@ -62,5 +62,55 @@
         "description":"Knights of Favonius Spark Knight! Forever with a bang and a flash! —And then disappearing from the stern gaze of Acting Grand Master Jean. Sure, time in solitary confinement gives lots of time to think about new gunpowder formulas...But it'd still be better to not be in solitary in the first place.\nWhen asked about the strongest knight of the Knights of Favonius, three names are likely to come up from the patrons in the taverns of Mondstadt: the highly-reputable Acting Grand Master Jean, Cavalry Captain Kaeya, and the mysterious tycoon Diluc. However, some claim to have witnessed, through drunken eyes or pale moonlight, a knight in red, leveling the entire Stormbearer Mountains. \nIf one wants to find this mysterious knight, then they need look no further than the solitary confinement cell inside the Knights of Favonius Headquarters. If the cell is found vacant... then something explosively unfortunate is likely about to take place... \nKlee is well known for the danger she presents. As an official member of the Knights of Favonius, her strength in combat cannot be underestimated. \nBut as the hyperactive child that she also is, her destructive capabilities should not be overlooked either. While other Mondstadt children her age are still playing with regular toys, Klee's favorite toys are... live explosives.",
         "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=8"
     },
-    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/klee.PNG"
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/klee.PNG",
+
+    "zhname":"可莉",
+    "zhdescription": "西风骑士团禁闭室的常客，蒙德的爆破大师。人称「逃跑的太阳」。 ",
+    "zhsex":"女", 
+    "zhbirthday":"7月27日 ",
+    "zhtitle":"火花骑士 ", 
+    "zhregion":"蒙德城",
+    "zhelement":"火 ",
+    "zhweapon":"法器", 
+    "zhhowtoobtain":"祈愿",
+    "zhimg":"https://media.giphy.com/media/DQTApQOYMkvL28b6Qi/giphy.gif" ,
+    "zhnormalattack":{
+        "name":"砰砰  ",
+        "description":"普通攻击\n投掷在碰撞后爆炸的好东西!进行至多三段的炸弹攻击，造成火元素范围伤害。\n\n重击\n消耗一定体力，短暂咏唱后，轰击敌人，造成火元素范围伤害。",
+    },
+    "zhelementalskill":{
+        "name":"蹦蹦炸弹",
+        "description":"投岀带来无限快乐的蹦蹦炸弹！蹦蹦炸弹会连续弹跳三次，每次弹跳都会引发爆炸，造成火元素范围伤害。第三次弹跳后，将分裂成许多（8个）诡雷。诡雷会在接触到敌人或一段时间后发生爆炸，造成火元素范围伤害。初始拥有2次可使用次数。",
+    },
+    "zhelementalburst":{
+        "name":"轰轰火花",
+        "description":"可莉火力全开！在技能持续时间内，不停召唤轰轰火花攻击附近的敌人，造成火元素范围伤害。",
+    },
+    "zhpassivetalent1":{
+        "name":"砰砰礼物",
+        "description":"蹦蹦炸弹与普通攻击造成伤害时，有50％的几率赋予可莉一朵爆裂火花。施放重击时将消耗爆裂火花，使本次重击不消耗体力，造成的伤害提升50％。"
+    },
+    "zhpassivetalent2":{
+        "name":"火花无限",
+        "description":"重击造成暴击后，为队伍中所有角色恢复2点元素能量"
+    },
+    "zhpassivetalent3":{
+        "name":"全是宝藏",
+        "description":"在小地图上显示周围的蒙德区域特产的位置。"
+    },
+    "zhconstellations":{
+        "c1":"连环轰隆   ",
+        "d1":"攻击与施放技能时，有几率召唤火花轰击敌人，造成相当于轰轰火花（大招单段）攻击伤害120％的伤害。 ",
+        "c2":"破破弹片   ",
+        "d2":"蹦蹦炸弹的诡雷会使敌人防御力降低23％，持续10秒。 ",
+        "c3":"可莉特调   ",
+        "d3":"蹦蹦炸弹的技能等级提高3级。（最高提升至15级） ",
+        "c4":"一触即发   ",
+        "d4":"如果在轰轰火花持续期间内退场，会引发爆炸，造成555％攻击力的火元素范围伤害。 ",
+        "c5":"轰击之星   ",
+        "d5":"轰轰火花的技能等级提高3级。（最高提升至15级） ",
+        "c6":"火力全开   ",
+        "d6":"在轰轰火花的状态下，会持续为队伍中其他角色恢复元素能量（跳3次，共回复约9点）；施放轰轰火花后的25秒内，队伍中所有角色获得10％火元素伤害加成。 "
+    },
+    "zascensions":"https://ninguest.github.io/genshin-impact/characters/resource/zklee.PNG"
 }

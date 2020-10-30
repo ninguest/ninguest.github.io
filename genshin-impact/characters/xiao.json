@@ -62,5 +62,55 @@
         "description":"One of the \"Mighty and Illuminated Adepti\" guarding Liyue, also heralded as the \"Guardian yaksha.\" Despite his appearance as a young man, occasional legends about him have been documented in ancient books for thousands of years. He is especially fond of Wangshu Inn's Almond Tofu. The reason is that the dish tastes just like the \"dreams\" he used to devour.",
         "link":"https://genshin.mihoyo.com/en/character/liyue?char=0"
     },
-    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/xiao.PNG"
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/xiao.PNG",
+
+    "zhname":"魈",
+    "zhdescription": "外表虽是少年人，魈的真实年纪却已超过两千岁。",
+    "zhsex":"男", 
+    "zhbirthday":"4月17日",
+    "zhtitle":"护法夜叉大将", 
+    "zhregion":"璃月港",
+    "zhelement":"风",
+    "zhweapon":"长柄武器", 
+    "zhhowtoobtain":"祈愿",
+    "zhimg":"https://media.giphy.com/media/e63Rq08dr5CZrbjDvY/giphy.gif" ,
+    "zhnormalattack":{
+        "name":"卷积微尘",
+        "description":" 普通攻击：进行至多六段的连续枪击。 \n 重击：极速下坠冲击地面。造成的伤害与落下的高度相关。只能从空中发动。 ",
+    },
+    "zhelementalskill":{
+        "name":"风轮两立",
+        "description":" 在他乡的传说里，世界会被两大风轮碾碎。魈的枪术已臻化境，来回之间仿佛两座风轮同时撕裂敌人 \n 疾速突进，对路径上的敌人造成风元素伤害。可以在空中施放。初始拥有2次可使用次数。 ",
+    },
+    "zhelementalburst":{
+        "name":"靖妖傩舞",
+        "description":" 带上降魔的傩面，化作斩杀妖魔的恶鬼。获得强大的力量，也会引导出巨大的痛苦。 其式既名[靖妖傩舞]。  展现数千年前令神魔精妖睹之胆颤的夜叉傩面，在持续期间内，魈的攻击范围增大，造成的伤害提高,伤害转为风元素,并大幅提升魈的跳跃能力。在这个状态下，魈会持续损失生命值。 ",
+    },
+    "zhpassivetalent1":{
+        "name":" 降魔·空游饿鬼布施法 ",
+        "description":" 队伍中所有角色获得风元素伤害加成和重击伤害提升。 "
+    },
+    "zhpassivetalent2":{
+        "name":" 降魔·平妖大圣 ",
+        "description":" 在靖妖傩舞状态下，魈造成的所有伤害提高5%。此后，在技能持续时间内，每经过3秒，造成的伤害再额外提高5%。至多获得25%伤害加成。 "
+    },
+    "zhpassivetalent3":{
+        "name":" 神通·空中自在法 ",
+        "description":" 队伍中所有角色受到的坠落伤害下降30%。同类天赋取最高效果。 "
+    },
+    "zhconstellations":{
+        "c1":" 坏劫·毁坏三界 ",
+        "d1":" 风轮两立的可使用次数增加1次。 ",
+        "c2":" 空劫·虚空华开敷变 ",
+        "d2":" 当处在队伍中且位于后台时，魈的元素充能效率提高25%。 ",
+        "c3":" 降魔·忿怒显相 ",
+        "d3":" 风轮两立的技能等级提高3级。(最高提升至15级) ",
+        "c4":" 神通·诸苦灭尽 ",
+        "d4":" 当魍的生命值低于50%时，获得100%的防御力加。 ",
+        "c5":" 神通·诸苦灭尽 ",
+        "d5":" 靖妖傩舞的技能等级提高3级。(最高提升至15级) ",
+        "c6":" 降魔：护法夜叉 ",
+        "d6":" 在蜻妖傩舞状态下，重击命中至少2个敌人时，风轮两立立刻获得1次可使用次数，并且在接下来1秒内，可以无视冷却时间施放风轮两立。 "
+    },
+    "zascensions":"https://ninguest.github.io/genshin-impact/characters/resource/zxiao.PNG"
 }

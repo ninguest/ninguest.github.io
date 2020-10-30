@@ -62,5 +62,54 @@
         "description":"Like most of Mondstadt's young people, Noelle always dreamed of being a knight of Favonius when she grew up. She may not have what it takes to be a knight just yet, but she is learning. Working as a maid at the Knights' headquarters, she is constantly taking notes on what constitutes knightly speech, knightly conduct, and knightly customs. She holds firm to her belief that one day she will join their ranks - she just needs to keep trying her hardest at everything she does. ",
         "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=10"
     },
-    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/noelle.PNG"
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/noelle.PNG",
+    "zhname":"诺艾尔",
+    "zhdescription": "「西风骑士团」的可靠女仆，梦想有天能成为正式的骑士 ",
+    "zhsex":"女", 
+    "zhbirthday":"3月21日 ",
+    "zhtitle":"未授勋之花 ", 
+    "zhregion":"蒙德城",
+    "zhelement":"岩 ",
+    "zhweapon":"双手剑", 
+    "zhhowtoobtain":"祈愿",
+    "zhimg":"https://media.giphy.com/media/FFClG723WspXRGMS4q/giphy.gif" ,
+    "zhnormalattack":{
+        "name":"西风剑术·女仆  ",
+        "description":"普通攻击：进行至多四段的连续挥砍。\n重击：持续消耗体力旋转大剑，攻击周围的敌人。结束旋转时，会进行一次格外有力的挥斩",
+    },
+    "zhelementalskill":{
+        "name":"护心铠",
+        "description":"诺艾尔既是侍奉的女仆，也是坚毅的骑士\n唤出护体的岩铠，对周围的敌人造成岩元素伤害，并创造护盾，为诺艾尔吸收伤害。护盾存在期间，诺艾尔的普通攻击与重击命中敌人时都有几率为队伍中所有角色回复生命值治疗量与护盾吸收量基于诺艾尔的防御力。对岩元素伤害有250％的吸收效果。",
+    },
+    "zhelementalburst":{
+        "name":"大扫除",
+        "description":"需要扫除的，有时不仅仅是灰尘…\n积聚岩石的力量，冲击周围的敌人并进行一次大范围攻击，造成岩元素伤害与晶化效果在接下来的一段时间里，极大提高诺艾尔的攻击能力，将她的普通攻击与重击的伤害转为岩元素，并对命中的敌人施加晶化效果。在技能持续时间内，诺艾尔的攻击范围会大幅提高同时依据诺艾尔的防御力，提升攻击力。",
+    },
+    "zhpassivetalent1":{
+        "name":"全心全意",
+        "description":"当诺艾尔在后台时，若场上角色的生命值低于30％时，立即获得一个护盾，该护盾能吸收等同于诺艾尔的防御力400％的伤害。护盾最多持续20秒，60秒内只能触发一次。"
+    },
+    "zhpassivetalent2":{
+        "name":"干净利落",
+        "description":"诺艾尔的普通攻击或重击每命中4次，都会减少护心铠1秒的冷却。同时命中多名敌人视作攻击命中一次"
+    },
+    "zhpassivetalent3":{
+        "name":"女仆的态度",
+        "description":"完美烹饪防御类食物时，由12%概率获得2倍产出"
+    },
+    "zhconstellations":{
+        "c1":"支援就交给我吧  ",
+        "d1":"同时处于大扫除与护心铠状态时若攻击命中，则一定触发护心铠的生命值回复效果。 ",
+        "c2":"旋风女仆   ",
+        "d2":"诺艾尔的重击体力消耗降低20造成的伤害提升15％。 ",
+        "c3":"女仆不会受伤   ",
+        "d3":"护心铠的技能等级提高3级。（最高提升至15级） ",
+        "c4":"之后会扫干净的  ",
+        "d4":"护心铠在效果结束时，或因伤害破碎时，会对周围的敌人造成400％攻击力的岩元素伤害。 ",
+        "c5":"骑士团扫除专家  ",
+        "d5":"大扫除的技能等级提高3级。（最高提升至15级） ",
+        "c6":"要一尘不染才行   ",
+        "d6":"大扫除额外提高诺艾尔防御力50％的攻击力。此外，在技能持续时间内，每打倒1个敌人，其持续时间将延长1秒最多不会超过10秒。 "
+    },
+    "zascensions":"https://ninguest.github.io/genshin-impact/characters/resource/znoelle.PNG"
 }

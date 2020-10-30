@@ -62,5 +62,55 @@
         "description":"Kaeya is an adopted son to the Ragnvindr Family, the renowned tycoon in the winery business. It has been a long time since he last called Diluc Ragnvindr \"brother\". Kaeya currently serves as the Cavalry Captain of the Knights of Favonius, trusted by Jean. Kaeya is often the one cleaning or wrapping things up in every incident that occurred in the vicinity of Mondstadt.\nKaeya is a confident and charming individual with a flair for the dramatic and is sometimes seen as overly laid-back. He seems to get a kick out of telling bold-faced lies, but this tendency becomes a talent when it comes to his role as the brains of the Knights of Favonius. ",
         "link":"https://genshin.mihoyo.com/en/character/mondstadt?char=3"
     },
-    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/kaeya.PNG"
+    "ascensions":"https://ninguest.github.io/genshin-impact/characters/resource/kaeya.PNG",
+
+    "zhname":"凯亚",
+    "zhdescription": "寒风剑士、男神",
+    "zhsex":"男", 
+    "zhbirthday":"11月30日  ",
+    "zhtitle":"寒风剑士、男神", 
+    "zhregion":"蒙德城",
+    "zhelement":"冰 ",
+    "zhweapon":"单手剑", 
+    "zhhowtoobtain":"祈愿",
+    "zhimg":"https://media.giphy.com/media/ZzimecenklEkW9rewh/giphy.gif" ,
+    "zhnormalattack":{
+        "name":"仪典剑术  ",
+        "description":"普通攻击\n进行至多五段的连续剑击。\n\n重击\n消耗一定体力，瞬间向前方挥出两剑。",
+    },
+    "zhelementalskill":{
+        "name":"霜袭",
+        "description":"瞬间放出急冻的寒气，对前方的敌人造成冰元素伤害。",
+    },
+    "zhelementalburst":{
+        "name":"凛冽轮舞",
+        "description":"凝聚空气中的寒霜，召唤3枚围绕自身旋转的寒冰之棱。存在期间内，寒冰之棱会跟随角色运动，对路径上的敌人造成冰元素伤害。",
+    },
+    "zhpassivetalent1":{
+        "name":"冷血之剑",
+        "description":"霜袭每击中一个单位，便为凯亚恢复等同于攻击力15%的生命值。"
+    },
+    "zhpassivetalent2":{
+        "name":"冰渊之心",
+        "description":"霜袭使敌人冻结时，被冻结的敌人会掉落额外的元素微粒。一次霜袭至多因此产生2个额外元素微粒。"
+    },
+    "zhpassivetalent3":{
+        "name":"隐藏的实力",
+        "description":"队伍中所有角色冲刺消耗的体力降低20％。"
+    },
+    "zhconstellations":{
+        "c1":"卓越的血脉  ",
+        "d1":"对受到冰元素影响的敌人，凯亚的普通攻击与重击暴击率提升15％。 ",
+        "c2":"无尽的霜舞   ",
+        "d2":"在凛冽轮舞的持续时间击败敌人时，其持续时间延长2.5秒，最多不会超过15秒。 ",
+        "c3":"凛冽的冰戏   ",
+        "d3":"霜袭的技能等级提高3级。(最高提升至15级) ",
+        "c4":"极寒的轻吻   ",
+        "d4":"凯亚的生命值低于20％时自动触发。生成一个伤害吸收量等于生命上限30％的护盾，持续20秒。该护盾对冰元素伤害有250％的吸收效果。每60秒只能触发一次。 ",
+        "c5":"至冷的拥抱   ",
+        "d5":"凛冽轮舞的技能等级提高3级。(最高提升至15级) ",
+        "c6":"轮旋的冰凌   ",
+        "d6":"凛冽轮舞会产生一个额外的寒冰之棱，并在施放时返还15点元素能量。 "
+    },
+    "zascensions":"https://ninguest.github.io/genshin-impact/characters/resource/zkaeya.PNG"
 }
