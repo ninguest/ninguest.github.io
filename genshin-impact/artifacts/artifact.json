@@ -1,0 +1,208 @@
+{
+     "s":{
+        "0":{
+            "name":"Gladiator's Finale ",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"ATK +18%",
+            "4bonus":"If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Item_Gladiator%27s_Finale_5-star.png/revision/latest/scale-to-width-down/60?cb=20201004205108"
+        },
+        "1":{
+            "name":"Maiden Beloved ",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"Character Healing Effectiveness +15%",
+            "4bonus":"Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Item_Maiden_Beloved_5-star.png/revision/latest/scale-to-width-down/60?cb=20201004205835"
+        },
+        "2":{
+            "name":"Noblesse Oblige ",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"Elemental Burst DMG +20%",
+            "4bonus":"Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Noblesse_Oblige_5-star.png/revision/latest/scale-to-width-down/60?cb=20201004234404"
+        },
+        "3":{
+            "name":"Bloodstained Chivalry ",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"Physical DMG +25%",
+            "4bonus":"After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Bloodstained_Chivalry_5-star.png/revision/latest/scale-to-width-down/60?cb=20201004234405"
+        },
+        "4":{
+            "name":"Wanderer's Troupe ",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"Elemental Mastery +80",
+            "4bonus":"Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Item_Wanderer%27s_Troupe_5-star.png/revision/latest/scale-to-width-down/60?cb=20201004205119"
+        },
+        "5":{
+            "name":"Viridescent Venerer ",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"Anemo DMG Bonus +15%",
+            "4bonus":"Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Item_Viridescent_Venerer_5-star.png/revision/latest/scale-to-width-down/60?cb=20201004205834"
+        },
+        "6":{
+            "name":"Thundering Fury ",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"Electro DMG Bonus +15%",
+            "4bonus":"Increases damage caused by Overloaded, Electro-Charged, and Superconduct DMG by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Item_Thundering_Fury_5-star.png/revision/latest/scale-to-width-down/60?cb=20201004205116"
+        },
+        "7":{
+            "name":"Thundersoother",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"Electro RES increased by 40%",
+            "4bonus":"Increases DMG against enemies affected by Electro by 35%. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Item_Thundersoother_5-star.png/revision/latest/scale-to-width-down/60?cb=20201004205117"
+        },
+        "8":{
+            "name":"Crimson Witch of Flames ",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"Pyro DMG Bonus +15%",
+            "4bonus":"Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using an Elemental Skill increases 2-Piece Set effects by 50% for 10s. Max 3 stacks. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Item_Crimson_Witch_of_Flames_5-star.png/revision/latest/scale-to-width-down/60?cb=20201004234149"
+        },
+        "9":{
+            "name":"Lavawalker",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"Pyro RES increased by 40%",
+            "4bonus":"Increases DMG against enemies that are Burning or affected by Pyro by 35%. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Lavawalker_5-star.png/revision/latest/scale-to-width-down/60?cb=20201004234150"
+        },
+        "10":{
+            "name":"Archaic Petra ",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"Gain a 15% Geo DMG Bonus",
+            "4bonus":"Upon obtaining a crystal created through a Geo Elemental Reaction, all party members gain 35% Elemental DMG Bonus to that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time. (the in-game description is incorrect)[1] ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Item_Archaic_Petra_5-star.png/revision/latest/scale-to-width-down/60?cb=20201007003401"
+        },
+        "11":{
+            "name":"Retracing Bolide ",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"Increases the effectiveness of shields by 35%",
+            "4bonus":"Gain an additional 40% Normal and Charged Attack DMG while under the protection of a shield. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/8/87/Item_Retracing_Bolide_5-star.png/revision/latest/scale-to-width-down/60?cb=20201007003408"
+        },
+        "12":{
+            "name":"Glacier and Snowfield (Currently unavailable)",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"Cryo DMG Bonus +15%",
+            "4bonus":"Increases Superconduct DMG by 50%. Increases Melt DMG by 15%. Using an Elemental Burst increases Cryo DMG by 25% for 10s. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/7/72/Item_Glacier_and_Snowfield_5-star.png/revision/latest/scale-to-width-down/60?cb=20201016164823"
+        },
+        "13":{
+            "name":"Icebreaker (Currently unavailable)",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"Cryo RES increased by 40%",
+            "4bonus":"Increases DMG against enemies in a Frozen state or affected by cryo by 35%. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Icebreaker_5-star.png/revision/latest/scale-to-width-down/60?cb=20201016164903"
+        }
+        
+    },
+    "a":{
+        "0":{
+            "name":"Instructor",
+            "rarity":"⭐⭐⭐⭐",
+            "2bonus":"Increases Elemental Mastery by 80.",
+            "4bonus":"After causing an elemental reaction, increases all party members' Elemental Mastery by 120 for 8s. (the in-game description is incorrect) ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Instructor_4-star.png"
+        },
+        "1":{
+            "name":"Berserker",
+            "rarity":"⭐⭐⭐⭐",
+            "2bonus":"CRIT Rate +12%",
+            "4bonus":"When HP is below 70%, CRIT Rate increases by an additional 24%. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Item_Berserker_4-star.png"
+        },
+        "2":{
+            "name":"The Exile ",
+            "rarity":"⭐⭐⭐⭐",
+            "2bonus":"Energy Recharge +20%",
+            "4bonus":"Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_The_Exile_4-star.png/revision/latest/scale-to-width-down/60?cb=20201004205115"
+        },
+        "3":{
+            "name":"Resolution of Sojourner ",
+            "rarity":"⭐⭐⭐⭐",
+            "2bonus":"ATK +18%",
+            "4bonus":"Increases Charged Attack CRIT Rate by 30%. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/8/82/Item_Resolution_of_Sojourner_4-star.png/revision/latest/scale-to-width-down/60?cb=20201004205112"
+        },
+        "4":{
+            "name":"Martial Artist ",
+            "rarity":"⭐⭐⭐⭐",
+            "2bonus":"Increases Normal Attack and Charged Attack DMG by 15%.",
+            "4bonus":"After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Item_Martial_Artist_4-star.png/revision/latest/scale-to-width-down/60?cb=20201004234151"
+        },
+        "5":{
+            "name":"Defender's Will ",
+            "rarity":"⭐⭐⭐⭐",
+            "2bonus":"DEF +30%",
+            "4bonus":"Increases Elemental RES by 30% for each element present in the party. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Defender%27s_Will_4-star.png/revision/latest/scale-to-width-down/60?cb=20201004234148"
+        },
+        "6":{
+            "name":"Tiny Miracle ",
+            "rarity":"⭐⭐⭐⭐",
+            "2bonus":"All Elemental RES increased by 20%",
+            "4bonus":"Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Item_Tiny_Miracle_4-star.png/revision/latest/scale-to-width-down/60?cb=20201004205833"
+        },
+        "7":{
+            "name":"Brave Heart ",
+            "rarity":"⭐⭐⭐⭐",
+            "2bonus":"ATK +18%",
+            "4bonus":"Increases DMG by 30% against enemies with more than 50% HP. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/2/21/Item_Heart_of_Bravery_4-star.png/revision/latest/scale-to-width-down/60?cb=20201007003403"
+        },
+        "8":{
+            "name":"Gambler",
+            "rarity":"⭐⭐⭐⭐",
+            "2bonus":"Elemental Skill DMG increased by 20%",
+            "4bonus":"Defeating an enemy has 100% chance to remove Elemental Skill CD. Can only occur once every 15s. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Gambler_4-star.png/revision/latest/scale-to-width-down/60?cb=20201004233408"
+        },
+        "9":{
+            "name":"Scholar",
+            "rarity":"⭐⭐⭐⭐",
+            "2bonus":"Energy Recharge +20%",
+            "4bonus":"Gaining Energy gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occurs once every 3s. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/b/be/Item_Scholar_4-star.png/revision/latest/scale-to-width-down/60?cb=20201004233410"
+        }
+    },
+    "b":{
+        "0":{
+            "name":"Adventurer",
+            "rarity":"⭐⭐⭐",
+            "2bonus":"HP increased by 1,000.",
+            "4bonus":"Opening chest regenerates 30% HP over 5s. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/e/e3/Item_Adventurer_3-star.png"
+        },
+        "1":{
+            "name":"Lucky Dog",
+            "rarity":"⭐⭐⭐",
+            "2bonus":"DEF increased by 100.",
+            "4bonus":"Picking up Mora restores 300 HP. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Lucky_Dog_3-star.png"
+        },
+        "2":{
+            "name":"Traveling Doctor ",
+            "rarity":"⭐⭐⭐",
+            "2bonus":"Increases incoming healing by 20%.",
+            "4bonus":"Using Elemental Burst restores 20% HP. ",
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Item_Traveling_Doctor_3-star.png"
+        }
+    },
+    "example":{
+        "example":{
+            "name":"",
+            "rarity":"⭐⭐⭐⭐⭐",
+            "2bonus":"",
+            "4bonus":"",
+            "imgurl":""
+        }
+    },
+    "source":"https://genshin-impact.fandom.com/wiki/Artifacts"
+}
