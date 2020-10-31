@@ -3,99 +3,99 @@
         "0":{
             "name":"流浪大地的乐团 ",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"元素精通提高80点。 ",
-            "4bonus":"装备该圣遗物套装的角色为法器、弓箭角色时，角色重击造成的伤害提高35%。 ",
+            "twobonus":"元素精通提高80点。 ",
+            "fourbonus":"装备该圣遗物套装的角色为法器、弓箭角色时，角色重击造成的伤害提高35%。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/b/ba/ef1zt7ytwpqx5zivxl6kg53go5zb3wz.png/60px-%E6%B5%81%E6%B5%AA%E5%A4%A7%E5%9C%B0%E7%9A%84%E4%B9%90%E5%9B%A2%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "1":{
             "name":"平息鸣雷的尊者 ",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"雷元素抗性提高40%。",
-            "4bonus":"对处于雷元素影响下的敌人造成的伤害提升35%。 ",
+            "twobonus":"雷元素抗性提高40%。",
+            "fourbonus":"对处于雷元素影响下的敌人造成的伤害提升35%。 ",
             "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Item_Maiden_Beloved_5-star.png/revision/latest/scale-to-width-down/60?cb=20201004205835"
         },
         "2":{
             "name":"征服寒冬的勇士",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"~~冰元素抗性提高40%。~~ 暂无掉落，效果未知 ",
-            "4bonus":"~~对处于冻结状态及冰元素影响下的敌人造成的伤害提升35%。~~暂无掉落，效果未知 ",
+            "twobonus":"~~冰元素抗性提高40%。~~ 暂无掉落，效果未知 ",
+            "fourbonus":"~~对处于冻结状态及冰元素影响下的敌人造成的伤害提升35%。~~暂无掉落，效果未知 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/a/ab/hdm3umn3mx9r0r2g33qtumap8l16h8f.png/60px-%E5%BE%81%E6%9C%8D%E5%AF%92%E5%86%AC%E7%9A%84%E5%8B%87%E5%A3%AB%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "3":{
             "name":"冰之川与雪之砂",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"~~获得15%冰元素伤害加成。~~暂无掉落，效果未知 ",
-            "4bonus":"~~超导反应造成的伤害提升50%，融化反应加成系数提高15%，施放元素爆发后的10秒内，冰元素伤害加成额外提升25%。~~暂无掉落，效果未知 ",
+            "twobonus":"~~获得15%冰元素伤害加成。~~暂无掉落，效果未知 ",
+            "fourbonus":"~~超导反应造成的伤害提升50%，融化反应加成系数提高15%，施放元素爆发后的10秒内，冰元素伤害加成额外提升25%。~~暂无掉落，效果未知 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/4/47/bnxwwkxdnv6sa8q6uivipyj1ty9i06m.png/60px-%E5%86%B0%E4%B9%8B%E5%B7%9D%E4%B8%8E%E9%9B%AA%E4%B9%8B%E7%A0%82%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "4":{
             "name":"悠古的磐岩",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"获得15%岩元素伤害加成。 ",
-            "4bonus":"获得岩元素反应形成的晶片时，队伍中所有角色获得35%对应元素伤害加成，持续10秒。同时只能通过该效果获得一种元素伤害加成。 ",
+            "twobonus":"获得15%岩元素伤害加成。 ",
+            "fourbonus":"获得岩元素反应形成的晶片时，队伍中所有角色获得35%对应元素伤害加成，持续10秒。同时只能通过该效果获得一种元素伤害加成。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/7/71/8e6y7700u6sj4bmuhbbgexjdmf78zxk.png/60px-%E6%82%A0%E5%8F%A4%E7%9A%84%E7%A3%90%E5%B2%A9%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "5":{
             "name":"角斗士的终幕礼",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"攻击力提高18%。 ",
-            "4bonus":"装备该圣遗物套装的角色为单手剑、双手剑、长柄武器角色时，角色普通攻击造成的伤害提高35%。 ",
+            "twobonus":"攻击力提高18%。 ",
+            "fourbonus":"装备该圣遗物套装的角色为单手剑、双手剑、长柄武器角色时，角色普通攻击造成的伤害提高35%。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/d/d2/mqydld3lqsili1u07xivt7qva1b77mf.png/60px-%E8%A7%92%E6%96%97%E5%A3%AB%E7%9A%84%E7%BB%88%E5%B9%95%E7%A4%BC%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "6":{
             "name":"逆飞的流星 ",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"护盾强效提高35% ",
-            "4bonus":"处于护盾庇护下时，额外获得40%普通攻击和重击伤害加成。 ",
+            "twobonus":"护盾强效提高35% ",
+            "fourbonus":"处于护盾庇护下时，额外获得40%普通攻击和重击伤害加成。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/c/cd/0gsj5d33bazor4vi53b7masszc64gd4.png/60px-%E9%80%86%E9%A3%9E%E7%9A%84%E6%B5%81%E6%98%9F%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "7":{
             "name":"如雷的盛怒",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"获得15%雷元素伤害加成。 ",
-            "4bonus":"超载、感电、超导反应造成的伤害提升40%。触发这些元素反应时，元素战技冷却时间减少1秒。该效果每0.8秒最多触发一次。 ",
+            "twobonus":"获得15%雷元素伤害加成。 ",
+            "fourbonus":"超载、感电、超导反应造成的伤害提升40%。触发这些元素反应时，元素战技冷却时间减少1秒。该效果每0.8秒最多触发一次。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/a/a5/fvpse7eqfjwjya0szxvl51u4ca4u3dw.png/60px-%E5%A6%82%E9%9B%B7%E7%9A%84%E7%9B%9B%E6%80%92%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "8":{
             "name":"渡过烈火的贤人",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"火元素抗性提高40%。 ",
-            "4bonus":"对处于火元素影响下的敌人造成的伤害提升35%。 ",
+            "twobonus":"火元素抗性提高40%。 ",
+            "fourbonus":"对处于火元素影响下的敌人造成的伤害提升35%。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/6/6e/q3rcpyms8sq2cqb3wrhat5jiy4qq90a.png/60px-%E6%B8%A1%E8%BF%87%E7%83%88%E7%81%AB%E7%9A%84%E8%B4%A4%E4%BA%BA%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "9":{
             "name":"被怜爱的少女 ",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"角色造成的治疗效果提升15% ",
-            "4bonus":"施放元素战技或元素爆发后的10秒内，队伍中所有角色受治疗效果加成提高20%。 ",
+            "twobonus":"角色造成的治疗效果提升15% ",
+            "fourbonus":"施放元素战技或元素爆发后的10秒内，队伍中所有角色受治疗效果加成提高20%。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/e/e1/rzdnqzzltdxn2i0ltdkrcvqt4ceq3qt.png/60px-%E8%A2%AB%E6%80%9C%E7%88%B1%E7%9A%84%E5%B0%91%E5%A5%B3%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "10":{
             "name":"染血的骑士道",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"造成的物理伤害提高25%。 ",
-            "4bonus":"击败敌人后的10秒内，施放重击时不消耗体力，且造成的伤害提升50%。 ",
+            "twobonus":"造成的物理伤害提高25%。 ",
+            "fourbonus":"击败敌人后的10秒内，施放重击时不消耗体力，且造成的伤害提升50%。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/d/dd/mlmy9h8arz2wt6kg3ggvh8ckapum9ss.png/60px-%E6%9F%93%E8%A1%80%E7%9A%84%E9%AA%91%E5%A3%AB%E9%81%93%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "11":{
             "name":"炽烈的炎之魔女 ",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"获得15%火元素伤害加成。 ",
-            "4bonus":"超载、燃烧反应造成的伤害提升40%，蒸发、融化反应的加成系数提高15%。施放元素战技后的10秒内，二件套的效果提高50%，该效果最多叠加3次。 ",
+            "twobonus":"获得15%火元素伤害加成。 ",
+            "fourbonus":"超载、燃烧反应造成的伤害提升40%，蒸发、融化反应的加成系数提高15%。施放元素战技后的10秒内，二件套的效果提高50%，该效果最多叠加3次。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/4/49/0tpl667zrp5zb5z6z3201k8c42ocigx.png/60px-%E7%82%BD%E7%83%88%E7%9A%84%E7%82%8E%E4%B9%8B%E9%AD%94%E5%A5%B3%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "12":{
             "name":"昔日宗室之仪",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"元素爆发造成的伤害提升20％ 。 ",
-            "4bonus":"施放元素爆发后，队伍中所有角色攻击力提升20％，持续12秒。该效果不可叠加。 ",
+            "twobonus":"元素爆发造成的伤害提升20％ 。 ",
+            "fourbonus":"施放元素爆发后，队伍中所有角色攻击力提升20％，持续12秒。该效果不可叠加。 ",
             "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/7/72/Item_Glacier_and_Snowfield_5-star.png/revision/latest/scale-to-width-down/60?cb=20201016164823"
         },
         "13":{
             "name":"翠绿之影",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"获得15%风元素伤害加成。 ",
-            "4bonus":"扩散反应造成的伤害提升60%，根据扩散的元素类型，降低受到影响的敌人40%的对应元素抗性，持续10秒。 ",
+            "twobonus":"获得15%风元素伤害加成。 ",
+            "fourbonus":"扩散反应造成的伤害提升60%，根据扩散的元素类型，降低受到影响的敌人40%的对应元素抗性，持续10秒。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/b/bd/efp3dhmrriv81yqoxd4s1n1asuwd388.png/60px-%E7%BF%A0%E7%BB%BF%E4%B9%8B%E5%BD%B1%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         }
         
@@ -104,71 +104,71 @@
         "0":{
             "name":"战狂",
             "rarity":"⭐⭐⭐⭐",
-            "2bonus":"暴击率提高12%。 ",
-            "4bonus":"生命值低于70%时，暴击率额外提高24%。 ",
+            "twobonus":"暴击率提高12%。 ",
+            "fourbonus":"生命值低于70%时，暴击率额外提高24%。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/c/cf/nv1aqf28qfftnvvge3pdsjneucq5o3z.png/60px-%E6%88%98%E7%8B%82%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "1":{
             "name":"行者之心",
             "rarity":"⭐⭐⭐⭐",
-            "2bonus":"攻击力提高18%。 ",
-            "4bonus":"重击的暴击率提高30%。 ",
+            "twobonus":"攻击力提高18%。 ",
+            "fourbonus":"重击的暴击率提高30%。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/5/5f/grn63atlzzuu3tmq00mykxjtg49tiw6.png/60px-%E8%A1%8C%E8%80%85%E4%B9%8B%E5%BF%83%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "2":{
             "name":"奇迹",
             "rarity":"⭐⭐⭐⭐",
-            "2bonus":"所有元素抗性提高20%。 ",
-            "4bonus":"受到某个元素类型的伤害后，相应的抗性提升30%，持续10秒。该效果每10秒只能触发一次。 ",
+            "twobonus":"所有元素抗性提高20%。 ",
+            "fourbonus":"受到某个元素类型的伤害后，相应的抗性提升30%，持续10秒。该效果每10秒只能触发一次。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/c/c3/5l5xm6kx7c34fhaxs68ngeya7ki6nf2.png/60px-%E5%A5%87%E8%BF%B9%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "3":{
             "name":"教官",
             "rarity":"⭐⭐⭐⭐",
-            "2bonus":"元素精通提高80点。 ",
-            "4bonus":"触发元素反应后。队伍中所有角色元素精通提高120点，持续8秒。 ",
+            "twobonus":"元素精通提高80点。 ",
+            "fourbonus":"触发元素反应后。队伍中所有角色元素精通提高120点，持续8秒。 ",
             "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/8/82/Item_Resolution_of_Sojourner_4-star.png/revision/latest/scale-to-width-down/60?cb=20201004205112"
         },
         "4":{
             "name":"流放者",
             "rarity":"⭐⭐⭐⭐",
-            "2bonus":"元素充能效率提高20% ",
-            "4bonus":"施放元素爆发后，每2秒为队伍中其他角色恢复2点元素能量。该效果持续6秒，无法叠加。 ",
+            "twobonus":"元素充能效率提高20% ",
+            "fourbonus":"施放元素爆发后，每2秒为队伍中其他角色恢复2点元素能量。该效果持续6秒，无法叠加。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/7/7d/k1r9b0r6hs0tcqqgwaacw27k6i1blxg.png/60px-%E6%B5%81%E6%94%BE%E8%80%85%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "5":{
             "name":"赌徒",
             "rarity":"⭐⭐⭐⭐",
-            "2bonus":"元素战技造成的伤害提升20% ",
-            "4bonus":"击败敌人时，有100%概率清除元素战技的冷却时间。该效果每15秒至多触发一次。 ",
+            "twobonus":"元素战技造成的伤害提升20% ",
+            "fourbonus":"击败敌人时，有100%概率清除元素战技的冷却时间。该效果每15秒至多触发一次。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/c/c6/1ounpdkm18u6j2621n8epkggqq0u1og.png/60px-赌徒生之花.png"
         },
         "6":{
             "name":"武人",
             "rarity":"⭐⭐⭐⭐",
-            "2bonus":"普通攻击与重击造成的伤害提高15%。 ",
-            "4bonus":"施放元素战技后的8秒内，普通攻击和重击造成的伤害提升25%。 ",
+            "twobonus":"普通攻击与重击造成的伤害提高15%。 ",
+            "fourbonus":"施放元素战技后的8秒内，普通攻击和重击造成的伤害提升25%。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/6/67/6nbfzhvdoanmgaw554bfc2bupuempc8.png/60px-%E6%AD%A6%E4%BA%BA%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "7":{
             "name":"学士 ",
             "rarity":"⭐⭐⭐⭐",
-            "2bonus":"元素充能效率提高20% ",
-            "4bonus":"获得元素能量时，队伍中所有弓箭和法器角色额外恢复3点元素能量。该效果每3秒只能触发一次。 ",
+            "twobonus":"元素充能效率提高20% ",
+            "fourbonus":"获得元素能量时，队伍中所有弓箭和法器角色额外恢复3点元素能量。该效果每3秒只能触发一次。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/b/b7/iuh6nyxk3firtgu0yuroi03591jegb2.png/60px-%E5%AD%A6%E5%A3%AB%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "8":{
             "name":"勇士之心",
             "rarity":"⭐⭐⭐⭐",
-            "2bonus":"攻击力提高18%。 ",
-            "4bonus":"对生命值高于50%的敌人，造成的伤害增加30%。 ",
+            "twobonus":"攻击力提高18%。 ",
+            "fourbonus":"对生命值高于50%的敌人，造成的伤害增加30%。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/0/09/6kdv65ztdtmyetpd0w3nc1qj6qx8lvh.png/60px-%E5%8B%87%E5%A3%AB%E4%B9%8B%E5%BF%83%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "9":{
             "name":"守护之心",
             "rarity":"⭐⭐⭐⭐",
-            "2bonus":"基础防御力提高30%。 ",
-            "4bonus":"队伍里每有不同一种元素类型的角色，自身获得30%相应的元素抗性。 ",
+            "twobonus":"基础防御力提高30%。 ",
+            "fourbonus":"队伍里每有不同一种元素类型的角色，自身获得30%相应的元素抗性。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/6/60/draxvo82vpbip651xuxhwkfl7awliwx.png/60px-%E5%AE%88%E6%8A%A4%E4%B9%8B%E5%BF%83%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         }
     },
@@ -176,22 +176,22 @@
         "0":{
             "name":"冒险家",
             "rarity":"⭐⭐⭐",
-            "2bonus":"生命值上限提升1000点。 ",
-            "4bonus":"开启各类宝箱后5秒内，持续恢复30%生命值。 ",
+            "twobonus":"生命值上限提升1000点。 ",
+            "fourbonus":"开启各类宝箱后5秒内，持续恢复30%生命值。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/3/3a/iazq114wxmzapi8b2phqg2epbhodpor.png/60px-%E5%86%92%E9%99%A9%E5%AE%B6%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "1":{
             "name":"幸运儿",
             "rarity":"⭐⭐⭐",
-            "2bonus":"防御力提高100点。 ",
-            "4bonus":"拾取摩拉时，恢复300点生命值。 ",
+            "twobonus":"防御力提高100点。 ",
+            "fourbonus":"拾取摩拉时，恢复300点生命值。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/3/39/8rnphm0l8ubg62ar3v5e92fscwp5px2.png/60px-%E5%B9%B8%E8%BF%90%E5%84%BF%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         },
         "2":{
             "name":"游医",
             "rarity":"⭐⭐⭐",
-            "2bonus":"角色受到的治疗效果提高20%。 ",
-            "4bonus":"施放元素爆发时，恢复20%生命值。 ",
+            "twobonus":"角色受到的治疗效果提高20%。 ",
+            "fourbonus":"施放元素爆发时，恢复20%生命值。 ",
             "imgurl":"https://patchwiki.biligame.com/images/ys/thumb/5/52/8zevmws05365n1dik4chwhpmmx0ap2x.png/60px-%E4%BB%81%E5%BF%83%E7%94%9F%E4%B9%8B%E8%8A%B1.png"
         }
     },
@@ -199,8 +199,8 @@
         "example":{
             "name":"",
             "rarity":"⭐⭐⭐⭐⭐",
-            "2bonus":"",
-            "4bonus":"",
+            "twobonus":"",
+            "fourbonus":"",
             "imgurl":""
         }
     },
