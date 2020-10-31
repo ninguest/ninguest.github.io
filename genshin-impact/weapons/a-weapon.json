@@ -160,7 +160,7 @@
             "secondary":"物理伤害加成：9%",
             "passive":"**苍翠之风 **\n\n普通攻击与重击命中时，有50%几率生成一个风之眼，持续吸引周围敌人，并对其中的敌人每0.5秒造成(24%/30%/36%/42%/48%)攻击的伤害。该效果持续4秒，每(16/15/14/13/12)秒至多触发次。 ",
             "location":"珍珠纪行25级宝箱奖励",
-            "imgurl":""
+            "imgurl":"http://newsimg.5054399.com/uploads/userup/2007/2215312914I.jpg"
         },
         "6":{
             "name":"弓藏",
@@ -528,9 +528,9 @@
             "rarity":"⭐⭐⭐⭐",
             "atk":"42",
             "secondary":"Elemental Mastery",
-            "passive":"**Bane of Storm and Tide**\n\n",
+            "passive":"**Bane of Storm and Tide**\n\nIncreases DMG against enemies affected by Hydro or Electro by 20/25/30/35/40%.",
             "location":"Gacha",
-            "imgurl":"Increases DMG against enemies affected by Hydro or Electro by 20/25/30/35/40%."
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Weapon_Rainslasher.png"
         },
         "5":{
             "name":"Royal Greatsword",
@@ -782,9 +782,9 @@
             "rarity":"⭐⭐⭐⭐",
             "atk":"42",
             "secondary":"Energy Recharge",
-            "passive":"**Wind in the Square**\n\n",
+            "passive":"**Wind in the Square**\n\nFor every character in the party who hails from Mondstadt, the character who equips this weapon gains 8/10/12/14/16% ATK increase and 3/3.5/4/4.5/5% Movement SPD increase.",
             "location":"Gacha",
-            "imgurl":"For every character in the party who hails from Mondstadt, the character who equips this weapon gains 8/10/12/14/16% ATK increase and 3/3.5/4/4.5/5% Movement SPD increase."
+            "imgurl":"https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Weapon_Wine_and_Song.png"
         }
     },
     "zhcatalyst":{
