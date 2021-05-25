@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>EGAPPBox True Documentation</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="The Real EGAPPBox Documentation">
+    <meta name="author" content="A random joker called 9Guest">
+    <link rel="shortcut icon" href="../favicon.ico">
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome JS-->
+    <script src="https://kit.fontawesome.com/165ed4e0cc.js" crossorigin="anonymous"></script>
+    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="../assets/css/theme.css">
+
+</head> 
+
+<body class="docs-page">    
+    <header class="header fixed-top">	    
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+					<button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible mr-2 d-xl-none" type="button">
+	                    <span></span>
+	                    <span></span>
+	                    <span></span>
+	                </button>
+	                <div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon mr-2" height="50" src="../assets/images/egIcon.png" alt="logo"><span class="logo-text">EGAPPBox<span class="text-alt">V2</span></span></a></div>
+                </div><!--//docs-logo-wrapper-->
+	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+<!--	                <div class="top-search-box d-none d-lg-flex">-->
+<!--		                <form class="search-form">-->
+<!--				            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">-->
+<!--				            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>-->
+<!--				        </form>-->
+<!--	                </div>-->
+	
+					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+						<li class="list-inline-item"><a href="https://github.com/Engineering-Good"><i class="fab fa-github fa-fw"></i></a></li>
+						<li class="list-inline-item"><a href="https://sg.linkedin.com/company/engineeringgood"><i class="fab fa-linkedin fa-fw"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/engineeringgood.org"><i class="fab fa-facebook fa-fw"></i></a></li>
+<!--						<li class="list-inline-item"><a href="https://www.youtube.com/channel/UC6CplJUHCyaLd_CjSI9uovA"><i class="fab fa-youtube fa-fw"></i></a></li>-->
+		            </ul><!--//social-list-->
+					<a href="https://github.com/ninguest/EGAPPBoxV2/releases/tag/v2.0.0" class="btn btn-primary d-none d-lg-flex">Download</a>
+	            </div><!--//docs-top-utilities-->
+            </div><!--//container-->
+        </div><!--//branding-->
+    </header><!--//header-->
+    
+    <div class="docs-wrapper">
+	    <div id="docs-sidebar" class="docs-sidebar">
+<!--		    <div class="top-search-box d-lg-none p-3">-->
+<!--                <form class="search-form">-->
+<!--		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">-->
+<!--		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>-->
+<!--		        </form>-->
+<!--            </div>-->
+		    <nav id="docs-nav" class="docs-nav navbar">
+			    <ul class="section-items list-unstyled nav flex-column pb-3">
+				    <li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span class="theme-icon-holder mr-2"><i class="fas fa-map-signs"></i></span>Introduction</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">ElectronJS App</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">EGAPPBoxV2 Workflows</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">Root Files in EGAPPBoxV2</a></li>
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-4">Section Item 1.4</a></li>-->
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-5">Section Item 1.5</a></li>-->
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-6">Section Item 1.6</a></li>-->
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span class="theme-icon-holder mr-2"><i class="fas fa-arrow-down"></i></span>Installation</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Run App with Installation</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Run App without Installation</a></li>
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Section Item 2.3</a></li>-->
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder mr-2"><i class="fas fa-box"></i></span>APIs</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Google Sheets API</a></li>
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Section Item 3.2</a></li>-->
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Section Item 3.3</a></li>-->
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span class="theme-icon-holder mr-2"><i class="fas fa-cogs"></i></span>Integrations</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">List of Integrations</a></li>
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Discord</a></li>-->
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Section Item 4.3</a></li>-->
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-5"><span class="theme-icon-holder mr-2"><i class="fas fa-leaf"></i></span>MongoDB</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-1">Introduction</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-2">Collection Schema</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-5-3">Document Function</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-5-4">Connection Setup</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-5-5">Start the Connection</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-5-6">Extra for Developer</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-6"><span class="theme-icon-holder mr-2"><i class="fab fa-discord"></i></span>Discord</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-1">Discord Developer</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-2">Let's Get Started</a></li>
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-3">Section Item 6.3</a></li>-->
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-7"><span class="theme-icon-holder mr-2"><i class="fas fa-boxes"></i></span>EGAPPBox Main Process</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-1">Package Included</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-2">Start App Function and Declaration</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-7-3">App On Event</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-7-4">Functions Used in Main</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-7-5">Google Sheets Integration Function</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-7-6">ipcMain</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-8"><span class="theme-icon-holder mr-2"><i class="fas fa-bug"></i></span>Bugs</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-1">Bug 1: Create PDF</a></li>
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-2">Section Item 8.2</a></li>-->
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-3">Section Item 8.3</a></li>-->
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-9"><span class="theme-icon-holder mr-2"><i class="fas fa-lightbulb"></i></span>FAQs</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-9-1">Contact Me?</a></li>
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-9-2">Section Item 9.2</a></li>-->
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-9-3">Section Item 9.3</a></li>-->
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-10"><span class="theme-icon-holder mr-2"><i class="fas fa-mask"></i></span>Developer</a></li>
+			    </ul>
+
+		    </nav><!--//docs-nav-->
+	    </div><!--//docs-sidebar-->
+	    <div class="docs-content">
+		    <div class="container">
+
+			    <article class="docs-article" id="section-1">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Introduction <span class="docs-time">Last updated: 2021-01-29</span></h1>
+					    <section class="docs-intro">
+						    <p>
+								EGAPPBox is an APP made during internship in Engineering Good to assist Computers against Covid programme (Year 2020 -2021).
+								<br><br>
+								EGAPPBoxV2 is an updated version for <b><a href="https://eg9guest.github.io/">EGAPPBox-CAC</a></b>.
+								It has better looking and functionality than the previous version.
+								The App can now run in both <b><i>MacOS</i></b> and <b><i>Windows</i></b> &nbsp; <b>(</b> Minimum requirement: <u>macOS 10.10</u> (Yosemite) & <u>Windows 7</u> <b>)</b>.
+								<br><br>
+								It will auto detect the OS of the PC and alter the CAC form ( A form which store PC details ) and the format of storing data.
+								The data retrieve from the PC will now store online in MongoDB and can be retrieve from anywhere which allows users to easily access the data and print out as PDF.
+								This is created to help Tech Team in Computers against Covid Project by Engineering Good SG. The App will help Tech Team to auto detect computer information like model name and serial number of the PC and print out the result in a form (CAC Form) as a PDF.
+								The record saved by the tech team will also be uploaded and saved to Google Sheets so that the person-in-charge in Engineering Good can easily track the location of the laptops and their details.
+							</p>
+						</section><!--//docs-intro-->
+				    </header>
+
+				    <section class="docs-section" id="item-1-1">
+						<h2 class="section-heading">ElectronJS App</h2>
+						<p>
+							EGAPPBox is built with <a href="https://www.electronjs.org/"><b>ElectronJS</b></a>.
+							Electron is an open-source software framework developed and maintained by <a href="https://github.com/"><b>GitHub</b></a>.
+							It allows for the development of desktop GUI applications using web technologies: it combines the Chromium rendering engine and the Node.js runtime.
+							(<a href="https://en.wikipedia.org/wiki/GitHub">Wikipedia for more info</a>)
+						</p>
+						<br>
+						<h5>Programming Languages Used in the App:</h5>
+						<ul>
+						    <li><strong class="mr-1">HTML5</strong></li>
+						    <li><strong class="mr-1">CSS</strong></li>
+						    <li><strong class="mr-1">JavaScript</strong></li>
+						</ul>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-1-2">
+						<h2 class="section-heading">EGAPPBoxV2 Workflows</h2>
+
+						<p>
+							There are a few workflow on this will be carried out by Engineering Good Tech Team during PC QC.
+						</p>
+						<br>
+
+						<h5>What should the <strong style="color: #c8232c">Sender</strong> do?</h5>
+						<figure class="figure docs-figure py-3">
+							<a href="../assets/images/features/senderWorkflow.gif" data-title="EGAPPBox Sender Workflow" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="../assets/images/features/senderWork.jpg" alt="" style="width: 600px;"></a>
+						</figure>
+						<br>
+
+						<h5>What should the <strong style="color: #c8232c">Receiver</strong> do?</h5>
+						<figure class="figure docs-figure py-3">
+							<a href="../assets/images/features/receiverWorkflow.gif" data-title="EGAPPBox Receiver Workflow" data-toggle="lightbox">
+								<img class="figure-img img-fluid shadow rounded" src="../assets/images/features/receiverWork.jpg" alt="" style="width: 600px;">
+							</a>
+						</figure>
+						<br>
+
+						<h5><strong style="color: #c8232c">Clear</strong> the Database?</h5>
+						<p>
+							When to clear the database? Users have to remember to clear the database after a few days of using the App to ensure the space in MongoDB is always available and enough.
+							Users can also choose to clear the database everyday.
+						</p>
+						<figure class="figure docs-figure py-3">
+							<a href="../assets/images/features/clearDatabase.gif" data-title="EGAPPBox Clear Database Workflow" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="../assets/images/features/clearWork.jpg" alt="" style="width: 600px;"></a>
+						</figure>
+						<br>
+
+						<h5>What to do when PC is <strong style="color: #c8232c">offline</strong>? (Unable to connect to Internet)</h5>
+						<figure class="figure docs-figure py-3">
+							<a href="../assets/images/features/offlineWork.jpg" data-title="MongoGuide" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="../assets/images/features/offlineWork.jpg" alt="" style="width: 600px;"></a>
+						</figure>
+						<br>
+						<h4>
+							👉More details on <a href="https://eg9guest.github.io/EGAPPBoxV2/CACWorkflow/qc/"><strong style="color: blue;">QC workflow</strong></a>👈
+						</h4>
+
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-1-3">
+						<h2 class="section-heading">Root Files in EGAPPBoxV2</h2>
+						<figure class="figure docs-figure py-3">
+							<img class="figure-img img-fluid shadow rounded" src="../assets/images/features/rootFiles.jpg" alt="" style="width: 600px;">
+						</figure>
+						<p>
+							EGAPPBoxV2 is similar with the <a href="https://eg9guest.github.io/about.html">previous one</a>. It also runs on ElectronJS.
+						</p>
+						<ul>
+							<li><strong class="mr-1">package.json </strong><br>is used to store the details of the Application and the lists of JavaScript packages which have been used in the App. </li>
+							<li><strong class="mr-1">build </strong><br>is to store items needed when packing and building the App.</li>
+							<li><strong class="mr-1">App </strong><br>includes all the UI and function scripts in the App.</li>
+							<li><strong class="mr-1">audio </strong><br>stores audio file which used in the App.</li>
+							<li><strong class="mr-1">Cormier </strong><br>stores the custom fonts files. (Cormier Font-Family has been used in the App)</li>
+							<li><strong class="mr-1">img </strong><br>stores all images used in the App.</li>
+							<li><strong class="mr-1">macSender </strong><br>includes Sender Form for the MacOS and its script.</li>
+							<li><strong class="mr-1">mongo </strong><br>includes Mongoose API which used to connect MongoDB (Online Database) and perform integrations.</li>
+							<li><strong class="mr-1">printForm </strong><br>includes CAC Form for both MacOS and Windows and their script.</li>
+							<li><strong class="mr-1">vanillaTilt </strong><br>is used to beautify the Menu page buttons. (It gives 3D effects on the buttons)</li>
+							<li><strong class="mr-1">winSender </strong><br>includes Sender Form for the Windows and its script.</li>
+							<li><strong class="mr-1">hidden.html </strong><br>is the page which is used to clear MongoDB data.</li>
+							<li><strong class="mr-1">keys.json </strong><br>is the Google Sheets API keys used in the App to append data.</li>
+							<li><strong class="mr-1">main.js </strong><br>is the main process script which runs ElectronJS and start the App.</li>
+							<li><strong class="mr-1">platform.html </strong><br>is the page which ask users to pick their Receiver Operating System (OS).</li>
+							<li><strong class="mr-1">preload.js </strong><br>is called in main.js. The main process will run functions in preload.js before  the App is started.</li>
+							<li><strong class="mr-1">selection.html </strong><br>is the first page users will see when the App is started. It asks users to pick their role (Sender or Receiver) where Sender is used to edit and store current PC data and Receiver is used to append data receive from Sender to Google Sheets and create PDF for printing purpose.</li>
+						</ul>
+<!--						<h5>Badges Examples:</h5>-->
+<!--						<div class="my-4">-->
+<!--						    <span class="badge badge-primary">Primary</span>-->
+<!--							<span class="badge badge-secondary">Secondary</span>-->
+<!--							<span class="badge badge-success">Success</span>-->
+<!--							<span class="badge badge-danger">Danger</span>-->
+<!--							<span class="badge badge-warning">Warning</span>-->
+<!--							<span class="badge badge-info">Info</span>-->
+<!--							<span class="badge badge-light">Light</span>-->
+<!--							<span class="badge badge-dark">Dark</span>-->
+<!--						</div>-->
+<!--						<h5>Button Examples:</h5>-->
+<!--						<div class="row my-3">-->
+<!--                        <div class="col-md-6 col-12">-->
+<!--                                <ul class="list list-unstyled pl-0">-->
+<!--                                    <li><a href="#" class="btn btn-primary">Primary Button</a></li>-->
+<!--                                    <li><a href="#" class="btn btn-secondary">Secondary Button</a></li>-->
+<!--                                    <li><a href="#" class="btn btn-light">Light Button</a></li>-->
+<!--                                    <li><a href="#" class="btn btn-success">Succcess Button</a></li>-->
+<!--                                    <li><a href="#" class="btn btn-info">Info Button</a></li>-->
+<!--                                    <li><a href="#" class="btn btn-warning">Warning Button</a></li>-->
+<!--                                    <li><a href="#" class="btn btn-danger">Danger Button</a></li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                            <div class="col-md-6 col-12">-->
+<!--                                <ul class="list list-unstyled pl-0">-->
+<!--                                    <li><a href="#" class="btn btn-primary"><i class="fas fa-download mr-2"></i> Download Now</a></li>-->
+<!--                                    <li><a href="#" class="btn btn-secondary"><i class="fas fa-book mr-2"></i> View Docs</a></li>-->
+<!--                                    <li><a href="#" class="btn btn-light"><i class="fas fa-arrow-alt-circle-right mr-2"></i> View Features</a></li>-->
+<!--                                    <li><a href="#" class="btn btn-success"><i class="fas fa-code-branch mr-2"></i> Fork Now</a></li>-->
+<!--                                    <li><a href="#" class="btn btn-info"><i class="fas fa-play-circle mr-2"></i> Find Out Now</a></li>-->
+<!--                                    <li><a href="#" class="btn btn-warning"><i class="fas fa-bug mr-2"></i> Report Bugs</a></li>-->
+<!--                                    <li><a href="#" class="btn btn-danger"><i class="fas fa-exclamation-circle mr-2"></i> Submit Issues</a></li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                        </div>&lt;!&ndash;//row&ndash;&gt;-->
+<!--                        -->
+<!--                        <h5>Progress Examples:</h5>-->
+<!--                        <div class="my-4">-->
+<!--	                        <div class="progress my-4">-->
+<!--								<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>-->
+<!--							</div>-->
+<!--							<div class="progress my-4">-->
+<!--							    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>-->
+<!--							</div>-->
+<!--							<div class="progress my-4">-->
+<!--							    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>-->
+<!--							</div>-->
+<!--							<div class="progress my-4">-->
+<!--							    <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>-->
+<!--							</div>-->
+<!--                        </div>-->
+					</section><!--//section-->
+
+			    </article>
+			    
+			    <article class="docs-article" id="section-2">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Installation</h1>
+					    <section class="docs-intro">
+						    <p>
+								EGAPPBoxV2 is able to run on both MacOS and Windows OS.
+								Besides, the installation process is easy and the app has portable version for both OS which doesn't require installation to run the App.
+							</p>
+							<br>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-2-1">
+						<h2 class="section-heading">Run the App with Installation</h2>
+						 <ol>
+							 <li>Download the installation setup from the GitHub release. ("EGAPPBoxV2.Setup.2.0.0.exe" for Windows OS and "EGAPPBoxV2-2.0.0.dmg" for MacOS)</li>
+							 <li>Run the setup once complete downloading.</li>
+							 <li>Select installation path for the App.</li>
+							 <li>Once the installation is done, there should be a shortcut for EGAPPBoxV2 in the Desktop.</li>
+							 <li>The App is ready to run.</li>
+						 </ol>
+						 <br>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-2-2">
+						<h2 class="section-heading">Run the App without Installation</h2>
+						<ol>
+							<li>Download EGAPPBox Portable version from the GitHub release. ("EGAPPBoxV2_Protable.exe" for Windows OS and "mac-portable.rar" for MacOS [Unpack the RAR] )</li>
+							<li>Once the App is downloaded, it is ready to use.</li>
+						</ol>
+					</section><!--//section-->
+					
+<!--					<section class="docs-section" id="item-2-3">-->
+<!--						<h2 class="section-heading">Section Item 2.3</h2>-->
+<!--						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>-->
+<!--					</section>&lt;!&ndash;//section&ndash;&gt;-->
+			    </article><!--//docs-article-->
+			    
+			    <article class="docs-article" id="section-3">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">APIs</h1>
+					    <section class="docs-intro">
+						    <p>
+								API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.
+								Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.
+								EGAPPBox uses Google Sheets APIs to connect Engineering Good Google Sheets and Append data from PC to Google Sheets
+							</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-3-1">
+						<h2 class="section-heading">Google Sheets API</h2>
+						<p>
+							As told from above section, the Google Sheets API is stored in <b>keys.json</b>. <br>
+							<br>And the format looks like:
+						</p>
+						<div class="docs-code-block">
+							<!-- ** Embed github code starts ** -->
+							<script src="https://gist.github.com/ninguest/5ce2ee1815bd40b420996dab8187c14e.js"></script>
+							<!-- ** Embed github code ends ** -->
+						</div><!--//docs-code-block-->
+					</section><!--//section-->
+					
+<!--					<section class="docs-section" id="item-3-2">-->
+<!--						<h2 class="section-heading">Section Item 3.2</h2>-->
+<!--						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>-->
+<!--					</section>&lt;!&ndash;//section&ndash;&gt;-->
+<!--					-->
+<!--					<section class="docs-section" id="item-3-3">-->
+<!--						<h2 class="section-heading">Section Item 3.3</h2>-->
+<!--						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>-->
+<!--					</section>&lt;!&ndash;//section&ndash;&gt;-->
+			    </article><!--//docs-article-->
+			    
+			    <article class="docs-article" id="section-4">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Intergrations</h1>
+					    <section class="docs-intro">
+							<h5>"A cross between design and development"</h5>
+						    <p>
+								Integrating means turning design images into a working website while being as faithful to the initial project as possible.
+								It means creating web pages fully compatible with all browsers for developers to use later on.
+								<br><br>
+								<strong style="font-size: 20px">"</strong><b>Well, I don't really know how to explain or define INTEGRATION.
+								So, Just think that the following parts or sections are talking about the connection between services and EGAPPBoxV2.</b><strong style="font-size: 20px">"</strong>
+								<br> 👉 By: 9Guest
+							</p>
+						</section><!--//docs-intro-->
+				    </header>
+
+				     <section class="docs-section" id="item-4-1">
+						<h2 class="section-heading">List of Integrations</h2>
+						 <p>In EGAPPBoxV2, there are 2 integrations used</p>
+						 <ul>
+							 <li>
+								 <strong>MongoBD Integration</strong><br>
+								 MongoDB is a convenient online database which used to store all the Windows or Mac PC data.
+								 All the PC data is stored with specific IDs and can be retrieved from anywhere.
+							 </li>
+							 <li>
+								 <strong>Discord Integration</strong><br>
+								 Discord is an instant messaging and digital distribution platform designed for creating communities.
+								 When the PDF contains CAC form is created, it will be sent to Engineering Discord Server Channel by the Discord Bot (<code>EGAPPBox#1284</code>).
+							 </li>
+						 </ul>
+						 <br><br>
+					</section><!--//section-->
+
+			    </article><!--//docs-article-->
+			    
+			    <article class="docs-article" id="section-5">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">MongoDB (Online Database)</h1>
+					    <section class="docs-intro">
+						    <p>
+								In this section, I will be showing and explaining how to code for MongoDB integration.
+							</p>
+							<br>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-5-1">
+						<h2 class="section-heading">Introduction</h2>
+						 <h5>First, What is MongoDB?</h5>
+						 <figure class="figure docs-figure py-3">
+							 <a href="https://youtu.be/EE8ZTQxa0AM" data-title="MongoDB Introduction" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="../assets/images/mongoM.png" alt="" style="width: 600px;"></a>
+						 </figure>
+						 <br>
+						 <p>
+							 “ MongoDB is a cross-platform document-oriented database program.
+							 Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. ”
+						 </p>
+						 <p>
+							 MongoDB is a NoSQL database – a NoSQL database is one where you don’t query the database with SQL.
+						 </p>
+						 <p>
+							 MongoDB is a JSON document datastore. It allows you to store and query JSON style documents with a few smarts on top.
+							 This means that you can store objects with nested data all in one collection (collections are like tables for MongoDB).
+						 </p>
+						 <p>
+							 It is generally faster than traditional SQL databases for transactional stores but lacks the query power for Analytical usage.
+						 </p>
+						 <br>
+						 <h5>The Structure of MongoDB</h5>
+						 <figure class="figure docs-figure py-3">
+							 <a href="../assets/images/mongoStructure.PNG" data-title="MongoDB Structure" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="../assets/images/mongoStructure.PNG" alt="" style="width: 600px;"></a>
+						 </figure>
+						 <br>
+						 <p>The figure above has shown the structure of the MongoDB.</p>
+						 <p>When a new MongoDB account is freshly created, users can follow the beginner guide to created a Database.</p>
+						 <p>The Database will contains collections created by the users in future and documents will be stored inside each collection.</p>
+						 <br>
+						 <p>The <b>Documents</b> are similar to a page which contains info or data.</p>
+						 <p>The <b>Collections</b> act like a book which contains pages (Documents).</p>
+						 <p>The <b>Databases</b> act like bookshelves which store different books (Collections).</p>
+						 <br><br>
+						 <h5>Let's Get Started</h5>
+						 <p>After understanding some basics of MongoDB, let's get to coding part.</p>
+						 <p>In EGAPPBoxV2, <b>JavaScript</b> is used as main programming language and therefore <a href="https://github.com/Automattic/mongoose"><b>MongooseJS Package</b></a> have been installed and used.</p>
+						 <p>To get to know how to use MongooseJS package, users can read the <a href="https://mongoosejs.com/"><u>Documentation here</u></a>.</p>
+						 <br>
+						 <p>To Install MongooseJS package, </p>
+						 <ul>
+							 <li>Type <code>npm install mongoose</code> in the terminal to install the package.</li>
+						 </ul>
+						 <br>
+						 <p>
+							 Next, "<strong>mongo</strong>" directory is created to store all MongoDB related files.
+						 </p>
+
+					 </section><!--//section-->
+					
+					<section class="docs-section" id="item-5-2">
+						<h2 class="section-heading">Collection Schema</h2>
+						<p>
+							Collection Schema will be setup first as it will determine the format of the document will be stored in the collection.
+						</p><br>
+						<p>In the EGAPPBoxV2, <strong>egUser.js</strong> is the file with contains Schema or Format for the collection</p>
+						<br>
+						<h5>mongo/Schema/egUser.js</h5>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/daa2e120509af0f40604ae8e5293481a.js"></script>
+						</div>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-5-3">
+							<h2 class="section-heading">Document Functions</h2>
+						<p>
+							Documents in a collection can be updated, created, deleted, cleared with the functions declared here.
+						</p>
+						<br>
+						<h5>mongo/eguser.js</h5>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/cf8a34645b8b9248c084a5b79d23e9eb.js"></script>
+						</div>
+					</section><!--//section-->
+
+					<section class="docs-section" id="item-5-4">
+						<h2 class="section-heading">Connection Setup</h2>
+						<p>
+							To start a connection between the App and MongoDB, a file which contains the setup functions is created and ready to be called in the Main Process of the App.
+							<br><br>[ <i>The MongoDB URL key will be generated after creating a MongoDB Account and creating a database.</i> ]
+						</p>
+						<br>
+						<h5>mongo/data.js</h5>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/5a7566ee2272ea732d56c35c2a97419f.js"></script>
+						</div>
+					</section>
+
+					<section class="docs-section" id="item-5-5">
+						<h2 class="section-heading">Start the Connection</h2>
+						<p>Next, just start the connection to MongoDB in Main Process (main.js) and then everything is ready.</p>
+						<br>
+						<h5>main.js</h5>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/31d5892314beda440d9772b1a6454146.js"></script>
+						</div>
+					</section>
+
+					<section class="docs-section" id="item-5-6">
+						<h2 class="section-heading">Extra for Developer</h2>
+						<p>
+							There is a way to check the MongoDB database visually and easily.
+							Besides, it also allows users to edit the Databases.
+						</p>
+						<br>
+						<figure class="figure docs-figure py-3">
+							<img class="figure-img img-fluid shadow rounded" src="../assets/images/mongoCompass.PNG" alt="" style="width: 600px;">
+						</figure>
+						<br>
+						<h4>MongoDB Compass</h4>
+						<p>
+							The GUI for MongoDB.
+							Visually explore your data.
+							Run ad hoc queries in seconds.
+							Interact with your data with full CRUD functionality.
+							View and optimize your query performance.
+							Available on Linux, Mac, or Windows.
+							Compass empowers you to make smarter decisions about indexing, document validation, and more.
+						</p>
+						<br><br>
+						<h5>How to Use it?</h5>
+						<ol>
+							<li>Download <strong><a href="https://www.mongodb.com/try/download/compass">MongoDB Compass</a></strong></li>
+							<li>Install and Run MongoDB Compass</li>
+							<li>
+								Connect to the Database with the <b>MongoDB Connection String</b><br>
+								<br>
+								To <b>connect to EGAPPBoxV2 MongoDB</b>, Get the Connection String from:<br>
+									<ul>
+										<li><b>DeveloperPack</b></li>
+										<li>contact 9Guest in <a href="https://discord.gg/6dU67pE2jj"><b>Engineering Good Discord Server</b></a></li>
+									</ul>
+								<br>
+								<figure class="figure docs-figure py-3">
+									<a href="../assets/images/mongoCompassGuide.PNG" data-title="MongoGuide" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="../assets/images/mongoCompassGuide.PNG" width="600px"></a>
+								</figure>
+							</li>
+							<li>
+								Once connected, Databases will be shown.<br>
+								<figure class="figure docs-figure py-3">
+									<a href="../assets/images/mongoGuide1.PNG" data-title="MongoGuide" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="../assets/images/mongoGuide1.PNG" width="600px"></a>
+								</figure>
+
+							</li>
+							<li>
+								For EGAPPBoxV2 case, the data is stored in <strong>firstdb</strong> database ><br>
+								<strong>users</strong>(MAC PC Collection) & <strong>user2</strong> (Windows PC Collection).
+								<figure class="figure docs-figure py-3">
+									<a href="../assets/images/mongoGuide2.PNG" data-title="MongoGuide" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="../assets/images/mongoGuide2.PNG" width="600px"></a>
+								</figure>
+
+								<figure class="figure docs-figure py-3">
+									<a href="../assets/images/mongoGuide3.PNG" data-title="MongoGuide" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="../assets/images/mongoGuide3.PNG" width="600px"></a>
+								</figure>
+							</li>
+						</ol>
+
+					</section>
+
+
+				</article><!--//docs-article-->
+
+		        <article class="docs-article" id="section-6">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Discord</h1>
+					    <section class="docs-intro">
+							<figure class="figure docs-figure py-3">
+								<a href="https://youtu.be/2WvMPZ--2qo" data-title="Discord" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="../assets/images/discord.jpeg" alt="" style="width: 600px;"></a>
+							</figure>
+						    <p>
+								Discord is an American VoIP, instant messaging and digital distribution platform designed for creating communities.
+								Users communicate with voice calls, video calls, text messaging, media and files in private chats or as part of communities called "servers."
+							</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-6-1">
+						<h2 class="section-heading">Discord Developer</h2>
+						 <figure class="figure docs-figure py-3">
+							 <img class="figure-img img-fluid shadow rounded" src="../assets/images/discordDev.png" alt="" style="width: 600px;">
+						 </figure>
+						 <br>
+						 <p>
+							 <strong>"</strong>
+							 You’ve found the Discord Developer Documentation! These pages are dedicated to showing you all the ways that you can use Discord to make cool stuff. Whether you’re looking to create awesome bots for your community, empower your applications with our API, or hook us right into your game with Rich Presence or the GameSDK, Discord has something for you.
+							 <strong>"</strong><br>
+							 - From <a href="https://discord.com/developers/docs/intro"><b>Discord Developer Portal Introduction</b></a>
+						 </p>
+						 <h5>Discord Bot, EGAPPBox Discord Bot (<code>EGAPPBox#1284</code>)</h5>
+						 <p>
+							 Bots and apps are the lifeblood of the Discord development community.
+							 Therefore, EGAPPBox Discord Bot (<code>EGAPPBox#1284</code>) is created to send created PDF which contains PC info to Engineering Good Discord Server.
+							 This allows users to access those PDF files created from Discord Channel and print them out from anywhere.
+						 </p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-6-2">
+						<h2 class="section-heading">Let's Get Started</h2>
+						<p>
+							Due to the presence of EGAPPBox Discord Bot (<code>EGAPPBox#1284</code>), therefore there is no need to guide on how to create one.
+							<br>
+							<br>
+							The Discord Bot Client Key can be found from <strong>main.js</strong>.
+						</p>
+						<p>To Connect and start Discord Bot, Client Key is needed to log into the Discord Bot.</p>
+						<br>
+						<p>Follow the below steps to Connect the Discord Bot and run actions</p>
+						<h5>1. Install DiscordJS package</h5>
+						<ul>
+							<li><code>npm install discord.js</code></li>
+						</ul>
+						<br>
+						<h5>2. Declare DiscordJS package in Main Process (<strong>main.js</strong>)</h5>
+						<ul>
+							<li>
+								<code>const { Client } = require("discord.js");</code>
+							</li>
+						</ul>
+						<br>
+						<h5>3. Declare the Discord Token and Client which ready to be Connected</h5>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/0d25e3152ddf327f0d9af1d4592d2b46.js"></script>
+						</div>
+					</section><!--//section-->
+					
+			    </article><!--//docs-article-->
+
+			    <article class="docs-article" id="section-7">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">EGAPPBox Main Process</h1>
+					    <section class="docs-intro">
+							<p>
+								Talking about EGAPPBox Main Process, it is happening in <strong>main.js</strong> which contains everything on how the app works.
+								<br>
+								Therefore, I will separate <strong>main.js</strong> into multiple section to talk on the details.
+								<br>
+							</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-7-1">
+						<h2 class="section-heading">Package Included</h2>
+						 <div class="docs-code-block">
+							 <script src="https://gist.github.com/ninguest/aa85be90ac90ab060a626e8eb20fb4ef.js"></script>
+						 </div>
+						<p>
+							These are all the declared package and import files.
+						</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-7-2">
+						<h2 class="section-heading">Start App Function and Declaration</h2>
+						<h4>Declaration</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/a43af2f130a20b5b191eb86a978bbae6.js"></script>
+						</div>
+						<p>
+							<strong>client</strong> is declared for Google Sheets Integration.<br>
+							<strong>win</strong> is declared to create a application window when app is started.<br>
+							<strong>discordClient</strong> is declared for Discord Bot integration.<br>
+							<strong>discordToken</strong> is declared for Discord Bot Login.<br>
+						</p><br>
+						<h4>Start App Function</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/5f059a3297462693f111da8df1319273.js"></script>
+						</div>
+						<p>This Function will be called when the app is started. It will set the <strong>win</strong> (window) and connect to different services.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-7-3">
+						<h2 class="section-heading">App On Event</h2>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/3e33d8979578ef23b0dc28f69ebee74d.js"></script>
+						</div>
+						<p>Events which will be running when the App is started.</p>
+					</section><!--//section-->
+
+					<section class="docs-section" id="item-7-4">
+						<h2 class="section-heading">Functions Used in Main</h2>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/29d526d6de7ffd4801f24603eb508794.js"></script>
+						</div>
+					</section>
+					<section class="docs-section" id="item-7-5">
+						<h2 class="section-heading">Google Sheets Integration Function</h2>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/788e83ee28548b68adc63f9ab438fef3.js"></script>
+						</div>
+					</section>
+					<section class="docs-section" id="item-7-6">
+						<h2 class="section-heading">ipcMain</h2>
+						<p><strong>ipcMain</strong> is used to communicate asynchronously from the main process to renderer processes.</p>
+						<p>
+							The main process will be happening in <strong>main.js</strong>.
+							The renderer process will be happening to the pages which load up (HTML script).
+						</p>
+						<p>
+							The <strong>ipcMain</strong> module is an <a href="https://nodejs.org/api/events.html#events_class_eventemitter">Event Emitter</a>.
+							When used in the main process, it handles asynchronous and synchronous messages sent from a renderer process (web page).
+							Messages sent from a renderer will be emitted to this module. [ <a href="https://www.electronjs.org/docs/api/ipc-main">More...</a> ]
+						</p>
+						<br>
+						<h4>Main Process to save data into a file</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/20cf06f6a9ae6b078cbdedb1e7a721b0.js"></script>
+						</div>
+						<h4>Main Process to read data from a file</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/35241099bd83168ca2bebf9c11904a6f.js"></script>
+						</div>
+
+						<h4>Main Process to Check Availability of a file</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/a7cc9e171921465994be0774b76b7c1f.js"></script>
+						</div>
+
+						<h4>Main Process to check thisPC ID and create one if undefined</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/586a6e8b39f2f201c5b8da757d4a5569.js"></script>
+						</div>
+
+						<h4>Main Process to ask user for confirmation</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/ffd47cdde85530a9f85c1cf73a7ce5fc.js"></script>
+						</div>
+						<h4>Main Process to check Mongo for thisPC ID</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/d320caab79fe1a16312f6096bf6ed481.js"></script>
+						</div>
+						<h4>Main Process to create data Doc in Mongo</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/8075715b143c87707ac49ff6f081fd34.js"></script>
+						</div>
+						<h4>Main Process to update data Doc in Mongo</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/619866fd2342452fc90788031d267463.js"></script>
+						</div>
+						<h4>Main Process to restart the App</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/fefffcffd1491d34a4cac70ea37a85b7.js"></script>
+						</div>
+						<h4>Main Process to get data from Mongo</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/c14353444e960f8bb140139054043eaa.js"></script>
+						</div>
+						<h4>Main Process to print PDF</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/90e0a519e5720902b2a02e08170104e4.js"></script>
+						</div>
+						<h4>Main Process to send PDF to Discord</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/e5169f288de5fbd716e438a92aac2752.js"></script>
+						</div>
+						<h4>Main Process for GoogleSheets API</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/6284de7a51f719a5df73abb1290ad764.js"></script>
+						</div>
+						<h4>Main Process to clear all data in MongoDatabase</h4>
+						<div class="docs-code-block">
+							<script src="https://gist.github.com/ninguest/57aae9ed61cc3ce839e81e741cd415c9.js"></script>
+						</div>
+					</section>
+			    </article><!--//docs-article-->
+
+			    <article class="docs-article" id="section-8">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Bugs</h1>
+					    <section class="docs-intro">
+							<p>
+								A software bug is an error, flaw or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways....
+								A program that contains many bugs, and/or bugs that seriously interfere with its functionality, is said to be buggy (defective).
+							</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-8-1">
+						<h2 class="section-heading">Bug 1: Create PDF</h2>
+						 <p>
+							 This bug is expected and acknowledged by the developer, 9Guest.<br>
+							 <b>Unfortunately</b>, the developer is a super <strong>lazy</strong> & <strong>useless</strong> programmer.<br>
+							 Therefore, this bug will be last forever and never will be updated by 9Guest.
+							 <br><br>
+							 <strong>"</strong>
+							 <strong>Haha, I am too lazy to redo the thing already, let it be or just wait for the new developer who are willing to help me to change it.</strong>
+							 <strong>"</strong><br>
+							 👉 By: 9Guest
+						 </p>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    <article class="docs-article" id="section-9">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">FAQs</h1>
+					    <section class="docs-intro">
+							<p>
+								Sorry, there is no FAQs here.
+							</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-9-1">
+						<h2 class="section-heading">Contact Me?<small>(FAQ Category One)</small></h2>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>Where to find this <strong>stupid</strong> developer?</h5>
+						 <p>
+							 Sorry, the developer of this App will vanish once his internship ended in March 2021. If you really want to find him desperately, try the <a href="https://discord.gg/6dU67pE2jj"><b>Discord Server</b></a></p>.
+						 </p>
+						 <h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>How to takeover the development of EGAPPBox from this <strong>useless</strong> developer?</h5>
+						<p>
+							What should you do first? You need to <a href="https://engineeringgood.org/about/contact-us/">contact Engineering Good</a> be a volunteer and join <a href="https://github.com/Engineering-Good"><strong>Engineering Good @ GitHub</strong></a>.<br><br>
+							How do you get to Develop this App? After request permission to join Engineering Good @ GitHub, proceed to <a href="https://github.com/Engineering-Good/EGAPPBox-CAC/releases/tag/2.0.0">EGAPPBoxV2 Developer Release</a> and download the <i>EGAPPBoxV2_DeveloperPack.rar</i>.<br><br>
+							Then you may start editing and coding. After finishing your work please share your work to Engineering Good.<br><br>
+							Thank You Very Much !!!!
+						</p>
+						 <figure class="figure docs-figure py-3">
+							 <a href="../assets/images/developerPack.png" data-title="Discord" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="../assets/images/developerPack.png" alt="" style="width: 600px;"></a>
+						 </figure>
+					</section><!--//section-->
+				</article><!--//docs-article-->
+
+				<article class="docs-article" id="section-10">
+					<header class="docs-header">
+					    <h1 class="docs-heading">Developer</h1>
+					    <section class="docs-intro">
+							<p>
+								Want to be EGAPPBox Developer? 
+							</p>
+							<p>
+								As told from above, if you want to help develop EGAPPBox, you have to ......<br>
+								<br>
+								Click to following link will redirect you to a page on EGAPPBox Developer Workflow <br>👇👇👇
+							</p>
+							<p><a href="https://eg9guest.github.io/EGAPPBoxV2/CACWorkflow/developer/"><strong style="color: blueviolet;">EGAPPBox Developer Workflow</strong></a></p>
+						</section><!--//docs-intro-->
+				    </header>
+				</article>
+
+			    <footer class="footer">
+				    <div class="container text-center py-5">
+					    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+						<small class="copyright">Hard-Coded with <i class="fas fa-heart" style="color: #f32424;"></i> by <a class="theme-link" href="https://github.com/ninguest" target="_blank">NineGuest</a> for Engineering Good</small>
+						<ul class="social-list list-unstyled pb-4 mb-0">
+							<li class="list-inline-item"><a href="https://github.com/Engineering-Good"><i class="fab fa-github fa-fw"></i></a></li>
+							<!--            <li class="list-inline-item"><a href="https://www.youtube.com/channel/UC6CplJUHCyaLd_CjSI9uovA"><i class="fab fa-youtube fa-fw"></i></a></li>-->
+							<li class="list-inline-item"><a href="https://discord.gg/6dU67pE2jj"><i class="fab fa-discord fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://sg.linkedin.com/company/engineeringgood"><i class="fab fa-linkedin fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://www.facebook.com/engineeringgood.org"><i class="fab fa-facebook-f fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://www.instagram.com/engineeringgood/"><i class="fab fa-instagram fa-fw"></i></a></li>
+						</ul><!--//social-list-->
+				    </div>
+			    </footer>
+		    </div> 
+	    </div>
+    </div><!--//docs-wrapper-->
+    
+   
+       
+    <!-- Javascript -->          
+    <script src="../assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="../assets/plugins/popper.min.js"></script>
+    <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    
+    
+    <!-- Page Specific JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="../assets/js/highlight-custom.js"></script>
+    <script src="../assets/plugins/jquery.scrollTo.min.js"></script>
+    <script src="../assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
+    <script src="../assets/js/docs.js"></script>
+
+</body>
+</html> 
+
