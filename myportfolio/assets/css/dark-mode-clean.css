@@ -25,19 +25,82 @@
   --sidebar-border: #2c2f3f;
 }
 
+/* Premium Typography - Playfair Display + Source Sans Pro */
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
 }
 
-/* Text color fixes */
+/* Elegant headings with Playfair Display */
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color) !important;
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+  margin-bottom: 1.2rem;
 }
 
+/* Heading size hierarchy */
+h1 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2.2rem;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Body text optimization */
 p, span, div, li, a {
   color: var(--text-color);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+/* Enhanced paragraph spacing */
+p {
+  margin-bottom: 1.5rem;
+  font-size: 16px;
+}
+
+/* Navigation and UI elements */
+.nav-menu a span,
+.social-links a,
+.btn,
+button {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.5px !important;
 }
 
 .section-title p {
@@ -453,10 +516,52 @@ p, span, div, li, a {
 /* Hero section text */
 #hero h1 {
   color: white !important;
+  line-height: 1.5 !important; /* Fix for text cutoff - ensures proper spacing */
+  padding: 10px;
+  margin-bottom: 20px !important;
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 800 !important;
+  font-size: 4rem !important;
+  letter-spacing: -1.5px !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important;
+}
+
+#hero p {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 1.4rem !important;
+  letter-spacing: 0.5px !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3) !important;
 }
 
 #hero .typed {
   color: white !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-weight: 500 !important;
+  border-bottom-color: #149ddd !important;
+}
+
+/* Hero container spacing fix */
+#hero .hero-container {
+  padding: 20px 0 !important;
+}
+
+/* Additional spacing for the br tag */
+#hero br {
+  line-height: 1.5;
+}
+
+/* Responsive hero typography */
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 2.5rem !important;
+    letter-spacing: -1px !important;
+  }
+  
+  #hero p {
+    font-size: 1.2rem !important;
+  }
 }
 
 /* Footer */
