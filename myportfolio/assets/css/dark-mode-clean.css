@@ -1,0 +1,676 @@
+/* Dark Mode Styles */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #272829;
+  --card-bg: #ffffff;
+  --border-color: #e9ecef;
+  --header-bg: #f8f9fa;
+  --section-bg: #f5f8fd;
+  --heading-color: #2c3e50;
+  --muted-text: #6c757d;
+  --sidebar-text: #6c757d;
+  --sidebar-border: #ddd;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --card-bg: #2d2d2d;
+  --border-color: #444444;
+  --header-bg: #0a0a0a;
+  --section-bg: #222222;
+  --heading-color: #f8f9fa;
+  --muted-text: #adb5bd;
+  --sidebar-text: #bbb;
+  --sidebar-border: #2c2f3f;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Text color fixes */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color) !important;
+}
+
+p, span, div, li, a {
+  color: var(--text-color);
+}
+
+.section-title p {
+  color: var(--muted-text) !important;
+}
+
+/* Section backgrounds */
+.section-bg {
+  background-color: var(--section-bg) !important;
+}
+
+/* About section text */
+.about .content p {
+  color: var(--text-color) !important;
+}
+
+.about .content ul li {
+  color: var(--text-color) !important;
+}
+
+.about .content ul li strong {
+  color: var(--heading-color) !important;
+}
+
+.about .content ul li span {
+  color: var(--text-color) !important;
+}
+
+/* Resume section text */
+.resume .resume-item h4,
+.resume .resume-item h5 {
+  color: var(--heading-color) !important;
+}
+
+/* Enhanced styling for time periods (h5 elements) in dark theme */
+[data-theme="dark"] .resume .resume-item h5 {
+  background: linear-gradient(135deg, #0f4c75, #3282b8);
+  color: #ffffff !important;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.5px;
+}
+
+/* Light theme time periods styling */
+[data-theme="light"] .resume .resume-item h5,
+.resume .resume-item h5 {
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  color: #1565c0 !important;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 15px;
+  border: 2px solid rgba(21, 101, 192, 0.2);
+  box-shadow: 0 2px 8px rgba(21, 101, 192, 0.1);
+}
+
+.resume .resume-item p,
+.resume .resume-item em {
+  color: var(--text-color) !important;
+}
+
+.resume .resume-title {
+  color: var(--heading-color) !important;
+}
+
+/* Skills section */
+.skills .skills-container {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.skills .skills-container .skill-item {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+  color: var(--text-color);
+}
+
+.skills .section-title h2,
+.skills .section-title p {
+  color: var(--heading-color) !important;
+}
+
+/* Portfolio section - Classic & Elegant Design */
+.portfolio-wrap {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  transform: translateY(0);
+}
+
+[data-theme="dark"] .portfolio-wrap {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.portfolio-wrap:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  border-color: rgba(20, 157, 221, 0.3);
+}
+
+[data-theme="dark"] .portfolio-wrap:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+  border-color: rgba(20, 157, 221, 0.5);
+}
+
+/* Classic overlay effect */
+.portfolio-wrap::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg, 
+    rgba(255, 255, 255, 0.1) 0%, 
+    rgba(20, 157, 221, 0.05) 50%, 
+    rgba(55, 179, 237, 0.1) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+[data-theme="dark"] .portfolio-wrap::before {
+  background: linear-gradient(
+    135deg, 
+    rgba(255, 255, 255, 0.05) 0%, 
+    rgba(20, 157, 221, 0.1) 50%, 
+    rgba(55, 179, 237, 0.05) 100%
+  );
+}
+
+.portfolio-wrap:hover::before {
+  opacity: 1;
+}
+
+.portfolio-wrap .fixed-size-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 0;
+  transition: all 0.3s ease;
+  filter: brightness(0.9) contrast(1.05);
+  position: relative;
+  z-index: 2;
+}
+
+.portfolio-wrap:hover .fixed-size-img {
+  filter: brightness(1) contrast(1.1);
+}
+
+/* Classic bottom overlay with elegant typography */
+.portfolio-links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0.6) 80%,
+    transparent 100%
+  );
+  padding: 25px 20px 20px 20px;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+  z-index: 3;
+}
+
+[data-theme="dark"] .portfolio-links {
+  background: linear-gradient(
+    to top,
+    rgba(20, 157, 221, 0.95) 0%,
+    rgba(13, 122, 184, 0.9) 50%,
+    rgba(20, 157, 221, 0.7) 80%,
+    transparent 100%
+  );
+}
+
+.portfolio-wrap:hover .portfolio-links {
+  transform: translateY(0);
+}
+
+.portfolio-links a {
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  padding: 15px 25px !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(5px) !important;
+  font-family: 'Raleway', sans-serif !important;
+  letter-spacing: 0.5px !important;
+}
+
+.portfolio-links a:hover {
+  background: rgba(255, 255, 255, 0.25) !important;
+  border-color: rgba(255, 255, 255, 0.4) !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.portfolio-links a i {
+  color: white !important;
+  font-size: 18px !important;
+  opacity: 0.9;
+}
+
+/* Portfolio item classic enhancement */
+.portfolio-item {
+  margin-bottom: 30px;
+  position: relative;
+  padding: 5px;
+}
+
+/* Subtle border accent on hover */
+.portfolio-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  background: linear-gradient(45deg, #149ddd, #37b3ed) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: exclude;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.portfolio-item:hover::after {
+  opacity: 0.6;
+}
+
+/* Classic card inner shadow */
+.portfolio-wrap::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  pointer-events: none;
+  z-index: 4;
+}
+
+[data-theme="dark"] .portfolio-wrap::after {
+  box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.05);
+}
+
+/* Portfolio filters - override original styling to adapt to theme */
+.portfolio #portfolio-flters {
+  background: var(--card-bg) !important;
+  border: 2px solid var(--border-color) !important;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] .portfolio #portfolio-flters {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+#portfolio-flters li {
+  color: var(--text-color) !important;
+  background: transparent !important;
+  border: none !important;
+  transition: all 0.3s ease;
+}
+
+#portfolio-flters li.filter-active,
+#portfolio-flters li:hover {
+  background: #149ddd !important;
+  color: white !important;
+  border-radius: 20px !important;
+  transform: translateY(-1px);
+}
+
+/* Profile sidebar - adapt to theme */
+#header {
+  background: var(--header-bg) !important;
+  border-right: 1px solid var(--border-color);
+}
+
+:root #header {
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] #header {
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#header .profile img {
+  border: 8px solid var(--sidebar-border) !important;
+}
+
+#header .profile h1 a {
+  color: var(--heading-color) !important;
+}
+
+/* Navigation menu */
+#navbar .nav-menu {
+  background: transparent;
+}
+
+#navbar .nav-menu ul {
+  background: transparent;
+}
+
+#navbar .nav-menu li a {
+  color: var(--sidebar-text) !important;
+  transition: all 0.3s ease;
+}
+
+#navbar .nav-menu li a:hover,
+#navbar .nav-menu li a.active {
+  color: #149ddd !important;
+}
+
+#navbar .nav-menu li a i {
+  color: var(--sidebar-text) !important;
+}
+
+#navbar .nav-menu li a:hover i,
+#navbar .nav-menu li a.active i {
+  color: #149ddd !important;
+}
+
+/* Social media links in header */
+#header .social-links a {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+#header .social-links a:hover {
+  color: white !important;
+  background: #149ddd !important;
+  border-color: #149ddd;
+}
+
+/* Contact section */
+.contact .php-email-form {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.contact .php-email-form .form-control {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+  color: var(--text-color);
+}
+
+.contact .php-email-form label {
+  color: var(--text-color) !important;
+}
+
+.contact .section-title h2,
+.contact .section-title p {
+  color: var(--heading-color) !important;
+}
+
+.contact .php-email-form .form-control:focus {
+  border-color: #149ddd !important;
+  background-color: var(--card-bg) !important;
+  color: var(--text-color) !important;
+}
+
+/* Form status messages */
+.php-email-form .loading,
+.php-email-form .error-message,
+.php-email-form .sent-message {
+  color: var(--text-color) !important;
+}
+
+/* Form input placeholders */
+.php-email-form input::placeholder,
+.php-email-form textarea::placeholder {
+  color: var(--muted-text) !important;
+  opacity: 0.7;
+}
+
+/* Hero section text */
+#hero h1 {
+  color: white !important;
+}
+
+#hero .typed {
+  color: white !important;
+}
+
+/* Footer */
+#footer {
+  background-color: var(--header-bg) !important;
+}
+
+#footer .copyright {
+  color: var(--text-color) !important;
+}
+
+/* Buttons */
+button, .btn {
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+/* Mobile navigation toggle */
+.mobile-nav-toggle {
+  color: white !important;
+  background: #149ddd !important;
+  border: 2px solid #149ddd !important;
+  border-radius: 50%;
+  padding: 8px;
+  box-shadow: 0 4px 15px rgba(20, 157, 221, 0.4);
+}
+
+.mobile-nav-toggle:hover {
+  background: #0d7ab8 !important;
+  border-color: #0d7ab8 !important;
+  color: white !important;
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(20, 157, 221, 0.6);
+}
+
+/* Bottom-right button container */
+.bottom-right-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  pointer-events: none; /* Allow clicks to pass through container */
+}
+
+.bottom-right-buttons > * {
+  pointer-events: auto; /* Re-enable clicks on child elements */
+}
+
+/* Back to top button - updated styling to match theme button */
+.back-to-top {
+  background: #149ddd !important;
+  border: 2px solid #149ddd !important;
+  color: white !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50px !important;
+  box-shadow: 0 4px 15px rgba(20, 157, 221, 0.4) !important;
+  transition: all 0.3s ease !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  position: relative !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+
+.back-to-top:hover {
+  background: #0d7ab8 !important;
+  border-color: #0d7ab8 !important;
+  color: white !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0 6px 20px rgba(20, 157, 221, 0.6) !important;
+}
+
+.back-to-top i {
+  color: inherit !important;
+  font-size: 18px !important;
+}
+
+/* Dark Mode Toggle Button - moved to bottom right */
+.dark-mode-toggle {
+  background: #149ddd;
+  border: 2px solid #149ddd;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(20, 157, 221, 0.4);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-mode-toggle:hover {
+  background: #0d7ab8;
+  border-color: #0d7ab8;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(20, 157, 221, 0.6);
+}
+
+/* Ensure mobile nav menu also adapts */
+@media (max-width: 1199px) {
+  #header {
+    background: var(--header-bg) !important;
+  }
+  
+  body.mobile-nav-active #header {
+    background: var(--header-bg) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .bottom-right-buttons {
+    bottom: 15px;
+    right: 15px;
+    gap: 8px;
+  }
+  
+  .dark-mode-toggle,
+  .back-to-top {
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 16px !important;
+  }
+  
+  .back-to-top i {
+    font-size: 16px !important;
+  }
+
+  /* Portfolio mobile improvements */
+  .portfolio .portfolio-container {
+    display: block !important;
+  }
+
+  .portfolio .portfolio-container .col-lg-4,
+  .portfolio .portfolio-container .col-md-6 {
+    width: 100% !important;
+    padding: 0 15px !important;
+    margin-bottom: 25px !important;
+    display: block !important;
+    float: none !important;
+  }
+
+  .portfolio .portfolio-item {
+    margin-bottom: 0 !important;
+    width: 100% !important;
+  }
+
+  #portfolio-flters {
+    display: none !important;
+  }
+
+  .portfolio-wrap {
+    margin-bottom: 0 !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+  }
+
+  .portfolio-links a {
+    font-size: 14px !important;
+    padding: 12px 8px !important;
+  }
+
+  /* Improve portfolio link text on mobile */
+  .portfolio-links a i {
+    margin-right: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extra small screens */
+  .portfolio .portfolio-container .col-lg-4,
+  .portfolio .portfolio-container .col-md-6 {
+    padding: 0 10px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .portfolio-links a {
+    font-size: 12px !important;
+    padding: 10px 6px !important;
+  }
+}
+
+/* Ensure all paragraph text follows dark mode */
+.about p,
+.resume p,
+.portfolio p,
+.contact p {
+  color: var(--text-color) !important;
+}
+
+/* Loading screen - ensure it works in both modes */
+.loading-screen {
+  background: linear-gradient(135deg, #149ddd 0%, #37b3ed 100%) !important;
+}
+
+.loading-text {
+  color: white !important;
+}
+
+/* Typed.js cursor and text */
+.typed-cursor {
+  color: white !important;
+}
+
+/* Smooth transitions for all elements */
+* {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}

@@ -1,0 +1,398 @@
+/* Dark Mode Styles */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #272829;
+  --card-bg: #ffffff;
+  --border-color: #e9ecef;
+  --header-bg: #f8f9fa;
+  --section-bg: #f5f8fd;
+  --heading-color: #2c3e50;
+  --muted-text: #6c757d;
+  --sidebar-text: #6c757d;
+  --sidebar-border: #ddd;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --card-bg: #2d2d2d;
+  --border-color: #444444;
+  --header-bg: #0a0a0a;
+  --section-bg: #222222;
+  --heading-color: #f8f9fa;
+  --muted-text: #adb5bd;
+  --sidebar-text: #bbb;
+  --sidebar-border: #2c2f3f;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Text color fixes */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color) !important;
+}
+
+/* General text elements (excluding social links) */
+p, span, div, li {
+  color: var(--text-color);
+}
+
+/* General links (excluding social links) */
+a:not(.social-links a) {
+  color: var(--text-color);
+}
+
+.section-title p {
+  color: var(--muted-text) !important;
+}
+
+/* About section text */
+.about .content p {
+  color: var(--text-color) !important;
+}
+
+.about .content ul li {
+  color: var(--text-color) !important;
+}
+
+.about .content ul li strong {
+  color: var(--heading-color) !important;
+}
+
+/* Resume section text */
+.resume .resume-item h4,
+.resume .resume-item h5 {
+  color: var(--heading-color) !important;
+}
+
+.resume .resume-item p,
+.resume .resume-item em {
+  color: var(--text-color) !important;
+}
+
+.resume .resume-title {
+  color: var(--heading-color) !important;
+}
+
+/* Portfolio links */
+.portfolio-links a {
+  color: white !important;
+}
+
+/* Loading screen - ensure it works in both modes */
+.loading-screen {
+  background: linear-gradient(135deg, #149ddd 0%, #37b3ed 100%) !important;
+}
+
+.loading-text {
+  color: white !important;
+}
+
+.section-bg {
+  background-color: var(--section-bg) !important;
+}
+
+.skills .skills-container {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.skills .skills-container .skill-item {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+  color: var(--text-color);
+}
+
+.portfolio-wrap {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.resume-item {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.contact .php-email-form {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.contact .php-email-form .form-control {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+  color: var(--text-color);
+}
+
+/* Contact form labels and text */
+.contact .php-email-form label {
+  color: var(--text-color) !important;
+}
+
+.contact .section-title h2,
+.contact .section-title p {
+  color: var(--heading-color) !important;
+}
+
+/* Hero section text */
+#hero h1 {
+  color: white !important;
+}
+
+#hero .typed {
+  color: white !important;
+}
+
+/* Navigation text */
+#navbar a span {
+  color: var(--text-color);
+}
+
+/* Skills section heading */
+.skills .section-title h2,
+.skills .section-title p {
+  color: var(--heading-color) !important;
+}
+
+/* Footer text */
+#footer {
+  background-color: var(--header-bg) !important;
+}
+
+#footer .copyright {
+  color: var(--text-color) !important;
+}
+
+/* Profile sidebar - adapt to theme */
+#header {
+  background: var(--header-bg) !important;
+  border-right: 1px solid var(--border-color);
+}
+
+#header .profile img {
+  border: 8px solid var(--sidebar-border) !important;
+}
+
+#header .profile h1 a {
+  color: var(--heading-color) !important;
+}
+
+/* Navigation menu */
+#navbar .nav-menu {
+  background: transparent;
+}
+
+#navbar .nav-menu ul {
+  background: transparent;
+}
+
+#navbar .nav-menu li a {
+  color: var(--sidebar-text) !important;
+  transition: all 0.3s ease;
+}
+
+#navbar .nav-menu li a:hover,
+#navbar .nav-menu li a.active {
+  color: #149ddd !important;
+}
+
+#navbar .nav-menu li a i {
+  color: var(--sidebar-text) !important;
+}
+
+#navbar .nav-menu li a:hover i,
+#navbar .nav-menu li a.active i {
+  color: #149ddd !important;
+}
+
+/* Social media links in header */
+#header .profile .social-links a {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+#header .profile .social-links a:hover {
+  color: white !important;
+  background: #149ddd !important;
+  border-color: #149ddd;
+}
+
+/* Light mode specific styles */
+:root #header {
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] #header {
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Mobile navigation toggle */
+.mobile-nav-toggle {
+  color: var(--text-color) !important;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.mobile-nav-toggle:hover {
+  color: #149ddd !important;
+}
+
+/* Ensure mobile nav menu also adapts */
+@media (max-width: 1199px) {
+  #header {
+    background: var(--header-bg) !important;
+  }
+  
+  body.mobile-nav-active #header {
+    background: var(--header-bg) !important;
+  }
+}
+
+/* Portfolio filter buttons */
+#portfolio-flters li {
+  color: var(--text-color) !important;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+#portfolio-flters li.filter-active,
+#portfolio-flters li:hover {
+  background: #149ddd !important;
+  color: white !important;
+}
+
+/* Form status messages */
+.php-email-form .loading,
+.php-email-form .error-message,
+.php-email-form .sent-message {
+  color: var(--text-color) !important;
+}
+
+/* Form input placeholders */
+.php-email-form input::placeholder,
+.php-email-form textarea::placeholder {
+  color: var(--muted-text) !important;
+  opacity: 0.7;
+}
+
+/* Additional text elements that might need dark mode */
+.skills .section-bg {
+  background-color: var(--section-bg) !important;
+}
+
+/* Ensure all paragraph text follows dark mode */
+.about p,
+.resume p,
+.portfolio p,
+.contact p {
+  color: var(--text-color) !important;
+}
+
+/* Form validation and interaction states */
+.php-email-form .form-control:focus {
+  border-color: #149ddd !important;
+  background-color: var(--card-bg) !important;
+  color: var(--text-color) !important;
+}
+
+/* Social media links in header - More specific selector */
+#header .profile .social-links a {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+#header .profile .social-links a:hover {
+  color: white !important;
+  background: #149ddd !important;
+  border-color: #149ddd;
+}
+
+/* Age text in about section */
+.about .content ul li span {
+  color: var(--text-color) !important;
+}
+
+/* Portfolio item text */
+.portfolio-links a i {
+  color: white !important;
+}
+
+/* Ensure buttons maintain proper styling */
+button, .btn {
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+/* Mobile navigation toggle */
+.mobile-nav-toggle {
+  color: var(--text-color) !important;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.mobile-nav-toggle:hover {
+  color: #149ddd !important;
+}
+
+/* Back to top button */
+.back-to-top {
+  background: #149ddd !important;
+  color: white !important;
+}
+
+.back-to-top:hover {
+  background: #37b3ed !important;
+  color: white !important;
+}
+
+/* Typed.js cursor and text */
+.typed-cursor {
+  color: white !important;
+}
+
+/* Any remaining text that might not be covered */
+* {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: var(--card-bg);
+  border: 2px solid var(--border-color);
+  border-radius: 50px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .dark-mode-toggle {
+    top: 15px;
+    right: 15px;
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+}
