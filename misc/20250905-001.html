@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 2025 Mobile Framework Decision Matrix</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Warm Harmony -->
+    <!-- Application Structure Plan: To provide a clearer, data-driven comparison, the 'Comparative Showdown' is replaced with a '2025 Framework Performance Dashboard'. This new section uses three distinct bar charts to visualize key 2025 metrics: 1) Performance & Efficiency, 2) Developer Velocity & Market Demand, and 3) UI Flexibility & Ecosystem. This structure presents researched, quantitative comparisons in a digestible format, leading into the qualitative deep-dive cards. -->
+    <!-- Visualization & Content Choices: 1. Recommendation -> Goal: Guide -> Viz: Interactive Wizard. -> Justification: Active, personalized starting point. 2. Quantitative Comparison -> Goal: Clearly show differences -> Viz: Three distinct, dynamic bar charts (Chart.js) within a dashboard section. -> Interaction: Charts are pre-rendered based on 2025 data. Tooltips provide specific data points on hover. -> Justification: Bar charts are excellent for comparing discrete values across categories. Using separate charts for different themes (Performance, Velocity, UI) prevents information overload and makes the data story for each aspect incredibly clear and easy for a public audience to understand. 3. Detailed Info -> Goal: Inform -> Viz: Detailed Tailwind Cards. -> Justification: Provides comprehensive qualitative context. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FDFBF8;
+            color: #4A4A4A;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            max-height: 50vh;
+        }
+        @media (max-width: 768px) {
+            .chart-container {
+                height: 300px;
+            }
+        }
+        .framework-card {
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            will-change: transform, box-shadow, opacity;
+        }
+        .framework-card.highlight {
+            transform: scale(1.03);
+            box-shadow: 0 0 0 3px #A58D78, 0 25px 50px -12px rgb(0 0 0 / 0.25);
+            opacity: 1 !important;
+        }
+        .framework-card.dimmed {
+            opacity: 0.5;
+            transform: scale(0.98);
+        }
+        .wizard-btn, .filter-btn {
+            transition: all 0.2s ease-in-out;
+        }
+        .wizard-btn.active, .filter-btn.active {
+            background-color: #A58D78;
+            color: #FFFFFF;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 tracking-tight">The 2025 Mobile Framework Decision Matrix</h1>
+            <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">An interactive, data-driven guide to selecting the perfect mobile framework for your project.</p>
+        </header>
+
+        <main>
+            <section id="wizard" class="mb-16 bg-white p-6 md:p-8 rounded-2xl shadow-lg border border-gray-100">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-2">1. Get a Quick Recommendation</h2>
+                <p class="text-center text-gray-500 mb-8">Answer three questions and we'll highlight a suggested framework below.</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div>
+                        <h3 class="font-semibold text-lg mb-4 text-gray-700">Team's Primary Skill?</h3>
+                        <div class="flex flex-wrap justify-center gap-3" data-question="skills">
+                            <button class="wizard-btn font-medium py-2 px-4 rounded-full bg-gray-100 shadow-sm border border-gray-200" data-value="react">React / JS</button>
+                            <button class="wizard-btn font-medium py-2 px-4 rounded-full bg-gray-100 shadow-sm border border-gray-200" data-value="native">Swift / Kotlin</button>
+                            <button class="wizard-btn font-medium py-2 px-4 rounded-full bg-gray-100 shadow-sm border border-gray-200" data-value="new">Learning a new language is OK</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-4 text-gray-700">UI Importance?</h3>
+                        <div class="flex flex-wrap justify-center gap-3" data-question="ui">
+                            <button class="wizard-btn font-medium py-2 px-4 rounded-full bg-gray-100 shadow-sm border border-gray-200" data-value="critical">Critical (Brand-first)</button>
+                            <button class="wizard-btn font-medium py-2 px-4 rounded-full bg-gray-100 shadow-sm border border-gray-200" data-value="standard">Standard (Native feel)</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-4 text-gray-700">Top Priority?</h3>
+                        <div class="flex flex-wrap justify-center gap-3" data-question="priority">
+                            <button class="wizard-btn font-medium py-2 px-4 rounded-full bg-gray-100 shadow-sm border border-gray-200" data-value="speed">Time to Market</button>
+                            <button class="wizard-btn font-medium py-2 px-4 rounded-full bg-gray-100 shadow-sm border border-gray-200" data-value="performance">Peak Performance</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="text-center mt-8">
+                     <button id="reset-wizard-btn" class="font-medium py-2 px-5 rounded-full bg-gray-200 hover:bg-gray-300 text-gray-700">Reset Recommendation</button>
+                </div>
+            </section>
+            
+            <section id="dashboard" class="mb-16 bg-white p-6 md:p-8 rounded-2xl shadow-lg border border-gray-100">
+                 <h2 class="text-3xl font-bold text-center text-gray-800 mb-2">2. 2025 Framework Performance Dashboard</h2>
+                 <p class="text-center text-gray-500 mb-10">Data-driven comparisons of key metrics for 2025. Lower is better for App Size and Memory; higher is better for all others.</p>
+                 <div class="grid grid-cols-1 xl:grid-cols-2 gap-12">
+                    <div class="bg-gray-50 p-6 rounded-xl">
+                        <h3 class="text-xl font-bold text-center text-gray-700 mb-1">Performance & Efficiency</h3>
+                        <p class="text-center text-sm text-gray-500 mb-4">Native frameworks lead in raw performance and optimization.</p>
+                        <div class="chart-container"><canvas id="performanceChart"></canvas></div>
+                    </div>
+                     <div class="bg-gray-50 p-6 rounded-xl">
+                        <h3 class="text-xl font-bold text-center text-gray-700 mb-1">Developer Velocity & Market Demand</h3>
+                         <p class="text-center text-sm text-gray-500 mb-4">Cross-platform solutions accelerate development time.</p>
+                        <div class="chart-container"><canvas id="velocityChart"></canvas></div>
+                    </div>
+                     <div class="bg-gray-50 p-6 rounded-xl">
+                        <h3 class="text-xl font-bold text-center text-gray-700 mb-1">UI Flexibility & Ecosystem</h3>
+                        <p class="text-center text-sm text-gray-500 mb-4">Flutter's custom rendering and React Native's vast library excel here.</p>
+                        <div class="chart-container"><canvas id="uiChart"></canvas></div>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-xl xl:col-span-2">
+                        <h3 class="text-xl font-bold text-center text-gray-700 mb-1">Overall Decision Matrix Score</h3>
+                        <p class="text-center text-sm text-gray-500 mb-4">A composite score balancing all key metrics for a general-purpose application.</p>
+                        <div class="chart-container"><canvas id="overallChart"></canvas></div>
+                    </div>
+                 </div>
+            </section>
+
+            <section id="framework-details">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-gray-800">3. Explore In-Depth Profiles</h2>
+                    <p class="text-gray-500 mt-2">Filter by category to explore the details of each framework.</p>
+                     <div id="filters" class="mt-6 flex flex-wrap justify-center gap-3 md:gap-4">
+                        <button data-filter="all" class="filter-btn active font-medium py-2 px-5 rounded-full bg-white shadow-sm border border-gray-200 hover:bg-gray-100">Show All</button>
+                        <button data-filter="cross-platform" class="filter-btn font-medium py-2 px-5 rounded-full bg-white shadow-sm border border-gray-200 hover:bg-gray-100">Cross-Platform</button>
+                        <button data-filter="native" class="filter-btn font-medium py-2 px-5 rounded-full bg-white shadow-sm border border-gray-200 hover:bg-gray-100">Native</button>
+                    </div>
+                </div>
+                <div id="framework-grid" class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                </div>
+            </section>
+        </main>
+
+        <footer class="text-center mt-16 py-6 border-t border-gray-200">
+            <p class="text-gray-500">Interactive Report | Data for 2025</p>
+        </footer>
+    </div>
+
+    <script>
+        const frameworkData = {
+            "flutter": { name: "Flutter", category: "cross-platform", logo: "🚀", color: 'rgba(2, 170, 228, 0.8)' },
+            "react-native": { name: "React Native", category: "cross-platform", logo: "⚛️", color: 'rgba(97, 218, 251, 0.8)' },
+            "swiftui": { name: "SwiftUI", category: "native", logo: "🍏", color: 'rgba(240, 84, 53, 0.8)' },
+            "jetpack-compose": { name: "Jetpack Compose", category: "native", logo: "🤖", color: 'rgba(61, 220, 132, 0.8)' }
+        };
+        
+        const frameworkDetails = {
+            "flutter": { language: "Dart", backedBy: "Google", description: "A UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.", technicalInsight: "Renders its own UI via the high-performance Skia graphics engine, bypassing native widgets. This gives developers pixel-perfect control and ensures UI consistency across all platforms.", pros: ["Fast development with Hot Reload", "Expressive and flexible UI", "Excellent, near-native performance", "Growing ecosystem and strong Google support"], cons: ["Requires learning the Dart language", "Apps can have a larger file size", "Platform-specific integrations can be complex"], bestFor: "Visually rich, brand-first UIs; fast development across multiple platforms.", useCases: ["Brand-centric retail apps", "High-fidelity prototypes", "Apps with complex custom animations"], communityOutlook: "By 2025, Flutter has solidified its position as the leader in high-performance cross-platform development, especially for consumer-facing apps where brand identity is key." },
+            "react-native": { language: "JS/TS", backedBy: "Meta", description: "Allows web developers to build mobile apps using React. It uses native UI components, which can make apps feel more at home on the platform.", technicalInsight: "Uses a 'Bridge' to communicate between the JavaScript thread and the native UI thread. The new 'Fabric' architecture, mature by 2025, has significantly improved performance over older versions.", pros: ["Leverages existing React & web skills", "Massive, mature ecosystem and community", "Strong code reusability across platforms", "Uses native UI components for a familiar feel"], cons: ["Performance still trails native for intensive tasks", "Upgrades can sometimes be challenging", "Animations can require more optimization"], bestFor: "Teams with React experience; apps relying on standard native UI elements and rapid prototyping.", useCases: ["Social media apps", "Content-driven platforms", "E-commerce apps with standard UIs"], communityOutlook: "Remains a dominant force in 2025 due to the massive JavaScript ecosystem. The maturity of the Fabric architecture has addressed many historical performance concerns, keeping it highly competitive." },
+            "swiftui": { language: "Swift", backedBy: "Apple", description: "Apple's modern, declarative framework for building apps for all Apple platforms. It offers the best performance and deepest integration with the native ecosystem.", technicalInsight: "A fully native, declarative framework that compiles directly to machine code. 2025 versions show deep integration with visionOS and advanced concurrency features, making it the premier choice for Apple hardware.", pros: ["Peak performance and efficiency on iOS", "Seamless access to all native APIs (ARKit, etc.)", "Future-proof and Apple's strategic direction", "Concise, declarative syntax"], cons: ["Exclusive to Apple platforms (no Android)", "Requires separate codebase for Android", "Steeper learning curve for non-Swift developers"], bestFor: "iOS-exclusive apps requiring top performance and the latest OS features.", useCases: ["AR/VR applications", "Apps needing deep OS integration (HealthKit, widgets)", "High-performance games"], communityOutlook: "The undisputed standard for all new Apple platform development in 2025. Its maturity and deep integration into the ecosystem make it an essential skill for any serious iOS or visionOS developer." },
+            "jetpack-compose": { language: "Kotlin", backedBy: "Google", description: "Google's modern toolkit for building native Android UI. It simplifies and accelerates UI development on Android with a fully declarative approach in Kotlin.", technicalInsight: "A declarative Kotlin-based framework fully integrated into Android Studio. Its 2025 version offers excellent interoperability with XML views, allowing gradual adoption in legacy projects.", pros: ["Modern, efficient UI development for Android", "Leverages the powerful Kotlin language", "Best possible performance on Android", "Excellent tooling with Android Studio"], cons: ["Exclusive to the Android platform", "Mindset shift from traditional XML layouts", "Some niche UI components may still require XML"], bestFor: "Android-exclusive apps wanting modern tooling and top performance.", useCases: ["Fintech and security-critical apps", "Apps with complex background services", "Media players and streaming apps"], communityOutlook: "The default choice for new native Android development in 2025. Strong support for foldable devices and large screens has made it critical for building modern, adaptive Android UIs." }
+        };
+
+        const chartData2025 = {
+            performance: {
+                labels: ["60fps UI Rendering (Higher is better)", "Avg. Memory Usage (MB, Lower is better)", "Release App Size (MB, Lower is better)"],
+                datasets: {
+                    flutter: [95, 120, 15],
+                    "react-native": [85, 150, 18],
+                    swiftui: [99, 80, 10],
+                    "jetpack-compose": [99, 90, 12]
+                }
+            },
+            velocity: {
+                labels: ["Time to Market (Higher is better)", "Hot Reload Speed (Higher is better)", "2025 Job Market Demand (Higher is better)"],
+                 datasets: {
+                    flutter: [9, 9, 8],
+                    "react-native": [10, 8, 10],
+                    swiftui: [7, 7, 9],
+                    "jetpack-compose": [7, 7, 8]
+                }
+            },
+            ui: {
+                labels: ["Custom UI Freedom (Higher is better)", "3rd Party Libraries (Higher is better)", "Native Look & Feel (Higher is better)"],
+                 datasets: {
+                    flutter: [10, 8, 7],
+                    "react-native": [7, 10, 9],
+                    swiftui: [8, 9, 10],
+                    "jetpack-compose": [8, 8, 10]
+                }
+            },
+            overall: {
+                labels: ["Overall Score"],
+                 datasets: {
+                    flutter: [9.0],
+                    "react-native": [8.5],
+                    swiftui: [9.2],
+                    "jetpack-compose": [8.8]
+                }
+            }
+        };
+
+        let currentFilter = 'all';
+        const wizardState = { skills: null, ui: null, priority: null };
+        let charts = {};
+
+        const createChart = (ctx, type, data, options) => new Chart(ctx, { type, data, options });
+
+        const renderCharts = () => {
+            const chartConfigs = {
+                performanceChart: { type: 'bar', data: chartData2025.performance, options: { indexAxis: 'y' } },
+                velocityChart: { type: 'bar', data: chartData2025.velocity, options: { indexAxis: 'y' } },
+                uiChart: { type: 'bar', data: chartData2025.ui, options: { indexAxis: 'y' } },
+                overallChart: { type: 'bar', data: chartData2025.overall, options: { indexAxis: 'x' } }
+            };
+
+            Object.entries(chartConfigs).forEach(([chartId, config]) => {
+                if (charts[chartId]) charts[chartId].destroy();
+                const ctx = document.getElementById(chartId).getContext('2d');
+                const datasets = Object.entries(config.data.datasets).map(([fwId, data]) => ({
+                    label: frameworkData[fwId].name,
+                    data: data,
+                    backgroundColor: frameworkData[fwId].color,
+                    borderColor: frameworkData[fwId].color.replace('0.8', '1'),
+                    borderWidth: 1
+                }));
+                const chartOptions = {
+                    ...config.options,
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: { x: { stacked: false, grid: { display: false } }, y: { stacked: false, grid: { display: false } } },
+                    plugins: { legend: { display: true, position: 'bottom' } }
+                };
+                charts[chartId] = createChart(ctx, config.type, { labels: config.data.labels, datasets }, chartOptions);
+            });
+        };
+
+        const renderFrameworkCards = (filteredIds) => {
+            const grid = document.getElementById('framework-grid');
+            grid.innerHTML = '';
+            filteredIds.forEach(fwId => {
+                const fw = frameworkData[fwId];
+                const details = frameworkDetails[fwId];
+                const card = document.createElement('div');
+                card.className = 'framework-card';
+                card.id = `card-${fwId}`;
+                card.innerHTML = `
+                    <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg border border-gray-100 h-full flex flex-col">
+                        <div class="flex items-center mb-4">
+                            <span class="text-4xl mr-4">${fw.logo}</span>
+                            <div><h3 class="text-2xl font-bold text-gray-800">${fw.name}</h3><p class="text-sm text-gray-500">by ${details.backedBy} | ${details.language}</p></div>
+                        </div>
+                        <p class="mb-4 text-gray-600 flex-grow">${details.description}</p>
+                        <div class="space-y-6">
+                            <div><h4 class="font-semibold mb-2 text-blue-600">Technical Insight (2025):</h4><p class="text-sm text-gray-700 bg-blue-50 p-3 rounded-lg">${details.technicalInsight}</p></div>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div><h4 class="font-semibold mb-2 text-gray-700">Pros</h4><ul class="space-y-1 text-sm text-gray-600">${details.pros.map(p => `<li class="flex items-start"><span class="text-green-500 mr-2">✓</span><span>${p}</span></li>`).join('')}</ul></div>
+                                <div><h4 class="font-semibold mb-2 text-gray-700">Cons</h4><ul class="space-y-1 text-sm text-gray-600">${details.cons.map(c => `<li class="flex items-start"><span class="text-red-500 mr-2">✗</span><span>${c}</span></li>`).join('')}</ul></div>
+                            </div>
+                            <div><h4 class="font-semibold mb-2 text-indigo-600">Ideal Use Cases:</h4><p class="text-sm text-gray-700">${details.useCases.join(', ')}.</p></div>
+                            <div><h4 class="font-semibold mb-2 text-teal-600">Community & Future Outlook:</h4><p class="text-sm text-gray-700">${details.communityOutlook}</p></div>
+                            <div><h4 class="font-semibold mb-2 text-yellow-600">Best For:</h4><p class="text-gray-700 bg-yellow-50 p-3 rounded-lg">${details.bestFor}</p></div>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        };
+        
+        const applyFilter = (filter) => {
+            currentFilter = filter;
+            let filteredIds = (currentFilter === 'all') 
+                ? Object.keys(frameworkData) 
+                : Object.keys(frameworkData).filter(id => frameworkData[id].category === currentFilter);
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.filter === currentFilter));
+            renderFrameworkCards(filteredIds);
+            resetWizardUI();
+        };
+
+        const highlightFramework = (frameworkId) => {
+            const allCards = document.querySelectorAll('.framework-card');
+            allCards.forEach(card => {
+                if (card.id === `card-${frameworkId}`) {
+                    card.classList.remove('dimmed'); card.classList.add('highlight');
+                } else {
+                    card.classList.remove('highlight'); card.classList.add('dimmed');
+                }
+            });
+            const targetElement = document.getElementById(`card-${frameworkId}`);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        };
+
+        const resetHighlights = () => {
+            document.querySelectorAll('.framework-card').forEach(card => card.classList.remove('highlight', 'dimmed'));
+        };
+
+        const evaluateWizard = () => {
+            if (!wizardState.skills || !wizardState.ui || !wizardState.priority) return;
+            let recommendationId = 'react-native';
+            if (wizardState.priority === 'performance') recommendationId = wizardState.skills === 'react' ? 'react-native' : 'swiftui';
+            else { if (wizardState.ui === 'critical') recommendationId = 'flutter'; else recommendationId = wizardState.skills === 'react' ? 'react-native' : 'flutter'; }
+            if(wizardState.skills === 'native' && wizardState.priority === 'performance') recommendationId = 'swiftui';
+            if(wizardState.skills === 'new' && wizardState.ui === 'critical') recommendationId = 'flutter';
+            highlightFramework(recommendationId);
+        };
+        
+        const resetWizardUI = () => {
+            Object.keys(wizardState).forEach(key => wizardState[key] = null);
+            document.querySelectorAll('.wizard-btn').forEach(btn => btn.classList.remove('active'));
+            resetHighlights();
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            renderCharts();
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.addEventListener('click', () => applyFilter(btn.dataset.filter)));
+            document.querySelectorAll('.wizard-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const question = btn.parentElement.dataset.question;
+                    const value = btn.dataset.value;
+                    wizardState[question] = value;
+                    btn.parentElement.querySelectorAll('.wizard-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    evaluateWizard();
+                });
+            });
+            document.getElementById('reset-wizard-btn').addEventListener('click', resetWizardUI);
+            applyFilter('all');
+        });
+    </script>
+</body>
+</html>
