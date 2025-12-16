@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tee Yu Cheng - Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            line-height: 1.4;
+            color: #000;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Ocean Bubble Animation */
+        @media screen {
+            body::before {
+                content: '';
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(135deg, 
+                    rgba(102, 126, 234, 0.8) 0%, 
+                    rgba(118, 75, 162, 0.8) 100%);
+                z-index: -2;
+            }
+
+            .bubble {
+                position: fixed;
+                border-radius: 50%;
+                opacity: 0.6;
+                background: radial-gradient(circle at 30% 30%, 
+                    rgba(255, 255, 255, 0.8), 
+                    rgba(255, 255, 255, 0.2));
+                animation: float-up linear infinite;
+                z-index: -1;
+            }
+
+            .bubble:nth-child(1) { width: 30px; height: 30px; left: 10%; animation-duration: 8s; animation-delay: 0s; }
+            .bubble:nth-child(2) { width: 20px; height: 20px; left: 20%; animation-duration: 6s; animation-delay: 1s; }
+            .bubble:nth-child(3) { width: 40px; height: 40px; left: 30%; animation-duration: 10s; animation-delay: 2s; }
+            .bubble:nth-child(4) { width: 15px; height: 15px; left: 40%; animation-duration: 7s; animation-delay: 0.5s; }
+            .bubble:nth-child(5) { width: 25px; height: 25px; left: 50%; animation-duration: 9s; animation-delay: 1.5s; }
+            .bubble:nth-child(6) { width: 35px; height: 35px; left: 60%; animation-duration: 11s; animation-delay: 0.8s; }
+            .bubble:nth-child(7) { width: 18px; height: 18px; left: 70%; animation-duration: 8s; animation-delay: 2.2s; }
+            .bubble:nth-child(8) { width: 22px; height: 22px; left: 80%; animation-duration: 6s; animation-delay: 1.8s; }
+            .bubble:nth-child(9) { width: 28px; height: 28px; left: 90%; animation-duration: 9s; animation-delay: 0.3s; }
+            .bubble:nth-child(10) { width: 16px; height: 16px; left: 15%; animation-duration: 7s; animation-delay: 2.5s; }
+
+            @keyframes float-up {
+                0% {
+                    bottom: -100px;
+                    transform: translateX(0px) rotate(0deg);
+                    opacity: 0;
+                }
+                10% {
+                    opacity: 0.6;
+                }
+                90% {
+                    opacity: 0.6;
+                }
+                100% {
+                    bottom: 100vh;
+                    transform: translateX(-20px) rotate(360deg);
+                    opacity: 0;
+                }
+            }
+        }
+
+        .resume-container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 40px 50px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            font-size: 11px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        /* Section Titles */
+        .section {
+            margin-bottom: 18px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1.5px solid #000;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+        }
+
+        /* Summary */
+        .summary {
+            font-size: 11px;
+            text-align: justify;
+        }
+
+        /* Experience & Education */
+        .entry {
+            margin-bottom: 12px;
+            font-size: 11px;
+        }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3px;
+        }
+
+        .entry-title {
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .entry-subtitle {
+            font-style: italic;
+            margin-bottom: 3px;
+        }
+
+        .entry-date {
+            font-style: italic;
+            white-space: nowrap;
+        }
+
+        .entry ul {
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+
+        .entry li {
+            margin-bottom: 3px;
+        }
+
+        /* Skills */
+        .skills-grid {
+            font-size: 11px;
+        }
+
+        .skill-item {
+            margin-bottom: 3px;
+        }
+
+        .skill-label {
+            font-weight: bold;
+        }
+
+        /* Download Button */
+        .download-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+            z-index: 1000;
+            animation: pulse-glow 2s ease-in-out infinite alternate;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.6);
+            background: linear-gradient(135deg, #ff5252 0%, #e84118 100%);
+        }
+
+        .download-btn:active {
+            transform: translateY(0);
+        }
+
+        .download-icon {
+            font-size: 16px;
+        }
+
+        /* Another Format Button */
+        .format-btn {
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(78, 205, 196, 0.4);
+            z-index: 1000;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            text-decoration: none;
+        }
+
+        .format-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(78, 205, 196, 0.6);
+            background: linear-gradient(135deg, #26d0ce 0%, #2c8d82 100%);
+        }
+
+        .format-btn:active {
+            transform: translateY(0);
+        }
+
+        .format-icon {
+            font-size: 16px;
+        }
+
+        @keyframes pulse-glow {
+            0% {
+                box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+            }
+            100% {
+                box-shadow: 0 4px 20px rgba(255, 107, 107, 0.6);
+            }
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .download-btn {
+                top: 10px;
+                right: 10px;
+                padding: 10px 16px;
+                font-size: 12px;
+            }
+            .format-btn {
+                top: 60px;
+                right: 10px;
+                padding: 10px 16px;
+                font-size: 12px;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+                font-size: 10px;
+                margin: 0;
+                line-height: 1.3;
+            }
+
+            .resume-container {
+                box-shadow: none;
+                padding: 0;
+                max-width: 100%;
+                margin: 0;
+                width: 100%;
+            }
+
+            .download-btn {
+                display: none;
+            }
+
+            .format-btn {
+                display: none;
+            }
+
+            .header {
+                margin-bottom: 12px;
+                padding-bottom: 8px;
+            }
+
+            .header h1 {
+                font-size: 22px;
+                margin-bottom: 4px;
+            }
+
+            .contact-info {
+                font-size: 10px;
+                gap: 10px;
+            }
+
+            .section {
+                margin-bottom: 10px;
+            }
+
+            .section-title {
+                font-size: 12px;
+                margin-bottom: 6px;
+                padding-bottom: 2px;
+            }
+
+            .summary {
+                font-size: 10px;
+                line-height: 1.3;
+            }
+
+            .entry {
+                margin-bottom: 8px;
+                font-size: 10px;
+                page-break-inside: avoid;
+            }
+
+            .entry-title {
+                font-size: 11px;
+            }
+
+            .entry ul {
+                margin-left: 15px;
+                margin-top: 3px;
+            }
+
+            .entry li {
+                margin-bottom: 2px;
+                line-height: 1.25;
+            }
+
+            .skills-grid {
+                font-size: 10px;
+            }
+
+            .skill-item {
+                margin-bottom: 2px;
+                line-height: 1.3;
+            }
+        }
+
+        @page {
+            margin: 0.3in;
+            size: letter;
+        }
+    </style>
+</head>
+<body>
+    <!-- Ocean Bubbles -->
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    
+    <div class="resume-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>TEE YU CHENG</h1>
+            <div class="contact-info">
+                <span><i class="fas fa-location-dot"></i> Singapore, Singapore</span>
+                <span>|</span>
+                <span><i class="fas fa-envelope"></i> <a href="mailto:yechengjiuke@gmail.com" style="color: inherit; text-decoration: none;">yechengjiuke@gmail.com</a></span>
+                <span>|</span>
+                <span><i class="fas fa-phone"></i> <a href="tel:+6581279748" style="color: inherit; text-decoration: none;">81279748</a></span>
+                <span>|</span>
+                <span><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/teeyucheng" target="_blank" style="color: inherit; text-decoration: none;">linkedin.com/in/teeyucheng</a></span>
+                <span>|</span>
+                <span><i class="fas fa-globe"></i> <a href="https://ninguest.github.io/myportfolio" target="_blank" style="color: inherit; text-decoration: none;">ninguest.github.io/myportfolio</a></span>
+            </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="section">
+            <div class="section-title">Summary</div>
+            <p class="summary">
+                <strong>ASEAN Scholarship recipient</strong> and Computing Science graduate (GPA 4.05) from the Singapore Institute of Technology & University of Glasgow. Combines a strong foundation in <strong>Full Stack Development</strong> (Python, React, Electron.js) with a background in <strong>Embedded Systems</strong>. Proven ability to deliver complex technical solutions, ranging from GenAI-powered desktop applications to IoT agricultural systems.
+            </p>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <div class="section-title">Education</div>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <div>
+                        <div class="entry-title">BSc. (Hons) Computing Science</div>
+                        <div class="entry-subtitle">Singapore Institute of Technology & University of Glasgow (Joint Programme)</div>
+                    </div>
+                    <div class="entry-date">Expected April 2026</div>
+                </div>
+                <ul>
+                    <li>Cumulative GPA: 4.05/5.00</li>
+                    <li>Achievement: ASEAN Scholarship Recipient</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <div>
+                        <div class="entry-title">Diploma in Electronics and Computer Engineering</div>
+                        <div class="entry-subtitle">Ngee Ann Polytechnic, Singapore</div>
+                    </div>
+                    <div class="entry-date">May 2021</div>
+                </div>
+                <ul>
+                    <li>GPA: 3.6511/4.00</li>
+                    <li>Specialization: Network Systems & Security</li>
+                    <li>Achievement: Placed on the Director's List for excellent academic performance for Level 2, April Semester, Academic Year 2019/2020</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="section">
+            <div class="section-title">Experience</div>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <div>
+                        <div class="entry-title">Intern, Software Engineer</div>
+                        <div class="entry-subtitle">MXHL PTE. LTD (uParcel), Singapore</div>
+                    </div>
+                    <div class="entry-date">Sep 2025 - April 2026</div>
+                </div>
+                <ul>
+                    <li>Maintained the core Python-based web application, performing critical system upgrades and resolving dependency compatibility issues.</li>
+                    <li>Delivered a Final Year Industry Capstone Project on a GenAI-powered Delivery Service Assistant to automate support tasks and improve operational efficiency.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <div>
+                        <div class="entry-title">Intern, Software Programming</div>
+                        <div class="entry-subtitle">Frontier Force Technology Pte Ltd, Singapore</div>
+                    </div>
+                    <div class="entry-date">April 2021 - July 2021</div>
+                </div>
+                <ul>
+                    <li>Developed a cross-platform desktop application using Electron.js and JavaScript templates.</li>
+                    <li>Built and optimized a mobile Android application using React Native framework.</li>
+                    <li>Collaborated with the engineering team to translate functional requirements into deployable software features.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <div>
+                        <div class="entry-title">Intern in Charity Organization</div>
+                        <div class="entry-subtitle">Engineering Good, Singapore</div>
+                    </div>
+                    <div class="entry-date">September 2020 - March 2021</div>
+                </div>
+                <ul>
+                    <li>Developed a PC application, EGAppBox, to support the "Computer Against Covid" program by improving the efficiency of laptop repair workflows and device labeling processes.</li>
+                    <li>Refurbished used laptops, including hardware setup, OS installation, and basic system configuration, to prepare devices for donation.</li>
+                    <li>Provided technical IT support for troubleshooting hardware and software issues during refurbishment and deployment.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="section">
+            <div class="section-title">Skills</div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <span class="skill-label">Programming Languages:</span>
+                    Python, JavaScript, Java, C/C++, HTML, CSS, Kotlin, SQL, Bash/Shell, Markdown
+                </div>
+                <div class="skill-item">
+                    <span class="skill-label">Frameworks & Development:</span>
+                    React, React Native, Node.js, Express.js, Next.js, Electron.js, Flask, Django, Java Spring Boot, RESTful APIs
+                </div>
+                <div class="skill-item">
+                    <span class="skill-label">Databases:</span>
+                    MySQL, PostgreSQL, MongoDB, Redis
+                </div>
+                <div class="skill-item">
+                    <span class="skill-label">Development & DevOps Tools:</span>
+                    Visual Studio Code, JetBrains IDEs, Cursor, Android Studio, Arduino IDE, Postman, Git, Docker, GitHub, GitLab
+                </div>
+                <div class="skill-item">
+                    <span class="skill-label">Embedded Systems & IoT:</span>
+                    Arduino, ESP32, Raspberry Pi, Microcontrollers, IoT, MQTT, Bluetooth, Sensors, Networking Fundamentals
+                </div>
+                <div class="skill-item">
+                    <span class="skill-label">Systems & Platforms:</span>
+                    Linux (Ubuntu, Kali, Raspbian), Windows OS, macOS, VMware, VirtualBox
+                </div>
+                <div class="skill-item">
+                    <span class="skill-label">AI & Automation:</span>
+                    ChatGPT, GitHub Copilot, Claude, Midjourney
+                </div>
+                <div class="skill-item">
+                    <span class="skill-label">Languages:</span>
+                    Chinese (Mandarin), English, Malay
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <div class="section-title">Projects</div>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <div>
+                        <div class="entry-title">SmartAdmin: GenAI Delivery Service Assistant</div>
+                        <div class="entry-subtitle">Industry Capstone Project - uParcel, Singapore</div>
+                    </div>
+                    <div class="entry-date">Sep 2025 - Present (Expected Apr 2026)</div>
+                </div>
+                <ul>
+                    <li>Built a full-stack Electron.js desktop application integrating LLMs for natural-language processing of customer requests in logistics operations</li>
+                    <li>Designed and implemented RAG system (LanceDB) and validation layer (PostgreSQL) to convert unstructured messages into safe, executable action plans</li>
+                    <li>Developed Playwright-powered RPA for browser-based workflow automation with HITL safeguards, audit trails, and monitoring to prevent errors in real operational systems</li>
+                    <li>Focused on AI safety and reliability: incorporated pre-execution validation, rejection mechanisms, and logging for auditable deployment</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <div>
+                        <div class="entry-title">Smart Agricultural System - IoT Solution for Small-Scale Farming</div>
+                        <div class="entry-subtitle">University Project - Low-Cost Agriculture Automation</div>
+                    </div>
+                    <div class="entry-date">Apr 2025</div>
+                </div>
+                <ul>
+                    <li>Developed comprehensive IoT system using Raspberry Pi 4 (NodeJS server) and multiple Pi Pico microcontrollers for environmental monitoring and automated crop management</li>
+                    <li>Integrated 7+ sensors (soil moisture, air quality, temperature/humidity, spectrometer) with automated actuators (water pump, PWM fans, RGB LED lighting) for precision agriculture</li>
+                    <li>Built web dashboard with real-time monitoring, remote control capabilities, and rules manager for automated scheduling and conditional automation</li>
+                    <li>Technologies used: MicroPython, NodeJS, Bluetooth/MQTT communication, REST APIs, modular hardware design with security implementation</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <p style="font-style: italic; font-size: 11px;">
+                    Additional projects including EGAPPBox, Navigating Nature, USI Community Fridges, and more can be found at 
+                    <a href="https://ninguest.github.io/myportfolio" target="_blank" style="color: inherit; text-decoration: underline;">ninguest.github.io/myportfolio</a>
+                </p>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <!-- Download Button -->
+    <button class="download-btn" onclick="window.print()" title="Download Resume as PDF">
+        <i class="fas fa-download download-icon"></i>
+        Download PDF
+    </button>
+
+    <!-- Another Format Button -->
+    <a href="./resume-b.html" class="format-btn" title="View Another Resume Format">
+        <i class="fas fa-file-alt format-icon"></i>
+        View Another Format
+    </a>
+</body>
+</html>

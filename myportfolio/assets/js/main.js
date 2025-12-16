@@ -159,33 +159,59 @@
   }
 
   /**
-   * Porfolio isotope and filter
+   * Modern Portfolio Filter System
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item'
-      });
-
+    let portfolioGrid = select('.portfolio-grid');
+    if (portfolioGrid) {
+      let portfolioItems = select('.portfolio-item', true);
       let portfolioFilters = select('#portfolio-flters li', true);
 
+      // Initialize - show all items with staggered animation
+      portfolioItems.forEach((item, index) => {
+        setTimeout(() => {
+          item.style.display = 'block';
+          item.classList.add('show');
+        }, index * 100);
+      });
+
+      // Filter functionality
       on('click', '#portfolio-flters li', function(e) {
         e.preventDefault();
+        
+        // Update active filter
         portfolioFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
 
-        portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
+        const filterValue = this.getAttribute('data-filter');
+        
+        // Animate out items that don't match
+        portfolioItems.forEach((item, index) => {
+          const shouldShow = filterValue === '*' || item.classList.contains(filterValue.substring(1));
+          
+          if (shouldShow) {
+            setTimeout(() => {
+              item.style.display = 'block';
+              setTimeout(() => {
+                item.classList.add('show');
+              }, 50);
+            }, index * 80);
+          } else {
+            item.classList.remove('show');
+            setTimeout(() => {
+              item.style.display = 'none';
+            }, 300);
+          }
         });
-        portfolioIsotope.on('arrangeComplete', function() {
-          AOS.refresh()
-        });
+        
+        // Refresh AOS after animation
+        setTimeout(() => {
+          AOS.refresh();
+        }, 500);
       }, true);
     }
-
   });
 
   /**
