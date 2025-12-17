@@ -5,34 +5,31 @@
     // Handle loading screen
     window.addEventListener('load', function() {
         const loadingScreen = document.getElementById('loading-screen');
+        // Immediate removal instead of delay
+        loadingScreen.classList.add('fade-out');
         setTimeout(() => {
-            loadingScreen.classList.add('fade-out');
-            setTimeout(() => {
-                loadingScreen.style.display = 'none';
-            }, 500);
-        }, 1000);
+            loadingScreen.style.display = 'none';
+        }, 300);
     });
 
-    // Smooth reveal animations on scroll
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-    };
+    // Smooth reveal animations on scroll - DISABLED
+    // const observerOptions = {
+    //     threshold: 0.05,
+    //     rootMargin: '0px 0px -10px 0px'
+    // };
 
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('animate-in');
-            }
-        });
-    }, observerOptions);
+    // const observer = new IntersectionObserver((entries) => {
+    //     entries.forEach(entry => {
+    //         if (entry.isIntersecting) {
+    //             entry.target.classList.add('animate-in');
+    //         }
+    //     });
+    // }, observerOptions);
 
-    // Add animation classes to elements
+    // Add animation classes to elements - immediate execution
     document.addEventListener('DOMContentLoaded', function() {
-        // Wait a bit to ensure all libraries are loaded
-        setTimeout(() => {
-            initializeAnimations();
-        }, 500);
+        // Initialize animations immediately
+        initializeAnimations();
 
         // Add typing animation to hero section
         const heroText = document.querySelector('#hero h1');
@@ -140,27 +137,20 @@
     }
 
     function initializeAnimations() {
-        // Observe skill items for stagger animation
+        // Animation initialization disabled - show all content immediately
         const skillItems = document.querySelectorAll('.skill-item');
-        skillItems.forEach((item, index) => {
-            item.style.animationDelay = `${index * 0.05}s`;
-            observer.observe(item);
+        skillItems.forEach((item) => {
+            item.classList.add('animate-in');
         });
 
-        // Observe portfolio items - wait for Isotope to finish
-        setTimeout(() => {
-            const portfolioItems = document.querySelectorAll('.portfolio-item');
-            portfolioItems.forEach((item, index) => {
-                item.style.animationDelay = `${index * 0.1}s`;
-                observer.observe(item);
-            });
-        }, 100);
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        portfolioItems.forEach((item) => {
+            item.classList.add('animate-in');
+        });
 
-        // Observe resume items
         const resumeItems = document.querySelectorAll('.resume-item');
-        resumeItems.forEach((item, index) => {
-            item.style.animationDelay = `${index * 0.1}s`;
-            observer.observe(item);
+        resumeItems.forEach((item) => {
+            item.classList.add('animate-in');
         });
     }
 

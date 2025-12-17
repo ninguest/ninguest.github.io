@@ -142,20 +142,17 @@
   }
 
   /**
-   * Skills animation
+   * Skills animation - immediate loading
    */
   let skilsContent = select('.skills-content');
   if (skilsContent) {
-    new Waypoint({
-      element: skilsContent,
-      offset: '80%',
-      handler: function(direction) {
-        let progress = select('.progress .progress-bar', true);
-        progress.forEach((el) => {
-          el.style.width = el.getAttribute('aria-valuenow') + '%'
-        });
-      }
-    })
+    // Immediate execution without lazy loading
+    window.addEventListener('load', () => {
+      let progress = select('.progress .progress-bar', true);
+      progress.forEach((el) => {
+        el.style.width = el.getAttribute('aria-valuenow') + '%'
+      });
+    });
   }
 
   /**
@@ -167,12 +164,10 @@
       let portfolioItems = select('.portfolio-item', true);
       let portfolioFilters = select('#portfolio-flters li', true);
 
-      // Initialize - show all items with staggered animation
+      // Initialize - show all items immediately
       portfolioItems.forEach((item, index) => {
-        setTimeout(() => {
-          item.style.display = 'block';
-          item.classList.add('show');
-        }, index * 100);
+        item.style.display = 'block';
+        item.classList.add('show');
       });
 
       // Filter functionality
@@ -187,29 +182,21 @@
 
         const filterValue = this.getAttribute('data-filter');
         
-        // Animate out items that don't match
+        // Show/hide items immediately
         portfolioItems.forEach((item, index) => {
           const shouldShow = filterValue === '*' || item.classList.contains(filterValue.substring(1));
           
           if (shouldShow) {
-            setTimeout(() => {
-              item.style.display = 'block';
-              setTimeout(() => {
-                item.classList.add('show');
-              }, 50);
-            }, index * 80);
+            item.style.display = 'block';
+            item.classList.add('show');
           } else {
             item.classList.remove('show');
-            setTimeout(() => {
-              item.style.display = 'none';
-            }, 300);
+            item.style.display = 'none';
           }
         });
         
-        // Refresh AOS after animation
-        setTimeout(() => {
-          AOS.refresh();
-        }, 500);
+        // Refresh AOS immediately
+        AOS.refresh();
       }, true);
     }
   });
@@ -268,15 +255,16 @@
   });
 
   /**
-   * Animation on scroll
+   * Animation on scroll - DISABLED
    */
-  window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    })
-  });
+  // window.addEventListener('load', () => {
+  //   AOS.init({
+  //     duration: 500,
+  //     easing: 'ease-in-out',
+  //     once: true,
+  //     mirror: false,
+  //     offset: 200,
+  //   })
+  // });
 
 })()

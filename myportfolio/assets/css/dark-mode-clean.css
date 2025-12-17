@@ -1,15 +1,21 @@
 /* Dark Mode Styles */
 :root {
   --bg-color: #ffffff;
-  --text-color: #272829;
+  --text-color: #2c3e50;
   --card-bg: #ffffff;
-  --border-color: #e9ecef;
+  --border-color: #ced4da;
   --header-bg: #f8f9fa;
-  --section-bg: #f5f8fd;
+  --section-bg: #f8f9ff;
   --heading-color: #2c3e50;
   --muted-text: #6c757d;
-  --sidebar-text: #6c757d;
-  --sidebar-border: #ddd;
+  --sidebar-text: #495057;
+  --sidebar-border: #dee2e6;
+  --input-bg: #ffffff;
+  --input-border: #ced4da;
+  --input-focus-border: #149ddd;
+  --input-text: #495057;
+  --button-bg: #149ddd;
+  --button-hover: #37b3ed;
 }
 
 [data-theme="dark"] {
@@ -23,6 +29,12 @@
   --muted-text: #adb5bd;
   --sidebar-text: #bbb;
   --sidebar-border: #2c2f3f;
+  --input-bg: #2d2d2d;
+  --input-border: #444444;
+  --input-focus-border: #149ddd;
+  --input-text: #e0e0e0;
+  --button-bg: #149ddd;
+  --button-hover: #37b3ed;
 }
 
 /* Premium Typography - Playfair Display + Source Sans Pro */
@@ -479,9 +491,14 @@ button {
 }
 
 .contact .php-email-form .form-control {
-  background: var(--card-bg);
-  border-color: var(--border-color);
-  color: var(--text-color);
+  background: var(--input-bg) !important;
+  border: 2px solid var(--input-border) !important;
+  color: var(--input-text) !important;
+  border-radius: 8px !important;
+  padding: 12px 16px !important;
+  font-size: 15px !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
 }
 
 .contact .php-email-form label {
@@ -494,9 +511,11 @@ button {
 }
 
 .contact .php-email-form .form-control:focus {
-  border-color: #149ddd !important;
-  background-color: var(--card-bg) !important;
-  color: var(--text-color) !important;
+  border-color: var(--input-focus-border) !important;
+  background-color: var(--input-bg) !important;
+  color: var(--input-text) !important;
+  box-shadow: 0 0 0 0.2rem rgba(20, 157, 221, 0.25) !important;
+  outline: none !important;
 }
 
 /* Form status messages */
@@ -510,7 +529,7 @@ button {
 .php-email-form input::placeholder,
 .php-email-form textarea::placeholder {
   color: var(--muted-text) !important;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 /* Hero section text */
